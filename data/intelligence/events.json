@@ -1,8 +1,512 @@
 {
   "version": 2,
-  "generated_at": "2026-09-06T23:58:53.808918+00:00",
+  "generated_at": "2026-09-07T04:49:20.807297+00:00",
   "freshness": "persistent",
   "events": [
+    {
+      "event_id": "evt-419ef0e414dcf34a",
+      "event_type": "company_announcement",
+      "event_types": [
+        "company_announcement"
+      ],
+      "timestamp": "2026-09-07T04:44:16+00:00",
+      "source_ids": [
+        "coindesk"
+      ],
+      "article_ids": [
+        "inbox-e2b2c69d84f22221"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "crypto"
+      ],
+      "assets": [],
+      "amounts": [],
+      "technologies": [],
+      "geography": {
+        "headquarters": [],
+        "event_location_labels": [],
+        "event_country_ids": [],
+        "regulatory_jurisdiction_labels": [],
+        "regulatory_country_ids": [],
+        "regions": [],
+        "market_location_country_ids": []
+      },
+      "facts": [
+        "Oil up, bitcoin down as U.S. strikes Iranian crude carriers",
+        "Bitcoin trades lower by nearly 1% as escalating U.S.-Iran hostilities push oil higher."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "coindesk",
+        "source_name": "CoinDesk",
+        "source_url": "https://www.coindesk.com/markets/2026/09/07/oil-up-bitcoin-down-as-u-s-strikes-iranian-crude-carriers",
+        "article_id": "inbox-e2b2c69d84f22221",
+        "canonical_url": "https://www.coindesk.com/markets/2026/09/07/oil-up-bitcoin-down-as-u-s-strikes-iranian-crude-carriers",
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
+      },
+      "comparable_features": {
+        "event_type": "company_announcement",
+        "event_types": [
+          "company_announcement"
+        ],
+        "entities": [],
+        "sectors": [
+          "crypto"
+        ],
+        "countries": [],
+        "assets": [],
+        "has_amount": false,
+        "magnitude_bucket": "unknown",
+        "technology_tags": [],
+        "source_category": "coindesk"
+      }
+    },
+    {
+      "event_id": "evt-26ef092084498eb5",
+      "event_type": "security_incident",
+      "event_types": [
+        "security_incident"
+      ],
+      "timestamp": "2026-09-07T03:43:12+00:00",
+      "source_ids": [
+        "coindesk"
+      ],
+      "article_ids": [
+        "inbox-faad3853287974fa"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity",
+        "crypto"
+      ],
+      "assets": [],
+      "amounts": [
+        {
+          "raw": "$320 million",
+          "usd": 320000000.0,
+          "currency": "USD"
+        },
+        {
+          "raw": "$320 million",
+          "usd": 320000000.0,
+          "currency": "USD"
+        }
+      ],
+      "technologies": [
+        "ai"
+      ],
+      "geography": {
+        "headquarters": [],
+        "event_location_labels": [],
+        "event_country_ids": [],
+        "regulatory_jurisdiction_labels": [],
+        "regulatory_country_ids": [],
+        "regions": [],
+        "market_location_country_ids": []
+      },
+      "facts": [
+        "Bitcoin network used by exchanges hit by $320 million exploit. Hackers claim they're the 'good guys'",
+        "Liquid Network, a settlement layer used by exchanges, halted all transactions after losing $320 million worth of bitcoin in a security exploit."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "coindesk",
+        "source_name": "CoinDesk",
+        "source_url": "https://www.coindesk.com/markets/2026/09/07/bitcoin-network-used-by-exchanges-hit-by-usd320-million-exploit-hackers-claim-they-re-the-good-guys",
+        "article_id": "inbox-faad3853287974fa",
+        "canonical_url": "https://www.coindesk.com/markets/2026/09/07/bitcoin-network-used-by-exchanges-hit-by-usd320-million-exploit-hackers-claim-they-re-the-good-guys",
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
+      },
+      "comparable_features": {
+        "event_type": "security_incident",
+        "event_types": [
+          "security_incident"
+        ],
+        "entities": [],
+        "sectors": [
+          "cybersecurity",
+          "crypto"
+        ],
+        "countries": [],
+        "assets": [],
+        "has_amount": true,
+        "magnitude_bucket": "ten_million_plus",
+        "technology_tags": [
+          "ai"
+        ],
+        "source_category": "coindesk"
+      }
+    },
+    {
+      "event_id": "evt-899f63a6a3080519",
+      "event_type": "company_announcement",
+      "event_types": [
+        "company_announcement"
+      ],
+      "timestamp": "2026-09-07T03:29:51+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-8d3eddfd10daebbc"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "defence_tech"
+      ],
+      "assets": [],
+      "amounts": [],
+      "technologies": [],
+      "geography": {
+        "headquarters": [],
+        "event_location_labels": [],
+        "event_country_ids": [],
+        "regulatory_jurisdiction_labels": [],
+        "regulatory_country_ids": [],
+        "regions": [],
+        "market_location_country_ids": []
+      },
+      "facts": [
+        "Keep Our Servers Running: Your Recurring Donation Goes 3X This September",
+        "Article URL: https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/ Comments URL: https://news.ycombinator.com/item?id=49593563 Points: 91 # Comments: 21"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "source_url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
+        "article_id": "inbox-8d3eddfd10daebbc",
+        "canonical_url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september",
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
+      },
+      "comparable_features": {
+        "event_type": "company_announcement",
+        "event_types": [
+          "company_announcement"
+        ],
+        "entities": [],
+        "sectors": [
+          "defence_tech"
+        ],
+        "countries": [],
+        "assets": [],
+        "has_amount": false,
+        "magnitude_bucket": "unknown",
+        "technology_tags": [],
+        "source_category": "hacker-news"
+      }
+    },
+    {
+      "event_id": "evt-fa8b1da2225b6adf",
+      "event_type": "company_announcement",
+      "event_types": [
+        "company_announcement"
+      ],
+      "timestamp": "2026-09-07T01:41:11+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-aea76258e4acdf75"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "defence_tech"
+      ],
+      "assets": [],
+      "amounts": [],
+      "technologies": [],
+      "geography": {
+        "headquarters": [],
+        "event_location_labels": [],
+        "event_country_ids": [],
+        "regulatory_jurisdiction_labels": [],
+        "regulatory_country_ids": [],
+        "regions": [],
+        "market_location_country_ids": []
+      },
+      "facts": [
+        "Show HN: GET Together – A social network where you don't need POST to Post",
+        "Article URL: https://gettogether.dev Comments URL: https://news.ycombinator.com/item?id=49592840 Points: 15 # Comments: 7"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "source_url": "https://gettogether.dev",
+        "article_id": "inbox-aea76258e4acdf75",
+        "canonical_url": "https://gettogether.dev/",
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
+      },
+      "comparable_features": {
+        "event_type": "company_announcement",
+        "event_types": [
+          "company_announcement"
+        ],
+        "entities": [],
+        "sectors": [
+          "defence_tech"
+        ],
+        "countries": [],
+        "assets": [],
+        "has_amount": false,
+        "magnitude_bucket": "unknown",
+        "technology_tags": [],
+        "source_category": "hacker-news"
+      }
+    },
+    {
+      "event_id": "evt-3560dccaa778dfc4",
+      "event_type": "company_announcement",
+      "event_types": [
+        "company_announcement"
+      ],
+      "timestamp": "2026-09-07T01:15:43+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-06b689f397d68e8a"
+      ],
+      "companies": [
+        "openai"
+      ],
+      "entities": [
+        "openai"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "amounts": [
+        {
+          "raw": "$20",
+          "usd": 20.0,
+          "currency": "USD"
+        },
+        {
+          "raw": "$20",
+          "usd": 20.0,
+          "currency": "USD"
+        }
+      ],
+      "technologies": [
+        "ai"
+      ],
+      "geography": {
+        "headquarters": [
+          {
+            "entity_id": "openai",
+            "country_id": "840",
+            "country_label": "United States",
+            "location_type": "headquarters",
+            "evidence": "entity_registry"
+          }
+        ],
+        "event_location_labels": [],
+        "event_country_ids": [],
+        "regulatory_jurisdiction_labels": [],
+        "regulatory_country_ids": [],
+        "regions": [],
+        "market_location_country_ids": []
+      },
+      "facts": [
+        "ChatGPT Astra is now rolling out to $20 Plus subscription",
+        "OpenAI is now rolling out ChatGPT Astra, its most powerful model to date, to those with a $20 Plus subscription, but there's no word on when free users will get access.. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "source_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
+        "article_id": "inbox-06b689f397d68e8a",
+        "canonical_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription",
+        "ingested_at": "2026-09-07T04:49:14.962591+00:00"
+      },
+      "comparable_features": {
+        "event_type": "company_announcement",
+        "event_types": [
+          "company_announcement"
+        ],
+        "entities": [
+          "openai"
+        ],
+        "sectors": [
+          "ai"
+        ],
+        "countries": [],
+        "assets": [],
+        "has_amount": true,
+        "magnitude_bucket": "sub_million",
+        "technology_tags": [
+          "ai"
+        ],
+        "source_category": "bleepingcomputer"
+      }
+    },
+    {
+      "event_id": "evt-1d270ebb8207c05d",
+      "event_type": "company_announcement",
+      "event_types": [
+        "company_announcement"
+      ],
+      "timestamp": "2026-09-07T01:05:51+00:00",
+      "source_ids": [
+        "theregister-datacentre"
+      ],
+      "article_ids": [
+        "inbox-e8d4754940f300bc"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity",
+        "data_centres",
+        "semiconductors"
+      ],
+      "assets": [],
+      "amounts": [],
+      "technologies": [
+        "ai",
+        "gpu"
+      ],
+      "geography": {
+        "headquarters": [],
+        "event_location_labels": [],
+        "event_country_ids": [],
+        "regulatory_jurisdiction_labels": [],
+        "regulatory_country_ids": [],
+        "regions": [],
+        "market_location_country_ids": []
+      },
+      "facts": [
+        "Thailand pauses all datacenter builds and approvals",
+        "PLUS: Fujitsu not yet budgeting Horizon compensation; DeepSeek's vast Huawei GPU buy; Korea plans sovereign security model; And more!"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "theregister-datacentre",
+        "source_name": "The Register - Off Prem",
+        "source_url": "https://www.theregister.com/off-prem/2026/09/07/thailand-pauses-all-datacenter-builds-and-approvals/5294688",
+        "article_id": "inbox-e8d4754940f300bc",
+        "canonical_url": "https://www.theregister.com/off-prem/2026/09/07/thailand-pauses-all-datacenter-builds-and-approvals/5294688",
+        "ingested_at": "2026-09-07T04:49:20.231657+00:00"
+      },
+      "comparable_features": {
+        "event_type": "company_announcement",
+        "event_types": [
+          "company_announcement"
+        ],
+        "entities": [],
+        "sectors": [
+          "cybersecurity",
+          "data_centres",
+          "semiconductors"
+        ],
+        "countries": [],
+        "assets": [],
+        "has_amount": false,
+        "magnitude_bucket": "unknown",
+        "technology_tags": [
+          "ai",
+          "gpu"
+        ],
+        "source_category": "theregister-datacentre"
+      }
+    },
+    {
+      "event_id": "evt-77e36cff579db5a9",
+      "event_type": "company_announcement",
+      "event_types": [
+        "company_announcement"
+      ],
+      "timestamp": "2026-09-07T00:21:01+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-4dd92e6527ad2dce"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "defence_tech"
+      ],
+      "assets": [],
+      "amounts": [],
+      "technologies": [],
+      "geography": {
+        "headquarters": [],
+        "event_location_labels": [],
+        "event_country_ids": [],
+        "regulatory_jurisdiction_labels": [],
+        "regulatory_country_ids": [],
+        "regions": [],
+        "market_location_country_ids": []
+      },
+      "facts": [
+        "MathKernel: An evidence-aware multi-engine mathematics kernel and MCP server",
+        "Article URL: https://github.com/Staatsgeheim/MathKernel Comments URL: https://news.ycombinator.com/item?id=49592366 Points: 20 # Comments: 5"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "source_url": "https://github.com/Staatsgeheim/MathKernel",
+        "article_id": "inbox-4dd92e6527ad2dce",
+        "canonical_url": "https://github.com/Staatsgeheim/MathKernel",
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
+      },
+      "comparable_features": {
+        "event_type": "company_announcement",
+        "event_types": [
+          "company_announcement"
+        ],
+        "entities": [],
+        "sectors": [
+          "defence_tech"
+        ],
+        "countries": [],
+        "assets": [],
+        "has_amount": false,
+        "magnitude_bucket": "unknown",
+        "technology_tags": [],
+        "source_category": "hacker-news"
+      }
+    },
     {
       "event_id": "evt-b43d1e44339d616c",
       "event_type": "company_announcement",
@@ -169,7 +673,7 @@
       },
       "facts": [
         "Making a Python interpreter in 1024 bytes",
-        "Article URL: https://austinhenley.com/blog/python1024.html Comments URL: https://news.ycombinator.com/item?id=49591876 Points: 25 # Comments: 7"
+        "Article URL: https://austinhenley.com/blog/python1024.html Comments URL: https://news.ycombinator.com/item?id=49591876 Points: 146 # Comments: 56"
       ],
       "confidence": "low",
       "interpretation_status": "unreviewed",
@@ -181,7 +685,7 @@
         "source_url": "https://austinhenley.com/blog/python1024.html",
         "article_id": "inbox-08f949bd3f91cab7",
         "canonical_url": "https://austinhenley.com/blog/python1024.html",
-        "ingested_at": "2026-09-06T23:58:50.895272+00:00"
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -380,7 +884,7 @@
         "source_url": "https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/",
         "article_id": "inbox-c89605ade56871fa",
         "canonical_url": "https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "earnings",
@@ -462,6 +966,70 @@
       }
     },
     {
+      "event_id": "evt-d9e86e11d04202f0",
+      "event_type": "company_announcement",
+      "event_types": [
+        "company_announcement"
+      ],
+      "timestamp": "2026-09-06T21:05:21+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-679d18ee119ddb98"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "defence_tech"
+      ],
+      "assets": [],
+      "amounts": [],
+      "technologies": [],
+      "geography": {
+        "headquarters": [],
+        "event_location_labels": [],
+        "event_country_ids": [],
+        "regulatory_jurisdiction_labels": [],
+        "regulatory_country_ids": [],
+        "regions": [],
+        "market_location_country_ids": []
+      },
+      "facts": [
+        "Signing TLS handshakes inside a TPM",
+        "Article URL: https://bschaatsbergen.com/posts/go-tpm-tls/ Comments URL: https://news.ycombinator.com/item?id=49590946 Points: 10 # Comments: 4"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "source_url": "https://bschaatsbergen.com/posts/go-tpm-tls/",
+        "article_id": "inbox-679d18ee119ddb98",
+        "canonical_url": "https://bschaatsbergen.com/posts/go-tpm-tls",
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
+      },
+      "comparable_features": {
+        "event_type": "company_announcement",
+        "event_types": [
+          "company_announcement"
+        ],
+        "entities": [],
+        "sectors": [
+          "defence_tech"
+        ],
+        "countries": [],
+        "assets": [],
+        "has_amount": false,
+        "magnitude_bucket": "unknown",
+        "technology_tags": [],
+        "source_category": "hacker-news"
+      }
+    },
+    {
       "event_id": "evt-a2776c4c65305eff",
       "event_type": "company_announcement",
       "event_types": [
@@ -520,7 +1088,7 @@
         "source_url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
         "article_id": "inbox-10a2f12ef1d3f882",
         "canonical_url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -577,7 +1145,7 @@
       },
       "facts": [
         "Show HN: Mador – Make any DOM reactive with a tiny 80-line Proxy state tuple",
-        "Article URL: https://github.com/marsbos/mador Comments URL: https://news.ycombinator.com/item?id=49590738 Points: 57 # Comments: 21"
+        "Article URL: https://github.com/marsbos/mador Comments URL: https://news.ycombinator.com/item?id=49590738 Points: 82 # Comments: 23"
       ],
       "confidence": "low",
       "interpretation_status": "unreviewed",
@@ -589,7 +1157,7 @@
         "source_url": "https://github.com/marsbos/mador",
         "article_id": "inbox-cfb0667ad8de1ca4",
         "canonical_url": "https://github.com/marsbos/mador",
-        "ingested_at": "2026-09-06T23:58:50.895272+00:00"
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -642,7 +1210,7 @@
       },
       "facts": [
         "It took a year to ship WebAssembly in Anubis",
-        "Article URL: https://anubis.techaro.lol/blog/2026/anubis-wasm/ Comments URL: https://news.ycombinator.com/item?id=49590611 Points: 111 # Comments: 75"
+        "Article URL: https://anubis.techaro.lol/blog/2026/anubis-wasm/ Comments URL: https://news.ycombinator.com/item?id=49590611 Points: 189 # Comments: 103"
       ],
       "confidence": "low",
       "interpretation_status": "unreviewed",
@@ -654,7 +1222,7 @@
         "source_url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
         "article_id": "inbox-b12de83ed7cccf4e",
         "canonical_url": "https://anubis.techaro.lol/blog/2026/anubis-wasm",
-        "ingested_at": "2026-09-06T23:58:50.895272+00:00"
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -706,7 +1274,7 @@
       },
       "facts": [
         "Harnessing the Universal Geometry of Embeddings",
-        "Article URL: https://arxiv.org/abs/2505.12540 Comments URL: https://news.ycombinator.com/item?id=49590595 Points: 31 # Comments: 3"
+        "Article URL: https://arxiv.org/abs/2505.12540 Comments URL: https://news.ycombinator.com/item?id=49590595 Points: 59 # Comments: 19"
       ],
       "confidence": "low",
       "interpretation_status": "unreviewed",
@@ -718,7 +1286,7 @@
         "source_url": "https://arxiv.org/abs/2505.12540",
         "article_id": "inbox-1ce3899439b120be",
         "canonical_url": "https://arxiv.org/abs/2505.12540",
-        "ingested_at": "2026-09-06T23:58:50.895272+00:00"
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -834,7 +1402,7 @@
       },
       "facts": [
         "GrapheneOS Overhauled Default Apps and Secure Clipboard",
-        "Article URL: https://grapheneos.social/@GrapheneOS/117225539756835649 Comments URL: https://news.ycombinator.com/item?id=49590512 Points: 148 # Comments: 55"
+        "Article URL: https://grapheneos.social/@GrapheneOS/117225539756835649 Comments URL: https://news.ycombinator.com/item?id=49590512 Points: 232 # Comments: 166"
       ],
       "confidence": "low",
       "interpretation_status": "unreviewed",
@@ -846,7 +1414,7 @@
         "source_url": "https://grapheneos.social/@GrapheneOS/117225539756835649",
         "article_id": "inbox-43d9c43358c09c76",
         "canonical_url": "https://grapheneos.social/@GrapheneOS/117225539756835649",
-        "ingested_at": "2026-09-06T23:58:50.895272+00:00"
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -1124,6 +1692,70 @@
       }
     },
     {
+      "event_id": "evt-43cd1bf65686c150",
+      "event_type": "company_announcement",
+      "event_types": [
+        "company_announcement"
+      ],
+      "timestamp": "2026-09-06T19:27:10+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-6637e61801bf095a"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "defence_tech"
+      ],
+      "assets": [],
+      "amounts": [],
+      "technologies": [],
+      "geography": {
+        "headquarters": [],
+        "event_location_labels": [],
+        "event_country_ids": [],
+        "regulatory_jurisdiction_labels": [],
+        "regulatory_country_ids": [],
+        "regions": [],
+        "market_location_country_ids": []
+      },
+      "facts": [
+        "Ask HN: How do you manage skills files?",
+        "How do you find skills, keep them organized, and make sure they actually work? Do you keep improving them over time? I believe skills will eventually be eating by model capabilities, but until then I'm just looking for a better way to manage things. Comments URL: https://news.ycombinator.com/item?id=49589914 Points: 32 # Comments: 23"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "source_url": "https://news.ycombinator.com/item?id=49589914",
+        "article_id": "inbox-6637e61801bf095a",
+        "canonical_url": "https://news.ycombinator.com/item?id=49589914",
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
+      },
+      "comparable_features": {
+        "event_type": "company_announcement",
+        "event_types": [
+          "company_announcement"
+        ],
+        "entities": [],
+        "sectors": [
+          "defence_tech"
+        ],
+        "countries": [],
+        "assets": [],
+        "has_amount": false,
+        "magnitude_bucket": "unknown",
+        "technology_tags": [],
+        "source_category": "hacker-news"
+      }
+    },
+    {
       "event_id": "evt-94c955dcd83a9dca",
       "event_type": "company_announcement",
       "event_types": [
@@ -1304,7 +1936,7 @@
         "source_url": "https://www.coindesk.com/news-analysis/2026/09/06/prediction-markets-inch-closer-to-the-supreme-court-state-of-crypto",
         "article_id": "inbox-67874ffdd0206d56",
         "canonical_url": "https://www.coindesk.com/news-analysis/2026/09/06/prediction-markets-inch-closer-to-the-supreme-court-state-of-crypto",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -1422,7 +2054,7 @@
       },
       "facts": [
         "Nitter and XCancel resume service after legal advice",
-        "https://github.com/zedeus/nitter https://xcancel.com/cdclegal https://nitter.net/ https://xcancel.com/ Comments URL: https://news.ycombinator.com/item?id=49588988 Points: 399 # Comments: 216"
+        "https://github.com/zedeus/nitter https://xcancel.com/cdclegal https://nitter.net/ https://xcancel.com/ Comments URL: https://news.ycombinator.com/item?id=49588988 Points: 561 # Comments: 282"
       ],
       "confidence": "low",
       "interpretation_status": "unreviewed",
@@ -1434,7 +2066,7 @@
         "source_url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
         "article_id": "inbox-0df12af19dae4962",
         "canonical_url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
-        "ingested_at": "2026-09-06T23:58:50.895272+00:00"
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -1443,6 +2075,86 @@
         ],
         "entities": [],
         "sectors": [
+          "defence_tech"
+        ],
+        "countries": [],
+        "assets": [],
+        "has_amount": false,
+        "magnitude_bucket": "unknown",
+        "technology_tags": [],
+        "source_category": "hacker-news"
+      }
+    },
+    {
+      "event_id": "evt-ad338c25befea10e",
+      "event_type": "company_announcement",
+      "event_types": [
+        "company_announcement"
+      ],
+      "timestamp": "2026-09-06T17:01:39+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-92c6d3ca1d028b34"
+      ],
+      "companies": [
+        "openai"
+      ],
+      "entities": [
+        "openai"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "defence_tech"
+      ],
+      "assets": [],
+      "amounts": [],
+      "technologies": [],
+      "geography": {
+        "headquarters": [
+          {
+            "entity_id": "openai",
+            "country_id": "840",
+            "country_label": "United States",
+            "location_type": "headquarters",
+            "evidence": "entity_registry"
+          }
+        ],
+        "event_location_labels": [],
+        "event_country_ids": [],
+        "regulatory_jurisdiction_labels": [],
+        "regulatory_country_ids": [],
+        "regions": [],
+        "market_location_country_ids": []
+      },
+      "facts": [
+        "YouTube had a bug – I used ChatGPT to investigate",
+        "Article URL: https://blog.thezilber.com/3-youtube-had-a-bug-chatgpt-helped-me-to-investigate Comments URL: https://news.ycombinator.com/item?id=49588483 Points: 10 # Comments: 8"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "source_url": "https://blog.thezilber.com/3-youtube-had-a-bug-chatgpt-helped-me-to-investigate",
+        "article_id": "inbox-92c6d3ca1d028b34",
+        "canonical_url": "https://blog.thezilber.com/3-youtube-had-a-bug-chatgpt-helped-me-to-investigate",
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
+      },
+      "comparable_features": {
+        "event_type": "company_announcement",
+        "event_types": [
+          "company_announcement"
+        ],
+        "entities": [
+          "openai"
+        ],
+        "sectors": [
+          "ai",
           "defence_tech"
         ],
         "countries": [],
@@ -1498,7 +2210,7 @@
         "source_url": "https://www.ycombinator.com/companies/opalite-health/jobs/bNedVAD-founding-gtm",
         "article_id": "inbox-2e3c6cf5e9dd2bc5",
         "canonical_url": "https://www.ycombinator.com/companies/opalite-health/jobs/bNedVAD-founding-gtm",
-        "ingested_at": "2026-09-06T23:58:50.895272+00:00"
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -1564,7 +2276,7 @@
         "source_url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
         "article_id": "inbox-889f72d494ea9550",
         "canonical_url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -1717,7 +2429,7 @@
       },
       "facts": [
         "An Alien Mind",
-        "Article URL: https://openai.com/index/an-alien-mind/ Comments URL: https://news.ycombinator.com/item?id=49588080 Points: 295 # Comments: 256"
+        "Article URL: https://openai.com/index/an-alien-mind/ Comments URL: https://news.ycombinator.com/item?id=49588080 Points: 363 # Comments: 315"
       ],
       "confidence": "low",
       "interpretation_status": "unreviewed",
@@ -1729,7 +2441,7 @@
         "source_url": "https://openai.com/index/an-alien-mind/",
         "article_id": "inbox-59cf524311d8c4a9",
         "canonical_url": "https://openai.com/index/an-alien-mind",
-        "ingested_at": "2026-09-06T23:58:50.895272+00:00"
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -1786,7 +2498,7 @@
       },
       "facts": [
         "Research carried out using NetBSD",
-        "Article URL: https://www.netbsd.org/gallery/research.html Comments URL: https://news.ycombinator.com/item?id=49587903 Points: 73 # Comments: 16"
+        "Article URL: https://www.netbsd.org/gallery/research.html Comments URL: https://news.ycombinator.com/item?id=49587903 Points: 86 # Comments: 23"
       ],
       "confidence": "low",
       "interpretation_status": "unreviewed",
@@ -1798,7 +2510,7 @@
         "source_url": "https://www.netbsd.org/gallery/research.html",
         "article_id": "inbox-32e17d1a5ba0b3f4",
         "canonical_url": "https://www.netbsd.org/gallery/research.html",
-        "ingested_at": "2026-09-06T23:58:50.895272+00:00"
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -1865,7 +2577,7 @@
         "source_url": "https://techcrunch.com/2026/09/06/techcrunch-mobility-tesla-cybercab-hits-the-road-and-a-snag/",
         "article_id": "inbox-496f37e1943ce064",
         "canonical_url": "https://techcrunch.com/2026/09/06/techcrunch-mobility-tesla-cybercab-hits-the-road-and-a-snag",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -2004,7 +2716,7 @@
         "source_url": "https://www.coindesk.com/business/2026/09/06/ukrainian-police-took-down-a-crypto-scam-that-stole-up-to-usd1-million-a-month",
         "article_id": "inbox-5c8b0ce616633770",
         "canonical_url": "https://www.coindesk.com/business/2026/09/06/ukrainian-police-took-down-a-crypto-scam-that-stole-up-to-usd1-million-a-month",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -2058,7 +2770,7 @@
       },
       "facts": [
         "NetBSD 9.5 released and EOL for NetBSD-9",
-        "Article URL: https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and Comments URL: https://news.ycombinator.com/item?id=49587636 Points: 98 # Comments: 4"
+        "Article URL: https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and Comments URL: https://news.ycombinator.com/item?id=49587636 Points: 122 # Comments: 11"
       ],
       "confidence": "low",
       "interpretation_status": "unreviewed",
@@ -2070,7 +2782,7 @@
         "source_url": "https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and",
         "article_id": "inbox-d92c000d5e1c3955",
         "canonical_url": "https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and",
-        "ingested_at": "2026-09-06T23:58:50.895272+00:00"
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -2137,7 +2849,7 @@
       },
       "facts": [
         "Research acceleration: The view inside OpenAI",
-        "Article URL: https://openai.com/index/research-acceleration-view-inside-openai Comments URL: https://news.ycombinator.com/item?id=49587217 Points: 97 # Comments: 68"
+        "Article URL: https://openai.com/index/research-acceleration-view-inside-openai Comments URL: https://news.ycombinator.com/item?id=49587217 Points: 133 # Comments: 89"
       ],
       "confidence": "low",
       "interpretation_status": "unreviewed",
@@ -2149,7 +2861,7 @@
         "source_url": "https://openai.com/index/research-acceleration-view-inside-openai",
         "article_id": "inbox-4b2b21e6f645c538",
         "canonical_url": "https://openai.com/index/research-acceleration-view-inside-openai",
-        "ingested_at": "2026-09-06T23:58:50.895272+00:00"
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -2220,7 +2932,7 @@
         "source_url": "https://www.tomshardware.com/pc-components/gpus/single-slot-low-profile-75w-rtx-3060-with-no-power-connectors-disappoints-in-tests-gpu-runs-entirely-off-the-pcie-slot-but-offers-severely-crippled-performance-and-frightening-thermals",
         "article_id": "inbox-71ac87b0ad2252f4",
         "canonical_url": "https://www.tomshardware.com/pc-components/gpus/single-slot-low-profile-75w-rtx-3060-with-no-power-connectors-disappoints-in-tests-gpu-runs-entirely-off-the-pcie-slot-but-offers-severely-crippled-performance-and-frightening-thermals",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -2370,7 +3082,7 @@
       }
     },
     {
-      "event_id": "evt-37ce01b05d072163",
+      "event_id": "evt-6e199bb214d769ed",
       "event_type": "company_announcement",
       "event_types": [
         "company_announcement"
@@ -2380,7 +3092,7 @@
         "hacker-news"
       ],
       "article_ids": [
-        "inbox-554654e70a2fffdd"
+        "inbox-2d67c1cc2a82cf80"
       ],
       "companies": [],
       "entities": [],
@@ -2403,8 +3115,8 @@
         "market_location_country_ids": []
       },
       "facts": [
-        "A/I shuts down – Stay human",
-        "Article URL: https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/ Comments URL: https://news.ycombinator.com/item?id=49586898 Points: 491 # Comments: 354"
+        "A/I shuts down",
+        "Article URL: https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/ Comments URL: https://news.ycombinator.com/item?id=49586898 Points: 551 # Comments: 435"
       ],
       "confidence": "low",
       "interpretation_status": "unreviewed",
@@ -2414,9 +3126,9 @@
         "source_id": "hacker-news",
         "source_name": "Hacker News",
         "source_url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
-        "article_id": "inbox-554654e70a2fffdd",
+        "article_id": "inbox-2d67c1cc2a82cf80",
         "canonical_url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human",
-        "ingested_at": "2026-09-06T23:58:50.895272+00:00"
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -2496,7 +3208,7 @@
         "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-admits-to-wiki-incident-after-its-agents-were-discovered-using-a-programming-hub-to-communicate-says-more-transparency-is-needed-regarding-misalignments",
         "article_id": "inbox-501450a704290ace",
         "canonical_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-admits-to-wiki-incident-after-its-agents-were-discovered-using-a-programming-hub-to-communicate-says-more-transparency-is-needed-regarding-misalignments",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -2566,7 +3278,7 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
         "article_id": "inbox-3180e5e8b62864b8",
         "canonical_url": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters",
-        "ingested_at": "2026-09-06T23:58:49.331037+00:00"
+        "ingested_at": "2026-09-07T04:49:14.962591+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -2702,7 +3414,7 @@
       },
       "facts": [
         "Asahi Linux on M3",
-        "https://www.phoronix.com/news/Asahi-Linux-Official-M3 Comments URL: https://news.ycombinator.com/item?id=49586698 Points: 327 # Comments: 185"
+        "https://www.phoronix.com/news/Asahi-Linux-Official-M3 Comments URL: https://news.ycombinator.com/item?id=49586698 Points: 390 # Comments: 232"
       ],
       "confidence": "low",
       "interpretation_status": "unreviewed",
@@ -2714,7 +3426,7 @@
         "source_url": "https://asahilinux.org/2026/09/m2-episode-1/",
         "article_id": "inbox-ff908b0426dffdd6",
         "canonical_url": "https://asahilinux.org/2026/09/m2-episode-1",
-        "ingested_at": "2026-09-06T23:58:50.895272+00:00"
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -2780,7 +3492,7 @@
         "source_url": "https://www.coindesk.com/business/2026/09/06/better-and-coinbase-s-bitcoin-backed-mortgages-can-reuse-borrowers-collateral",
         "article_id": "inbox-d0f06ce7c939361a",
         "canonical_url": "https://www.coindesk.com/business/2026/09/06/better-and-coinbase-s-bitcoin-backed-mortgages-can-reuse-borrowers-collateral",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -2844,7 +3556,7 @@
         "source_url": "https://www.tomshardware.com/pc-components/power-supplies/fsp-mega-gm-1200w-power-supply-review",
         "article_id": "inbox-57766310ed52430c",
         "canonical_url": "https://www.tomshardware.com/pc-components/power-supplies/fsp-mega-gm-1200w-power-supply-review",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -2909,7 +3621,7 @@
         "source_url": "https://www.tomshardware.com/tech-industry/data-centers/bitcoin-mining-data-center-condemned-after-leaking-3-million-gallons-of-water-and-forcing-school-closures-facility-operated-for-years-under-a-city-stop-work-order",
         "article_id": "inbox-5ac6f47ac7022c62",
         "canonical_url": "https://www.tomshardware.com/tech-industry/data-centers/bitcoin-mining-data-center-condemned-after-leaking-3-million-gallons-of-water-and-forcing-school-closures-facility-operated-for-years-under-a-city-stop-work-order",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "infrastructure_investment",
@@ -3073,7 +3785,7 @@
         "source_url": "https://www.tomshardware.com/pc-components/ssds/samsung-990-2tb-pcie-4-0-ssd-falls-to-usd339-99-on-amazon-usd190-discount-makes-high-capacity-storage-more-affordable",
         "article_id": "inbox-2c6ff218a674b1bf",
         "canonical_url": "https://www.tomshardware.com/pc-components/ssds/samsung-990-2tb-pcie-4-0-ssd-falls-to-usd339-99-on-amazon-usd190-discount-makes-high-capacity-storage-more-affordable",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -3337,7 +4049,7 @@
         "source_url": "https://www.tomshardware.com/pc-components/liquid-cooling/msi-meg-coreliquid-e15-360-aio-review-bold-and-stunning-with-market-leading-performance",
         "article_id": "inbox-ea26b465d4cb97f0",
         "canonical_url": "https://www.tomshardware.com/pc-components/liquid-cooling/msi-meg-coreliquid-e15-360-aio-review-bold-and-stunning-with-market-leading-performance",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -3399,7 +4111,7 @@
         "source_url": "https://www.tomshardware.com/service-providers/streaming/sales-of-cd-and-vinyl-music-sees-strong-resurgence-amid-physical-media-backlash-us-sales-of-retro-media-were-up-59-percent-and-18-percent-respectively-in-h1-2026",
         "article_id": "inbox-b6a98070150ae4d3",
         "canonical_url": "https://www.tomshardware.com/service-providers/streaming/sales-of-cd-and-vinyl-music-sees-strong-resurgence-amid-physical-media-backlash-us-sales-of-retro-media-were-up-59-percent-and-18-percent-respectively-in-h1-2026",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "earnings",
@@ -3481,7 +4193,7 @@
       }
     },
     {
-      "event_id": "evt-5aa763d7c3d76f66",
+      "event_id": "evt-9ae39491e10a9b64",
       "event_type": "company_announcement",
       "event_types": [
         "company_announcement"
@@ -3491,7 +4203,7 @@
         "hacker-news"
       ],
       "article_ids": [
-        "inbox-486eae08375ffb62"
+        "inbox-50e1fad93a44af9e"
       ],
       "companies": [
         "intel"
@@ -3501,6 +4213,7 @@
       ],
       "countries": [],
       "sectors": [
+        "ai",
         "defence_tech",
         "semiconductors"
       ],
@@ -3508,7 +4221,9 @@
         "intc"
       ],
       "amounts": [],
-      "technologies": [],
+      "technologies": [
+        "llm"
+      ],
       "geography": {
         "headquarters": [
           {
@@ -3527,8 +4242,8 @@
         "market_location_country_ids": []
       },
       "facts": [
-        "Your intellectual fly is open (2025)",
-        "Article URL: https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/ Comments URL: https://news.ycombinator.com/item?id=49585644 Points: 421 # Comments: 279"
+        "Your intellectual fly is open when you use an LLM to author a post (2025)",
+        "Article URL: https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/ Comments URL: https://news.ycombinator.com/item?id=49585644 Points: 600 # Comments: 392"
       ],
       "confidence": "low",
       "interpretation_status": "unreviewed",
@@ -3538,9 +4253,9 @@
         "source_id": "hacker-news",
         "source_name": "Hacker News",
         "source_url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
-        "article_id": "inbox-486eae08375ffb62",
+        "article_id": "inbox-50e1fad93a44af9e",
         "canonical_url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
-        "ingested_at": "2026-09-06T21:26:27.107934+00:00"
+        "ingested_at": "2026-09-07T04:49:19.026483+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -3551,6 +4266,7 @@
           "intel"
         ],
         "sectors": [
+          "ai",
           "defence_tech",
           "semiconductors"
         ],
@@ -3560,7 +4276,9 @@
         ],
         "has_amount": false,
         "magnitude_bucket": "unknown",
-        "technology_tags": [],
+        "technology_tags": [
+          "llm"
+        ],
         "source_category": "hacker-news"
       }
     },
@@ -3610,7 +4328,7 @@
         "source_url": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
         "article_id": "inbox-35869d5d0bfddef1",
         "canonical_url": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "product_launch",
@@ -3873,7 +4591,7 @@
         "source_url": "https://www.tomshardware.com/video-games/pc-gaming/ps5-emulator-can-now-run-the-console-version-of-gta-v-at-up-to-60-fps-on-pc-but-quickly-crashes-as-tweakers-continue-to-optimize-ps5-emulation-advancing-at-an-astronomical-pace-leading-up-to-gta-vi-launch",
         "article_id": "inbox-854a6753dec58e57",
         "canonical_url": "https://www.tomshardware.com/video-games/pc-gaming/ps5-emulator-can-now-run-the-console-version-of-gta-v-at-up-to-60-fps-on-pc-but-quickly-crashes-as-tweakers-continue-to-optimize-ps5-emulation-advancing-at-an-astronomical-pace-leading-up-to-gta-vi-launch",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "product_launch",
@@ -4001,7 +4719,7 @@
         "source_url": "https://www.wired.com/story/best-laptop-backpacks/",
         "article_id": "inbox-468d262a15087ebf",
         "canonical_url": "https://www.wired.com/story/best-laptop-backpacks",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -4127,7 +4845,7 @@
         "source_url": "https://www.wired.com/story/create-custom-windows-11-notifications-to-remind-yourself-of-anything/",
         "article_id": "inbox-5c42685f9d56d19c",
         "canonical_url": "https://www.wired.com/story/create-custom-windows-11-notifications-to-remind-yourself-of-anything",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -4253,7 +4971,7 @@
         "source_url": "https://www.wired.com/story/cyborg-cockroaches-disaster-response/",
         "article_id": "inbox-497963b397e35b5e",
         "canonical_url": "https://www.wired.com/story/cyborg-cockroaches-disaster-response",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -4334,7 +5052,7 @@
         "source_url": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/",
         "article_id": "inbox-ea61e0ee38de04c2",
         "canonical_url": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -4416,7 +5134,7 @@
         "source_url": "https://www.tomshardware.com/video-games/former-old-school-runescape-dev-gets-jail-time-for-stealing-usd400-000-from-players-virtual-gold-stolen-and-sold-on-the-black-market-before-jagex-caught-the-culprit-using-hidden-firewall-tweaks",
         "article_id": "inbox-aa2083deabb16dcf",
         "canonical_url": "https://www.tomshardware.com/video-games/former-old-school-runescape-dev-gets-jail-time-for-stealing-usd400-000-from-players-virtual-gold-stolen-and-sold-on-the-black-market-before-jagex-caught-the-culprit-using-hidden-firewall-tweaks",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -4478,7 +5196,7 @@
         "source_url": "https://www.wired.com/gallery/best-water-leak-detector/",
         "article_id": "inbox-defbc394dcfd4443",
         "canonical_url": "https://www.wired.com/gallery/best-water-leak-detector",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -4538,7 +5256,7 @@
         "source_url": "https://arstechnica.com/science/2026/09/farmed-salmon-may-not-be-as-nutritious-as-it-once-was-new-research-suggests/",
         "article_id": "inbox-f68108e4ab229e85",
         "canonical_url": "https://arstechnica.com/science/2026/09/farmed-salmon-may-not-be-as-nutritious-as-it-once-was-new-research-suggests",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -4602,7 +5320,7 @@
         "source_url": "https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/",
         "article_id": "inbox-465ebc9ab2becaf7",
         "canonical_url": "https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "infrastructure_investment",
@@ -4668,7 +5386,7 @@
         "source_url": "https://www.tomshardware.com/pc-components/storage/this-246tb-ssd-media-server-is-built-for-millionaire-cinephiles-kaleidescapes-newest-home-theater-vault-supports-25-simultaneous-4k-streams-stores-up-to-2-300-4k-cinematic-movies",
         "article_id": "inbox-07b1fd674453a0b3",
         "canonical_url": "https://www.tomshardware.com/pc-components/storage/this-246tb-ssd-media-server-is-built-for-millionaire-cinephiles-kaleidescapes-newest-home-theater-vault-supports-25-simultaneous-4k-streams-stores-up-to-2-300-4k-cinematic-movies",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -4732,7 +5450,7 @@
         "source_url": "https://www.wired.com/gallery/best-gaming-chairs/",
         "article_id": "inbox-ddea516e88d7489c",
         "canonical_url": "https://www.wired.com/gallery/best-gaming-chairs",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -5669,7 +6387,7 @@
         "source_url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
         "article_id": "inbox-2271a1232b9ab097",
         "canonical_url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -6556,7 +7274,7 @@
         "source_url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
         "article_id": "inbox-69fa0be89855a505",
         "canonical_url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -6637,7 +7355,7 @@
         "source_url": "https://www.tomshardware.com/pc-components/save-nearly-50-percent-on-this-awesome-16-inch-oled-laptop-with-a-ryzen-ai-5-430-cpu-and-16gb-ram-hps-macbook-neo-beating-omnibook-x-flip-is-down-to-just-usd699",
         "article_id": "inbox-c264a473a6b550e3",
         "canonical_url": "https://www.tomshardware.com/pc-components/save-nearly-50-percent-on-this-awesome-16-inch-oled-laptop-with-a-ryzen-ai-5-430-cpu-and-16gb-ram-hps-macbook-neo-beating-omnibook-x-flip-is-down-to-just-usd699",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -6720,7 +7438,7 @@
         "source_url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
         "article_id": "inbox-af0948b0eca1a8b4",
         "canonical_url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -6788,7 +7506,7 @@
         "source_url": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
         "article_id": "inbox-e5cd928a9fcadc24",
         "canonical_url": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -6933,7 +7651,7 @@
         "source_url": "https://www.tomshardware.com/software/windows/stripped-down-windows-11-for-ai-developers-demands-64gb-ram-and-insane-250-gb-s-bandwidth-project-zenith-will-debut-on-amds-flagship-ryzen-ai-halo-platform",
         "article_id": "inbox-873b9d300b7b2a61",
         "canonical_url": "https://www.tomshardware.com/software/windows/stripped-down-windows-11-for-ai-developers-demands-64gb-ram-and-insane-250-gb-s-bandwidth-project-zenith-will-debut-on-amds-flagship-ryzen-ai-halo-platform",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -7002,7 +7720,7 @@
         "source_url": "https://techcrunch.com/2026/09/05/cluckys-new-alarm-app-wakes-you-up-with-a-crowing-rooster/",
         "article_id": "inbox-b8e49839a224d6d8",
         "canonical_url": "https://techcrunch.com/2026/09/05/cluckys-new-alarm-app-wakes-you-up-with-a-crowing-rooster",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -7130,7 +7848,7 @@
         "source_url": "https://www.coindesk.com/business/2026/09/05/dollar-backed-stablecoins-can-push-local-currencies-lower-bank-of-korea-study-finds",
         "article_id": "inbox-4063d04c58c1c8cc",
         "canonical_url": "https://www.coindesk.com/business/2026/09/05/dollar-backed-stablecoins-can-push-local-currencies-lower-bank-of-korea-study-finds",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "research_result",
@@ -7199,7 +7917,7 @@
         "source_url": "https://www.tomshardware.com/video-games/gamescom-apologizes-after-backlash-over-callous-response-to-indie-dev-hardware-thefts-pledges-security-overhaul-and-invites-devs-to-the-roundtable",
         "article_id": "inbox-a903d8fba0084173",
         "canonical_url": "https://www.tomshardware.com/video-games/gamescom-apologizes-after-backlash-over-callous-response-to-indie-dev-hardware-thefts-pledges-security-overhaul-and-invites-devs-to-the-roundtable",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -7394,7 +8112,7 @@
         "source_url": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
         "article_id": "inbox-b68721475644b743",
         "canonical_url": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "government_action",
@@ -7474,7 +8192,7 @@
         "source_url": "https://www.tomshardware.com/pc-components/gpus/nvidia-returns-to-selling-founders-edition-rtx-50-series-gpus-at-msrp-in-person-at-pax-west-verified-priority-access-has-rtx-5090-rtx-5080-and-rtx-5070-at-list-price",
         "article_id": "inbox-e5f7597649aa7edf",
         "canonical_url": "https://www.tomshardware.com/pc-components/gpus/nvidia-returns-to-selling-founders-edition-rtx-50-series-gpus-at-msrp-in-person-at-pax-west-verified-priority-access-has-rtx-5090-rtx-5080-and-rtx-5070-at-list-price",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -7542,7 +8260,7 @@
         "source_url": "https://techcrunch.com/2026/09/05/oura-is-going-public-but-these-smart-ring-companies-are-coming-for-its-crown/",
         "article_id": "inbox-aa4230bda6237c79",
         "canonical_url": "https://techcrunch.com/2026/09/05/oura-is-going-public-but-these-smart-ring-companies-are-coming-for-its-crown",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -7672,7 +8390,7 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
         "article_id": "inbox-6c8beb7dc8c7ae36",
         "canonical_url": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain",
-        "ingested_at": "2026-09-06T23:58:49.331037+00:00"
+        "ingested_at": "2026-09-07T04:49:14.962591+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -8052,7 +8770,7 @@
         "source_url": "https://www.tomshardware.com/pc-components/cpus/amd-reportedly-prepping-ryzen-5-7500-non-f-cpu-with-integrated-graphics-at-double-the-price-six-core-zen-4-chip-rumored-to-share-identical-specs-with-its-f-moniker-cousin",
         "article_id": "inbox-334e6db32d3773b5",
         "canonical_url": "https://www.tomshardware.com/pc-components/cpus/amd-reportedly-prepping-ryzen-5-7500-non-f-cpu-with-integrated-graphics-at-double-the-price-six-core-zen-4-chip-rumored-to-share-identical-specs-with-its-f-moniker-cousin",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -8256,7 +8974,7 @@
         "source_url": "https://www.tomshardware.com/tech-industry/best-of-ifa-2026",
         "article_id": "inbox-a246945d409af5e8",
         "canonical_url": "https://www.tomshardware.com/tech-industry/best-of-ifa-2026",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -8349,7 +9067,7 @@
         "source_url": "https://www.tomshardware.com/pc-components/gpus/modder-gets-nvidias-dlss-5-working-on-amds-rdna-4-gpus-rx-9070-xt-only-manages-30-fps-at-1080p-right-now-but-5070-ti-level-performance-is-the-eventual-goal",
         "article_id": "inbox-92e6e17273f8e4c5",
         "canonical_url": "https://www.tomshardware.com/pc-components/gpus/modder-gets-nvidias-dlss-5-working-on-amds-rdna-4-gpus-rx-9070-xt-only-manages-30-fps-at-1080p-right-now-but-5070-ti-level-performance-is-the-eventual-goal",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -8433,7 +9151,7 @@
         "source_url": "https://www.coindesk.com/business/2026/09/02/british-investor-thought-he-lost-usd2-000-in-bitcoin-in-2012-he-just-recovered-usd4-5-million",
         "article_id": "inbox-a0fd4be897bc373b",
         "canonical_url": "https://www.coindesk.com/business/2026/09/02/british-investor-thought-he-lost-usd2-000-in-bitcoin-in-2012-he-just-recovered-usd4-5-million",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -8514,7 +9232,7 @@
         "source_url": "https://www.tomshardware.com/video-games/cloud-gaming/xbox-game-pass-adds-monthly-time-limits-subscribers-and-non-subcribers-can-buy-more-hours-to-keep-gaming",
         "article_id": "inbox-46cc0f62473a4a2c",
         "canonical_url": "https://www.tomshardware.com/video-games/cloud-gaming/xbox-game-pass-adds-monthly-time-limits-subscribers-and-non-subcribers-can-buy-more-hours-to-keep-gaming",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -8587,7 +9305,7 @@
         "source_url": "https://www.tomshardware.com/pc-components/dodge-the-rampocalypse-with-20-percent-discounts-on-corsair-ram-hundreds-off-on-32gb-and-64gb-ddr5-6400-kits",
         "article_id": "inbox-3ec85ca988a8f1bd",
         "canonical_url": "https://www.tomshardware.com/pc-components/dodge-the-rampocalypse-with-20-percent-discounts-on-corsair-ram-hundreds-off-on-32gb-and-64gb-ddr5-6400-kits",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -8651,7 +9369,7 @@
         "source_url": "https://www.tomshardware.com/video-games/handheld-gaming/worlds-first-fully-transparent-video-game-console-is-on-its-way-to-kickstarter-arduview-handhelds-shell-pcb-and-display-are-all-transparent",
         "article_id": "inbox-4a4bca4ce4d7646b",
         "canonical_url": "https://www.tomshardware.com/video-games/handheld-gaming/worlds-first-fully-transparent-video-game-console-is-on-its-way-to-kickstarter-arduview-handhelds-shell-pcb-and-display-are-all-transparent",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "technology_milestone",
@@ -8729,7 +9447,7 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
         "article_id": "inbox-40eb273bc84bdbd0",
         "canonical_url": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident",
-        "ingested_at": "2026-09-06T23:58:49.331037+00:00"
+        "ingested_at": "2026-09-07T04:49:14.962591+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -8797,7 +9515,7 @@
         "source_url": "https://www.wired.com/gallery/best-alexa-and-amazon-echo-speakers/",
         "article_id": "inbox-968a86597101b5fb",
         "canonical_url": "https://www.wired.com/gallery/best-alexa-and-amazon-echo-speakers",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -8876,7 +9594,7 @@
         "source_url": "https://www.tomshardware.com/video-games/pc-gaming/we-tested-dlss-5-in-nba-2k27-with-every-rtx-50-series-gpu-first-official-release-comes-with-a-big-performance-hit-but-almost-every-blackwell-card-can-run-it-at-1080p",
         "article_id": "inbox-77cddd1b9c95ef61",
         "canonical_url": "https://www.tomshardware.com/video-games/pc-gaming/we-tested-dlss-5-in-nba-2k27-with-every-rtx-50-series-gpu-first-official-release-comes-with-a-big-performance-hit-but-almost-every-blackwell-card-can-run-it-at-1080p",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "technology_milestone",
@@ -8956,7 +9674,7 @@
         "source_url": "https://www.tomshardware.com/tech-industry/policy/taiwan-cracks-down-on-tech-businesses-with-illegal-chinese-ownership-166-investigations-and-at-least-36-convictions-since-2020",
         "article_id": "inbox-13b2d46365645806",
         "canonical_url": "https://www.tomshardware.com/tech-industry/policy/taiwan-cracks-down-on-tech-businesses-with-illegal-chinese-ownership-166-investigations-and-at-least-36-convictions-since-2020",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -9185,7 +9903,7 @@
         "source_url": "https://www.wired.com/story/there-may-not-be-an-iphone-18-this-year/",
         "article_id": "inbox-ddfe3e518d213b37",
         "canonical_url": "https://www.wired.com/story/there-may-not-be-an-iphone-18-this-year",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "technology_milestone",
@@ -9269,7 +9987,7 @@
         "source_url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
         "article_id": "inbox-fa599840a000d473",
         "canonical_url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -9350,7 +10068,7 @@
         "source_url": "https://www.tomshardware.com/tech-industry/drones/trump-slaps-up-to-100-percent-tariffs-on-imported-drones-and-critical-components-in-latest-move-against-chinas-proliferation-of-u-s-drone-market-citing-national-security-products-from-allied-nation-face-10-15-percent-rates",
         "article_id": "inbox-9221ce05230bfc04",
         "canonical_url": "https://www.tomshardware.com/tech-industry/drones/trump-slaps-up-to-100-percent-tariffs-on-imported-drones-and-critical-components-in-latest-move-against-chinas-proliferation-of-u-s-drone-market-citing-national-security-products-from-allied-nation-face-10-15-percent-rates",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "supply_chain_event",
@@ -9485,7 +10203,7 @@
         "source_url": "https://www.wired.com/story/how-do-caterpillars-hear-without-ears/",
         "article_id": "inbox-5d8b69067579d4bc",
         "canonical_url": "https://www.wired.com/story/how-do-caterpillars-hear-without-ears",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -9553,7 +10271,7 @@
         "source_url": "https://www.tomshardware.com/tech-industry/drones/japan-to-mass-procure-3d-printed-rocket-powered-drone-interceptor-terra-b1-capable-of-countering-one-way-attack-platforms",
         "article_id": "inbox-68d65204f3760aad",
         "canonical_url": "https://www.tomshardware.com/tech-industry/drones/japan-to-mass-procure-3d-printed-rocket-powered-drone-interceptor-terra-b1-capable-of-countering-one-way-attack-platforms",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -9621,7 +10339,7 @@
         "source_url": "https://www.wired.com/story/the-watch-world-went-crazy-this-week-here-are-the-10-you-need-to-see/",
         "article_id": "inbox-c5f192022b18f6e1",
         "canonical_url": "https://www.wired.com/story/the-watch-world-went-crazy-this-week-here-are-the-10-you-need-to-see",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -9683,7 +10401,7 @@
         "source_url": "https://www.wired.com/story/marvel-has-assigned-42-hours-of-homework-before-avengers-doomsday/",
         "article_id": "inbox-19af10de083a8f66",
         "canonical_url": "https://www.wired.com/story/marvel-has-assigned-42-hours-of-homework-before-avengers-doomsday",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -9949,7 +10667,7 @@
         "source_url": "https://www.coindesk.com/markets/2026/09/05/xrp-ledger-has-fewer-active-accounts-but-bigger-trades-and-more-value",
         "article_id": "inbox-857a27e56cd2bd3e",
         "canonical_url": "https://www.coindesk.com/markets/2026/09/05/xrp-ledger-has-fewer-active-accounts-but-bigger-trades-and-more-value",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -10022,7 +10740,7 @@
         "source_url": "https://www.coindesk.com/business/2026/09/05/southeast-asia-s-crypto-funding-rebounds-to-usd680-million-as-investors-focus-on-mature-firms",
         "article_id": "inbox-5f9c3ba2dbd0ede7",
         "canonical_url": "https://www.coindesk.com/business/2026/09/05/southeast-asia-s-crypto-funding-rebounds-to-usd680-million-as-investors-focus-on-mature-firms",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -10089,7 +10807,7 @@
         "source_url": "https://science.nasa.gov/image-article/apod-2026-september-5-chasing-the-moons-shadow/",
         "article_id": "inbox-b5d8de5b2e2bb76c",
         "canonical_url": "https://science.nasa.gov/image-article/apod-2026-september-5-chasing-the-moons-shadow",
-        "ingested_at": "2026-09-06T23:58:50.998072+00:00"
+        "ingested_at": "2026-09-07T04:49:19.131746+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -10605,7 +11323,7 @@
         "source_url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
         "article_id": "inbox-9c1f56622624e5cc",
         "canonical_url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "funding",
@@ -10685,7 +11403,7 @@
         "source_url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
         "article_id": "inbox-3a3467ffd286dd75",
         "canonical_url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "research_result",
@@ -10836,7 +11554,7 @@
         "source_url": "https://www.tomshardware.com/pc-components/gpus/dlss-5-officially-launches-inside-nba-2k27-limited-to-rtx-50-series-gpus-for-now-nvidia-promises-to-bring-neutral-rendering-tech-to-rtx-40-series-soon",
         "article_id": "inbox-701ed6e12193e790",
         "canonical_url": "https://www.tomshardware.com/pc-components/gpus/dlss-5-officially-launches-inside-nba-2k27-limited-to-rtx-50-series-gpus-for-now-nvidia-promises-to-bring-neutral-rendering-tech-to-rtx-40-series-soon",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "product_launch",
@@ -10975,7 +11693,7 @@
         "source_url": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
         "article_id": "inbox-667b419f44a89713",
         "canonical_url": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -11115,7 +11833,7 @@
         "source_url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
         "article_id": "inbox-109b1bef489f58ed",
         "canonical_url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -11556,7 +12274,7 @@
         "source_url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
         "article_id": "inbox-59cd6d09918cb4b5",
         "canonical_url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -11768,7 +12486,7 @@
         "source_url": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
         "article_id": "inbox-2e29bf732db7c7e0",
         "canonical_url": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -12070,7 +12788,7 @@
         "source_url": "https://www.nasa.gov/news-release/nasa-ames-fire-department-aircraft-firefighting-training/",
         "article_id": "inbox-ad9095b035708d4f",
         "canonical_url": "https://www.nasa.gov/news-release/nasa-ames-fire-department-aircraft-firefighting-training",
-        "ingested_at": "2026-09-06T23:58:50.998072+00:00"
+        "ingested_at": "2026-09-07T04:49:19.131746+00:00"
       },
       "comparable_features": {
         "event_type": "government_action",
@@ -12224,7 +12942,7 @@
         "source_url": "https://arstechnica.com/tech-policy/2026/09/trump-admin-fights-abc-lawsuit-as-watchdogs-worry-disney-will-settle-with-fcc/",
         "article_id": "inbox-31e6efe613ca91bd",
         "canonical_url": "https://arstechnica.com/tech-policy/2026/09/trump-admin-fights-abc-lawsuit-as-watchdogs-worry-disney-will-settle-with-fcc",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -12434,7 +13152,7 @@
         "source_url": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
         "article_id": "inbox-a6d80b504fbdf4d0",
         "canonical_url": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -12576,7 +13294,7 @@
         "source_url": "https://www.wired.com/story/home-depot-labor-day-sale-deals-2026/",
         "article_id": "inbox-8d0c6da4ae6feed0",
         "canonical_url": "https://www.wired.com/story/home-depot-labor-day-sale-deals-2026",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -12782,7 +13500,7 @@
         "source_url": "https://www.wired.com/story/casio-g-shock-casionaut-looks-like-a-patek-philippe-classic/",
         "article_id": "inbox-b6d45e943a60c14d",
         "canonical_url": "https://www.wired.com/story/casio-g-shock-casionaut-looks-like-a-patek-philippe-classic",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -12864,7 +13582,7 @@
         "source_url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
         "article_id": "inbox-81ef7acc83c1b269",
         "canonical_url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era",
-        "ingested_at": "2026-09-06T23:58:50.947230+00:00"
+        "ingested_at": "2026-09-07T04:49:19.078820+00:00"
       },
       "comparable_features": {
         "event_type": "infrastructure_investment",
@@ -12999,7 +13717,7 @@
         "source_url": "https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now/",
         "article_id": "inbox-573efd4303af5b97",
         "canonical_url": "https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "government_action",
@@ -13126,7 +13844,7 @@
         "source_url": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/",
         "article_id": "inbox-a742ece8c16ad270",
         "canonical_url": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -13190,7 +13908,7 @@
         "source_url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
         "article_id": "inbox-cd8df759db988463",
         "canonical_url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -13342,7 +14060,7 @@
         "source_url": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
         "article_id": "inbox-1b0c580e7c5d210a",
         "canonical_url": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "product_launch",
@@ -13578,7 +14296,7 @@
         "source_url": "https://www.tomshardware.com/3d-printing/grab-a-new-3d-printer-for-as-low-as-usd229-right-now-in-crealitys-labor-day-flash-sale-with-up-to-50-percent-off-big-sale-discounts-also-include-resin-and-filament-bundles-along-with-3d-scanners-and-toolkits",
         "article_id": "inbox-21225ae0f1527892",
         "canonical_url": "https://www.tomshardware.com/3d-printing/grab-a-new-3d-printer-for-as-low-as-usd229-right-now-in-crealitys-labor-day-flash-sale-with-up-to-50-percent-off-big-sale-discounts-also-include-resin-and-filament-bundles-along-with-3d-scanners-and-toolkits",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -13642,7 +14360,7 @@
         "source_url": "https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/",
         "article_id": "inbox-b05da292df84785e",
         "canonical_url": "https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -13723,7 +14441,7 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
         "article_id": "inbox-dae2d245b124739b",
         "canonical_url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers",
-        "ingested_at": "2026-09-06T23:58:49.331037+00:00"
+        "ingested_at": "2026-09-07T04:49:14.962591+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -13795,7 +14513,7 @@
         "source_url": "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab/",
         "article_id": "inbox-3209fd364d9c2fb7",
         "canonical_url": "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -13874,7 +14592,7 @@
         "source_url": "https://www.nasa.gov/general/nasa-hosts-virtual-artemis-webinar-for-blind-low-vision-community/",
         "article_id": "inbox-9d2558d5ce7528b2",
         "canonical_url": "https://www.nasa.gov/general/nasa-hosts-virtual-artemis-webinar-for-blind-low-vision-community",
-        "ingested_at": "2026-09-06T23:58:50.998072+00:00"
+        "ingested_at": "2026-09-07T04:49:19.131746+00:00"
       },
       "comparable_features": {
         "event_type": "government_action",
@@ -14024,7 +14742,7 @@
         "source_url": "https://arstechnica.com/gaming/2026/09/valve-secretly-leaked-a-left-4-dead-2-trailer-to-dodge-the-esrb/",
         "article_id": "inbox-35d4a355c7f53573",
         "canonical_url": "https://arstechnica.com/gaming/2026/09/valve-secretly-leaked-a-left-4-dead-2-trailer-to-dodge-the-esrb",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -14156,7 +14874,7 @@
         "source_url": "https://arstechnica.com/science/2026/09/brain-of-a-male-fly-completely-mapped-joins-earlier-map-of-a-female-brain/",
         "article_id": "inbox-bfcf4837b6b63984",
         "canonical_url": "https://arstechnica.com/science/2026/09/brain-of-a-male-fly-completely-mapped-joins-earlier-map-of-a-female-brain",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -14238,7 +14956,7 @@
         "source_url": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/",
         "article_id": "inbox-063c5e7cb605f7d1",
         "canonical_url": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -14319,7 +15037,7 @@
         "source_url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
         "article_id": "inbox-1b6663a378561c55",
         "canonical_url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -14407,7 +15125,7 @@
         "source_url": "https://www.tomshardware.com/pc-components/nas/minisforum-launches-local-ai-solutions-at-ifa-2026-ai-agent-nas-n5-and-ai-mini-workstation-ms-s1-use-amd-ryzen-ai-max-pro-495-processors-designed-to-run-models-locally",
         "article_id": "inbox-67d5de2c32232e8d",
         "canonical_url": "https://www.tomshardware.com/pc-components/nas/minisforum-launches-local-ai-solutions-at-ifa-2026-ai-agent-nas-n5-and-ai-mini-workstation-ms-s1-use-amd-ryzen-ai-max-pro-495-processors-designed-to-run-models-locally",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "product_launch",
@@ -14560,7 +15278,7 @@
         "source_url": "https://arstechnica.com/tech-policy/2026/09/musk-wins-court-order-to-block-use-of-twitter-but-not-tweet-and-bird-logo/",
         "article_id": "inbox-b87eecfa5d86d2f2",
         "canonical_url": "https://arstechnica.com/tech-policy/2026/09/musk-wins-court-order-to-block-use-of-twitter-but-not-tweet-and-bird-logo",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -14622,7 +15340,7 @@
         "source_url": "https://arstechnica.com/space/2026/09/why-did-us-space-companies-pull-out-of-a-french-space-meeting-its-complicated/",
         "article_id": "inbox-1528565db47e56dc",
         "canonical_url": "https://arstechnica.com/space/2026/09/why-did-us-space-companies-pull-out-of-a-french-space-meeting-its-complicated",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "government_action",
@@ -14828,7 +15546,7 @@
         "source_url": "https://www.tomshardware.com/gift-guides-seasonal-sales/save-up-to-usd900-in-the-best-buy-labor-day-sale-on-tech-with-huge-discounts-on-gaming-pcs-laptops-and-monitors-secure-an-upgrade-fast-to-beat-rising-hardware-costs",
         "article_id": "inbox-5567692d1f580cc1",
         "canonical_url": "https://www.tomshardware.com/gift-guides-seasonal-sales/save-up-to-usd900-in-the-best-buy-labor-day-sale-on-tech-with-huge-discounts-on-gaming-pcs-laptops-and-monitors-secure-an-upgrade-fast-to-beat-rising-hardware-costs",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -14907,7 +15625,7 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
         "article_id": "inbox-53a913c88e552549",
         "canonical_url": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks",
-        "ingested_at": "2026-09-06T23:58:49.331037+00:00"
+        "ingested_at": "2026-09-07T04:49:14.962591+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -14994,7 +15712,7 @@
         "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/frontier-ai-faces-pricing-reckoning-as-token-volume-explodes-25-fold-mid-tier-models-deliver-90-percent-of-flagship-capability-at-one-sixth-the-cost",
         "article_id": "inbox-64a0b368fa30da16",
         "canonical_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/frontier-ai-faces-pricing-reckoning-as-token-volume-explodes-25-fold-mid-tier-models-deliver-90-percent-of-flagship-capability-at-one-sixth-the-cost",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -15145,7 +15863,7 @@
         "source_url": "https://www.wired.com/story/tesla-cybercab-officially-launches-today-its-already-under-investigation/",
         "article_id": "inbox-1fc148d11bf696c9",
         "canonical_url": "https://www.wired.com/story/tesla-cybercab-officially-launches-today-its-already-under-investigation",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "government_action",
@@ -15298,7 +16016,7 @@
         "source_url": "https://www.wired.com/story/who-cares-if-ai-is-conscious-its-basically-alive/",
         "article_id": "inbox-8c67e5d6c4c78fa2",
         "canonical_url": "https://www.wired.com/story/who-cares-if-ai-is-conscious-its-basically-alive",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -15363,7 +16081,7 @@
         "source_url": "https://techcrunch.com/2026/09/04/cd-sales-are-making-an-unexpected-comeback-amid-a-retro-tech-boom/",
         "article_id": "inbox-6ed1bf5bb6ce5d8e",
         "canonical_url": "https://techcrunch.com/2026/09/04/cd-sales-are-making-an-unexpected-comeback-amid-a-retro-tech-boom",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "earnings",
@@ -15443,7 +16161,7 @@
         "source_url": "https://www.tomshardware.com/video-games/pc-gaming/nvidia-app-update-fails-to-block-unofficial-dlss-multi-frame-generation-on-rtx-40-series-modders-restore-support-across-multiple-games-within-hours",
         "article_id": "inbox-bbd2143ed4ba2bec",
         "canonical_url": "https://www.tomshardware.com/video-games/pc-gaming/nvidia-app-update-fails-to-block-unofficial-dlss-multi-frame-generation-on-rtx-40-series-modders-restore-support-across-multiple-games-within-hours",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "product_launch",
@@ -15574,7 +16292,7 @@
         "source_url": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
         "article_id": "inbox-c94ed59640db1b03",
         "canonical_url": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "market_event",
@@ -15653,7 +16371,7 @@
         "source_url": "https://techcrunch.com/2026/09/04/krafton-doubles-down-on-india-with-another-250m-bet-beyond-gaming/",
         "article_id": "inbox-255f1e8553c35e97",
         "canonical_url": "https://techcrunch.com/2026/09/04/krafton-doubles-down-on-india-with-another-250m-bet-beyond-gaming",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -15733,7 +16451,7 @@
         "source_url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
         "article_id": "inbox-877819e303667014",
         "canonical_url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -15827,7 +16545,7 @@
         "source_url": "https://www.tomshardware.com/pc-components/get-this-stunning-msi-rtx-5060-ti-16g-deal-at-walmart-for-usd200-less-than-anywhere-else-only-usd569-99-for-the-solid-mid-range-shadow-2x-oc-plus-gaming-gpu-is-a-steal-by-anyones-standards",
         "article_id": "inbox-ac505047d82c2948",
         "canonical_url": "https://www.tomshardware.com/pc-components/get-this-stunning-msi-rtx-5060-ti-16g-deal-at-walmart-for-usd200-less-than-anywhere-else-only-usd569-99-for-the-solid-mid-range-shadow-2x-oc-plus-gaming-gpu-is-a-steal-by-anyones-standards",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -15906,7 +16624,7 @@
         "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
         "article_id": "inbox-0b2321f775405cb9",
         "canonical_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client",
-        "ingested_at": "2026-09-06T23:58:49.331037+00:00"
+        "ingested_at": "2026-09-07T04:49:14.962591+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -15974,7 +16692,7 @@
         "source_url": "https://www.coindesk.com/business/2026/09/04/from-warning-to-listing-uk-s-largest-wealth-platform-opens-access-to-crypto-etns",
         "article_id": "inbox-3d687cbea1bb5b45",
         "canonical_url": "https://www.coindesk.com/business/2026/09/04/from-warning-to-listing-uk-s-largest-wealth-platform-opens-access-to-crypto-etns",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "regulatory_action",
@@ -16046,7 +16764,7 @@
         "source_url": "https://www.nasa.gov/image-article/lunar-occultation-of-venus/",
         "article_id": "inbox-e96cbf693eef026a",
         "canonical_url": "https://www.nasa.gov/image-article/lunar-occultation-of-venus",
-        "ingested_at": "2026-09-06T23:58:50.998072+00:00"
+        "ingested_at": "2026-09-07T04:49:19.131746+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -16114,7 +16832,7 @@
         "source_url": "https://www.coindesk.com/policy/2026/09/04/u-s-sheriff-s-association-shifts-opposition-stance-to-clarity-act-to-neutral",
         "article_id": "inbox-47c327102609c412",
         "canonical_url": "https://www.coindesk.com/policy/2026/09/04/u-s-sheriff-s-association-shifts-opposition-stance-to-clarity-act-to-neutral",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -16247,7 +16965,7 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
         "article_id": "inbox-708f9eb75945cfbc",
         "canonical_url": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication",
-        "ingested_at": "2026-09-06T23:58:49.331037+00:00"
+        "ingested_at": "2026-09-07T04:49:14.962591+00:00"
       },
       "comparable_features": {
         "event_type": "research_result",
@@ -16312,7 +17030,7 @@
         "source_url": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/",
         "article_id": "inbox-715af7f8e207a51a",
         "canonical_url": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event",
-        "ingested_at": "2026-09-06T23:58:49.379109+00:00"
+        "ingested_at": "2026-09-07T04:49:15.057935+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -16436,7 +17154,7 @@
         "source_url": "https://www.tomshardware.com/laptops/gaming-laptops/hyperx-omen-15-review",
         "article_id": "inbox-e79f5c53a5bcb467",
         "canonical_url": "https://www.tomshardware.com/laptops/gaming-laptops/hyperx-omen-15-review",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -16654,7 +17372,7 @@
         "source_url": "https://www.tomshardware.com/tech-industry/data-centers/denver-data-center-continuously-waters-its-lawn-even-after-city-announced-drought-restrictions-enraging-residents-its-unclear-if-site-is-breaking-the-law-or-using-its-own-recycled-water",
         "article_id": "inbox-660cbd962700572a",
         "canonical_url": "https://www.tomshardware.com/tech-industry/data-centers/denver-data-center-continuously-waters-its-lawn-even-after-city-announced-drought-restrictions-enraging-residents-its-unclear-if-site-is-breaking-the-law-or-using-its-own-recycled-water",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "infrastructure_investment",
@@ -16722,7 +17440,7 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
         "article_id": "inbox-e2168de616595303",
         "canonical_url": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges",
-        "ingested_at": "2026-09-06T23:58:49.331037+00:00"
+        "ingested_at": "2026-09-07T04:49:14.962591+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -16929,7 +17647,7 @@
         "source_url": "https://www.tomshardware.com/pc-components/cpus/amd-unveils-threadripper-halo-station-an-ai-workstation-packing-96-cores-and-dual-liquid-cooled-mi350p-accelerators-the-most-powerful-workstation-in-the-world-can-run-trillion-parameter-models-says-amd",
         "article_id": "inbox-d1f0809700f5560b",
         "canonical_url": "https://www.tomshardware.com/pc-components/cpus/amd-unveils-threadripper-halo-station-an-ai-workstation-packing-96-cores-and-dual-liquid-cooled-mi350p-accelerators-the-most-powerful-workstation-in-the-world-can-run-trillion-parameter-models-says-amd",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "product_launch",
@@ -17150,7 +17868,7 @@
         "source_url": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys/",
         "article_id": "inbox-eddde8b52e79fe08",
         "canonical_url": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "product_launch",
@@ -17234,7 +17952,7 @@
         "source_url": "https://www.tomshardware.com/pc-components/gpus/discrete-graphics-card-sales-hit-four-year-record-despite-high-prices-shipments-reach-13-24-million-units-as-market-defies-pc-slump",
         "article_id": "inbox-91cfa5d9c8c5c011",
         "canonical_url": "https://www.tomshardware.com/pc-components/gpus/discrete-graphics-card-sales-hit-four-year-record-despite-high-prices-shipments-reach-13-24-million-units-as-market-defies-pc-slump",
-        "ingested_at": "2026-09-06T23:58:52.318136+00:00"
+        "ingested_at": "2026-09-07T04:49:19.686183+00:00"
       },
       "comparable_features": {
         "event_type": "technology_milestone",
@@ -17374,7 +18092,7 @@
         "source_url": "https://www.coindesk.com/markets/2026/09/04/u-s-added-stronger-than-expected-162-000-jobs-in-august-as-labor-market-bounced-back",
         "article_id": "inbox-f85db284b80c06f6",
         "canonical_url": "https://www.coindesk.com/markets/2026/09/04/u-s-added-stronger-than-expected-162-000-jobs-in-august-as-labor-market-bounced-back",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "macroeconomic_event",
@@ -17518,7 +18236,7 @@
         "source_url": "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/",
         "article_id": "inbox-4f00b642e8970786",
         "canonical_url": "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors",
-        "ingested_at": "2026-09-06T23:58:49.331037+00:00"
+        "ingested_at": "2026-09-07T04:49:14.962591+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -17649,7 +18367,7 @@
         "source_url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
         "article_id": "inbox-e729ebf9b81736a3",
         "canonical_url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language",
-        "ingested_at": "2026-09-06T23:58:50.947230+00:00"
+        "ingested_at": "2026-09-07T04:49:19.078820+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -17847,7 +18565,7 @@
         "source_url": "https://www.wired.com/story/japan-launching-probe-to-collect-first-ever-samples-martian-moon/",
         "article_id": "inbox-17ee8461ae089efc",
         "canonical_url": "https://www.wired.com/story/japan-launching-probe-to-collect-first-ever-samples-martian-moon",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "product_launch",
@@ -17928,7 +18646,7 @@
         "source_url": "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog",
         "article_id": "inbox-658edc16a930c876",
         "canonical_url": "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-        "ingested_at": "2026-09-06T23:58:52.622987+00:00"
+        "ingested_at": "2026-09-07T04:49:19.899489+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -18184,7 +18902,7 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
         "article_id": "inbox-ae00d76d3b84207e",
         "canonical_url": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks",
-        "ingested_at": "2026-09-06T23:58:49.331037+00:00"
+        "ingested_at": "2026-09-07T04:49:14.962591+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -18215,7 +18933,7 @@
       ],
       "timestamp": "2026-09-04T11:37:08+00:00",
       "source_ids": [
-        "the-register"
+        "theregister-datacentre"
       ],
       "article_ids": [
         "inbox-03c392f7a37b6a28"
@@ -18250,12 +18968,12 @@
       "interpretations": [],
       "hypotheses": [],
       "provenance": {
-        "source_id": "the-register",
-        "source_name": "The Register",
+        "source_id": "theregister-datacentre",
+        "source_name": "The Register - Off Prem",
         "source_url": "https://www.theregister.com/off-prem/2026/09/04/cloud-snail-mail-service-docmail-enters-third-day-stuck-in-the-outbox/5294476",
         "article_id": "inbox-03c392f7a37b6a28",
         "canonical_url": "https://www.theregister.com/off-prem/2026/09/04/cloud-snail-mail-service-docmail-enters-third-day-stuck-in-the-outbox/5294476",
-        "ingested_at": "2026-09-06T23:58:49.175790+00:00"
+        "ingested_at": "2026-09-07T04:49:20.231657+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -18274,7 +18992,7 @@
           "ai",
           "cloud"
         ],
-        "source_category": "the-register"
+        "source_category": "theregister-datacentre"
       }
     },
     {
@@ -18320,7 +19038,7 @@
         "source_url": "https://www.wired.com/gallery/best-dyson-vacuums/",
         "article_id": "inbox-917f8db7b1e398ae",
         "canonical_url": "https://www.wired.com/gallery/best-dyson-vacuums",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -18457,7 +19175,7 @@
         "source_url": "https://www.coindesk.com/daybook-us/2026/09/04/we-checked-6-years-of-bitcoin-data-the-nfp-report-isn-t-big-price-mover",
         "article_id": "inbox-68886469d42825f2",
         "canonical_url": "https://www.coindesk.com/daybook-us/2026/09/04/we-checked-6-years-of-bitcoin-data-the-nfp-report-isn-t-big-price-mover",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -18596,7 +19314,7 @@
         "source_url": "https://www.wired.com/gallery/best-automatic-cat-litter-boxes/",
         "article_id": "inbox-8982d409d9593fc0",
         "canonical_url": "https://www.wired.com/gallery/best-automatic-cat-litter-boxes",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -18662,7 +19380,7 @@
         "source_url": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/",
         "article_id": "inbox-459b1885d4334398",
         "canonical_url": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -18726,7 +19444,7 @@
         "source_url": "https://www.wired.com/story/secret-orangutan-breeding-program-creating-baby-boom/",
         "article_id": "inbox-842da5737ef0aecb",
         "canonical_url": "https://www.wired.com/story/secret-orangutan-breeding-program-creating-baby-boom",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -19037,7 +19755,7 @@
         "source_url": "https://www.coindesk.com/markets/2026/09/04/zcash-jumps-20-to-landmark-usd1-000-level-as-short-sellers-lose-usd34-million",
         "article_id": "inbox-1e24aa070d852a30",
         "canonical_url": "https://www.coindesk.com/markets/2026/09/04/zcash-jumps-20-to-landmark-usd1-000-level-as-short-sellers-lose-usd34-million",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -19185,7 +19903,7 @@
         "source_url": "https://www.wired.com/gallery/best-monitors-for-mac/",
         "article_id": "inbox-e33eca64de0e41ed",
         "canonical_url": "https://www.wired.com/gallery/best-monitors-for-mac",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -19245,7 +19963,7 @@
         "source_url": "https://www.wired.com/story/measles-outbreaks-immunocompromised-kids-schools/",
         "article_id": "inbox-dc9e1dc5ef9abc3f",
         "canonical_url": "https://www.wired.com/story/measles-outbreaks-immunocompromised-kids-schools",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -19309,7 +20027,7 @@
         "source_url": "https://www.wired.com/story/ice-wants-to-know-who-bought-a-certain-green-beanie-from-rei-in-the-last-2-years/",
         "article_id": "inbox-f364d83a89665591",
         "canonical_url": "https://www.wired.com/story/ice-wants-to-know-who-bought-a-certain-green-beanie-from-rei-in-the-last-2-years",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -19575,7 +20293,7 @@
         "source_url": "https://www.wired.com/story/ai-job-market-infinite-doom-loop/",
         "article_id": "inbox-b5abd573106bbbf2",
         "canonical_url": "https://www.wired.com/story/ai-job-market-infinite-doom-loop",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -19649,7 +20367,7 @@
         "source_url": "https://www.coindesk.com/markets/2026/09/04/bitcoin-clears-usd81-000-as-privacy-coins-lead-a-broad-crypto-rally",
         "article_id": "inbox-a1975da312f8e576",
         "canonical_url": "https://www.coindesk.com/markets/2026/09/04/bitcoin-clears-usd81-000-as-privacy-coins-lead-a-broad-crypto-rally",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -19715,7 +20433,7 @@
         "source_url": "https://www.coindesk.com/business/2026/09/04/imf-confirms-el-salvador-s-bitcoin-growth-was-funded-by-private-donations-not-public-money",
         "article_id": "inbox-084ce801cfde40fe",
         "canonical_url": "https://www.coindesk.com/business/2026/09/04/imf-confirms-el-salvador-s-bitcoin-growth-was-funded-by-private-donations-not-public-money",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -19783,7 +20501,7 @@
         "source_url": "https://www.coindesk.com/business/2026/09/04/south-korea-targets-february-2027-rollout-for-full-tokenized-securities-market",
         "article_id": "inbox-778abe390704653f",
         "canonical_url": "https://www.coindesk.com/business/2026/09/04/south-korea-targets-february-2027-rollout-for-full-tokenized-securities-market",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "regulatory_action",
@@ -19849,7 +20567,7 @@
         "source_url": "https://www.wired.com/story/another-perfect-geometric-shape-detected-on-saturn/",
         "article_id": "inbox-d5a48856b4e4560e",
         "canonical_url": "https://www.wired.com/story/another-perfect-geometric-shape-detected-on-saturn",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -19914,7 +20632,7 @@
         "source_url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
         "article_id": "inbox-1da01826ad5045c6",
         "canonical_url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west",
-        "ingested_at": "2026-09-06T23:58:50.947230+00:00"
+        "ingested_at": "2026-09-07T04:49:19.078820+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -20049,7 +20767,7 @@
         "source_url": "https://www.wired.com/story/silicon-valley-is-having-a-hot-girl-renaissance/",
         "article_id": "inbox-cabfd6c712b215b4",
         "canonical_url": "https://www.wired.com/story/silicon-valley-is-having-a-hot-girl-renaissance",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -20379,7 +21097,7 @@
         "source_url": "https://www.coindesk.com/business/2026/09/04/live-updates-bitcoin-etfs-take-usd731-million-their-biggest-day-since-january",
         "article_id": "inbox-81e63f479376733b",
         "canonical_url": "https://www.coindesk.com/business/2026/09/04/live-updates-bitcoin-etfs-take-usd731-million-their-biggest-day-since-january",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "technology_milestone",
@@ -20676,7 +21394,7 @@
         "source_url": "https://www.coindesk.com/tech/2026/09/04/openai-puts-usd1-billion-behind-cyber-defense-after-unveiling-ai-that-can-find-zero-days",
         "article_id": "inbox-458594251fa3d9ef",
         "canonical_url": "https://www.coindesk.com/tech/2026/09/04/openai-puts-usd1-billion-behind-cyber-defense-after-unveiling-ai-that-can-find-zero-days",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -20751,7 +21469,7 @@
         "source_url": "https://www.coindesk.com/markets/2026/09/04/one-full-bitcoin-now-buys-a-little-more-than-18-ounces-of-gold-the-most-since-january",
         "article_id": "inbox-d23cd713252ffe3a",
         "canonical_url": "https://www.coindesk.com/markets/2026/09/04/one-full-bitcoin-now-buys-a-little-more-than-18-ounces-of-gold-the-most-since-january",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "government_action",
@@ -20824,7 +21542,7 @@
         "source_url": "https://www.wired.com/story/mattress-firm-coupon/",
         "article_id": "inbox-36d1974c0f6e18fb",
         "canonical_url": "https://www.wired.com/story/mattress-firm-coupon",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -20888,7 +21606,7 @@
         "source_url": "https://www.wired.com/story/foreo-promo-code/",
         "article_id": "inbox-160614ee7a655f27",
         "canonical_url": "https://www.wired.com/story/foreo-promo-code",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -20952,7 +21670,7 @@
         "source_url": "https://www.wired.com/story/sportsmans-warehouse-promo-code/",
         "article_id": "inbox-d91c2c3f841bfaed",
         "canonical_url": "https://www.wired.com/story/sportsmans-warehouse-promo-code",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -21014,7 +21732,7 @@
         "source_url": "https://www.wired.com/story/medicube-coupon-code/",
         "article_id": "inbox-153c920e06b56a04",
         "canonical_url": "https://www.wired.com/story/medicube-coupon-code",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -21206,7 +21924,7 @@
         "source_url": "https://www.wired.com/story/purple-promo-code/",
         "article_id": "inbox-99900bdffc79c51b",
         "canonical_url": "https://www.wired.com/story/purple-promo-code",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -21266,7 +21984,7 @@
         "source_url": "https://www.wired.com/story/tuft-and-needle-promo-code/",
         "article_id": "inbox-194c936ae29ccf94",
         "canonical_url": "https://www.wired.com/story/tuft-and-needle-promo-code",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -21328,7 +22046,7 @@
         "source_url": "https://www.wired.com/story/dermstore-promo-code/",
         "article_id": "inbox-2539de91ad004014",
         "canonical_url": "https://www.wired.com/story/dermstore-promo-code",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -21390,7 +22108,7 @@
         "source_url": "https://www.wired.com/story/groupon-promo-code/",
         "article_id": "inbox-6c37c715a45d808d",
         "canonical_url": "https://www.wired.com/story/groupon-promo-code",
-        "ingested_at": "2026-09-06T23:58:49.275798+00:00"
+        "ingested_at": "2026-09-07T04:49:14.854771+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -21415,7 +22133,7 @@
       ],
       "timestamp": "2026-09-04T04:48:25+00:00",
       "source_ids": [
-        "the-register"
+        "theregister-datacentre"
       ],
       "article_ids": [
         "inbox-abf1bff6cd976d1d"
@@ -21464,12 +22182,12 @@
       "interpretations": [],
       "hypotheses": [],
       "provenance": {
-        "source_id": "the-register",
-        "source_name": "The Register",
+        "source_id": "theregister-datacentre",
+        "source_name": "The Register - Off Prem",
         "source_url": "https://www.theregister.com/off-prem/2026/09/04/google-engineer-unplugged-every-fiber-they-could-see-and-surprise-took-down-a-chunk-of-the-g-cloud/5294418",
         "article_id": "inbox-abf1bff6cd976d1d",
         "canonical_url": "https://www.theregister.com/off-prem/2026/09/04/google-engineer-unplugged-every-fiber-they-could-see-and-surprise-took-down-a-chunk-of-the-g-cloud/5294418",
-        "ingested_at": "2026-09-06T23:58:49.175790+00:00"
+        "ingested_at": "2026-09-07T04:49:20.231657+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -21492,7 +22210,7 @@
         "technology_tags": [
           "cloud"
         ],
-        "source_category": "the-register"
+        "source_category": "theregister-datacentre"
       }
     },
     {
@@ -21548,7 +22266,7 @@
         "source_url": "https://www.coindesk.com/markets/2026/09/04/bitcoin-back-above-usd81-000-as-hike-odds-fade-zcash-leads-with-15-jump",
         "article_id": "inbox-17b943dd440bda93",
         "canonical_url": "https://www.coindesk.com/markets/2026/09/04/bitcoin-back-above-usd81-000-as-hike-odds-fade-zcash-leads-with-15-jump",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "government_action",
@@ -21682,7 +22400,7 @@
         "source_url": "https://science.nasa.gov/image-article/apod-2026-september-4-na-uhane-mahoe-huki-pu-i-ke-ola/",
         "article_id": "inbox-e7d9890a85fb337c",
         "canonical_url": "https://science.nasa.gov/image-article/apod-2026-september-4-na-uhane-mahoe-huki-pu-i-ke-ola",
-        "ingested_at": "2026-09-06T23:58:50.998072+00:00"
+        "ingested_at": "2026-09-07T04:49:19.131746+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -21744,7 +22462,7 @@
         "source_url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/",
         "article_id": "inbox-215405bc46fa4428",
         "canonical_url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific",
-        "ingested_at": "2026-09-06T23:58:50.998072+00:00"
+        "ingested_at": "2026-09-07T04:49:19.131746+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -21939,7 +22657,7 @@
         "source_url": "https://www.coindesk.com/policy/2026/09/03/u-s-banking-agency-gives-blockchain-bank-openreserve-initial-ok-to-operate",
         "article_id": "inbox-c3474d7248acfa19",
         "canonical_url": "https://www.coindesk.com/policy/2026/09/03/u-s-banking-agency-gives-blockchain-bank-openreserve-initial-ok-to-operate",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -22008,7 +22726,7 @@
         "source_url": "https://www.coindesk.com/business/2026/09/03/amc-ceo-blasts-robinhood-for-stock-token-putting-synthetic-shares-in-spotlight",
         "article_id": "inbox-5b52425ce41074a6",
         "canonical_url": "https://www.coindesk.com/business/2026/09/03/amc-ceo-blasts-robinhood-for-stock-token-putting-synthetic-shares-in-spotlight",
-        "ingested_at": "2026-09-06T23:58:52.477598+00:00"
+        "ingested_at": "2026-09-07T04:49:19.811503+00:00"
       },
       "comparable_features": {
         "event_type": "market_event",
@@ -23122,7 +23840,7 @@
         "source_url": "https://arstechnica.com/health/2026/09/reports-rfk-jr-ordered-measles-deaths-deletion-cdc-still-secretly-counts-them/",
         "article_id": "inbox-c33c7ee0e7f7dd0e",
         "canonical_url": "https://arstechnica.com/health/2026/09/reports-rfk-jr-ordered-measles-deaths-deletion-cdc-still-secretly-counts-them",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -23193,7 +23911,7 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
         "article_id": "inbox-b0d447b7441b7086",
         "canonical_url": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000",
-        "ingested_at": "2026-09-06T23:58:49.331037+00:00"
+        "ingested_at": "2026-09-07T04:49:14.962591+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -23500,7 +24218,7 @@
         "source_url": "https://arstechnica.com/gaming/2026/09/xbox-imposes-harsh-new-time-limits-for-game-pass-game-streaming/",
         "article_id": "inbox-308e1aaf5bfeeb94",
         "canonical_url": "https://arstechnica.com/gaming/2026/09/xbox-imposes-harsh-new-time-limits-for-game-pass-game-streaming",
-        "ingested_at": "2026-09-06T23:58:48.723803+00:00"
+        "ingested_at": "2026-09-07T04:49:14.343479+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -23765,7 +24483,7 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
         "article_id": "inbox-5b6072db9618c9a4",
         "canonical_url": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules",
-        "ingested_at": "2026-09-06T23:58:49.331037+00:00"
+        "ingested_at": "2026-09-07T04:49:14.962591+00:00"
       },
       "comparable_features": {
         "event_type": "infrastructure_investment",
@@ -24886,7 +25604,7 @@
         "source_url": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
         "article_id": "inbox-2798f667c7d262d4",
         "canonical_url": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw",
-        "ingested_at": "2026-09-06T23:58:49.331037+00:00"
+        "ingested_at": "2026-09-07T04:49:14.962591+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -25928,7 +26646,7 @@
         "source_url": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/",
         "article_id": "inbox-7b35fa79984151bf",
         "canonical_url": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking",
-        "ingested_at": "2026-09-06T23:58:50.998072+00:00"
+        "ingested_at": "2026-09-07T04:49:19.131746+00:00"
       },
       "comparable_features": {
         "event_type": "government_action",
@@ -26758,7 +27476,7 @@
         "source_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
         "article_id": "inbox-a21d52d8df96d026",
         "canonical_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
-        "ingested_at": "2026-09-06T23:58:52.912126+00:00"
+        "ingested_at": "2026-09-07T04:49:20.092492+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -27501,7 +28219,7 @@
         "source_url": "https://science.nasa.gov/blog/curiosity-blog-sols-4988-4994-more-new-tricks-for-an-old-dog/",
         "article_id": "inbox-2f63d6ebf7512958",
         "canonical_url": "https://science.nasa.gov/blog/curiosity-blog-sols-4988-4994-more-new-tricks-for-an-old-dog",
-        "ingested_at": "2026-09-06T23:58:50.998072+00:00"
+        "ingested_at": "2026-09-07T04:49:19.131746+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -28089,7 +28807,7 @@
         "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
         "article_id": "inbox-99965142270dc515",
         "canonical_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs",
-        "ingested_at": "2026-09-06T23:58:49.331037+00:00"
+        "ingested_at": "2026-09-07T04:49:14.962591+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -29626,7 +30344,7 @@
         "source_url": "https://www.nasa.gov/image-article/igniting-romans-journey/",
         "article_id": "inbox-eb8ab87f672c773c",
         "canonical_url": "https://www.nasa.gov/image-article/igniting-romans-journey",
-        "ingested_at": "2026-09-06T23:58:50.998072+00:00"
+        "ingested_at": "2026-09-07T04:49:19.131746+00:00"
       },
       "comparable_features": {
         "event_type": "government_action",
@@ -30140,7 +30858,7 @@
         "source_url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-superbubble-scene/",
         "article_id": "inbox-d05340992a7508f4",
         "canonical_url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-superbubble-scene",
-        "ingested_at": "2026-09-06T23:58:50.998072+00:00"
+        "ingested_at": "2026-09-07T04:49:19.131746+00:00"
       },
       "comparable_features": {
         "event_type": "government_action",
@@ -30232,7 +30950,7 @@
         "source_url": "https://openai.com/index/daybreak-for-frontline-defenders",
         "article_id": "inbox-5a920cbc08809a50",
         "canonical_url": "https://openai.com/index/daybreak-for-frontline-defenders",
-        "ingested_at": "2026-09-06T23:58:51.112806+00:00"
+        "ingested_at": "2026-09-07T04:49:19.314192+00:00"
       },
       "comparable_features": {
         "event_type": "product_launch",
@@ -30414,7 +31132,7 @@
         "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
         "article_id": "inbox-f024c257f30daaa0",
         "canonical_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list",
-        "ingested_at": "2026-09-06T23:58:52.912126+00:00"
+        "ingested_at": "2026-09-07T04:49:20.092492+00:00"
       },
       "comparable_features": {
         "event_type": "partnership",
@@ -31164,7 +31882,7 @@
         "source_url": "https://spectrum.ieee.org/industrial-robot-cable-carrier-protection",
         "article_id": "inbox-4b314afd79a5c7f1",
         "canonical_url": "https://spectrum.ieee.org/industrial-robot-cable-carrier-protection",
-        "ingested_at": "2026-09-06T23:58:49.603832+00:00"
+        "ingested_at": "2026-09-07T04:49:15.680279+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -31569,7 +32287,7 @@
         "source_url": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/",
         "article_id": "inbox-5dc05f6c89678ca1",
         "canonical_url": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming",
-        "ingested_at": "2026-09-06T23:58:50.947230+00:00"
+        "ingested_at": "2026-09-07T04:49:19.078820+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -31920,7 +32638,7 @@
         "source_url": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
         "article_id": "inbox-a1be52bc9394b2d6",
         "canonical_url": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
-        "ingested_at": "2026-09-06T23:58:52.622987+00:00"
+        "ingested_at": "2026-09-07T04:49:19.899489+00:00"
       },
       "comparable_features": {
         "event_type": "government_action",
@@ -31993,7 +32711,7 @@
         "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-05",
         "article_id": "inbox-34ed4d54978d600a",
         "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-05",
-        "ingested_at": "2026-09-06T23:58:52.622987+00:00"
+        "ingested_at": "2026-09-07T04:49:19.899489+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -32065,7 +32783,7 @@
         "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
         "article_id": "inbox-25401dc69d8a4fb6",
         "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
-        "ingested_at": "2026-09-06T23:58:52.622987+00:00"
+        "ingested_at": "2026-09-07T04:49:19.899489+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -32138,7 +32856,7 @@
         "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06",
         "article_id": "inbox-2ce9ac7ff452ef2b",
         "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06",
-        "ingested_at": "2026-09-06T23:58:52.622987+00:00"
+        "ingested_at": "2026-09-07T04:49:19.899489+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -32218,7 +32936,7 @@
         "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-01",
         "article_id": "inbox-1f43ecea3db5633b",
         "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-01",
-        "ingested_at": "2026-09-06T23:58:52.622987+00:00"
+        "ingested_at": "2026-09-07T04:49:19.899489+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -32295,7 +33013,7 @@
         "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-08",
         "article_id": "inbox-6776ca06530b72e0",
         "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-08",
-        "ingested_at": "2026-09-06T23:58:52.622987+00:00"
+        "ingested_at": "2026-09-07T04:49:19.899489+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -32375,7 +33093,7 @@
         "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07",
         "article_id": "inbox-96f3c9f41a3abd8a",
         "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07",
-        "ingested_at": "2026-09-06T23:58:52.622987+00:00"
+        "ingested_at": "2026-09-07T04:49:19.899489+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -32452,7 +33170,7 @@
         "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03",
         "article_id": "inbox-97781354db0ab8ed",
         "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03",
-        "ingested_at": "2026-09-06T23:58:52.622987+00:00"
+        "ingested_at": "2026-09-07T04:49:19.899489+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -32524,7 +33242,7 @@
         "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-04",
         "article_id": "inbox-e2de583210f1167c",
         "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-04",
-        "ingested_at": "2026-09-06T23:58:52.622987+00:00"
+        "ingested_at": "2026-09-07T04:49:19.899489+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -32599,7 +33317,7 @@
         "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-02",
         "article_id": "inbox-ade2afd7200b765b",
         "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-02",
-        "ingested_at": "2026-09-06T23:58:52.622987+00:00"
+        "ingested_at": "2026-09-07T04:49:19.899489+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -32673,7 +33391,7 @@
         "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-07",
         "article_id": "inbox-da4a4c75aa6ddd6f",
         "canonical_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-07",
-        "ingested_at": "2026-09-06T23:58:52.622987+00:00"
+        "ingested_at": "2026-09-07T04:49:19.899489+00:00"
       },
       "comparable_features": {
         "event_type": "security_incident",
@@ -32741,7 +33459,7 @@
         "source_url": "https://openai.com/index/legora-financial-statement-review-with-astra",
         "article_id": "inbox-7b75fd9064bcdfbb",
         "canonical_url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-        "ingested_at": "2026-09-06T23:58:51.112806+00:00"
+        "ingested_at": "2026-09-07T04:49:19.314192+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -32805,7 +33523,7 @@
         "source_url": "https://openai.com/index/playco-game-prototyping-with-astra",
         "article_id": "inbox-bf00a3b786eca974",
         "canonical_url": "https://openai.com/index/playco-game-prototyping-with-astra",
-        "ingested_at": "2026-09-06T23:58:51.112806+00:00"
+        "ingested_at": "2026-09-07T04:49:19.314192+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -32892,7 +33610,7 @@
         "source_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
         "article_id": "inbox-fc123886e41ba46c",
         "canonical_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
-        "ingested_at": "2026-09-06T23:58:52.912126+00:00"
+        "ingested_at": "2026-09-07T04:49:20.092492+00:00"
       },
       "comparable_features": {
         "event_type": "infrastructure_investment",
@@ -33443,7 +34161,7 @@
         "source_url": "https://openai.com/index/gpt-6-astra",
         "article_id": "inbox-bef76aa5a9f72572",
         "canonical_url": "https://openai.com/index/gpt-6-astra",
-        "ingested_at": "2026-09-06T23:58:51.112806+00:00"
+        "ingested_at": "2026-09-07T04:49:19.314192+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -34875,7 +35593,7 @@
         "source_url": "https://www.technologyreview.com/2026/09/03/1143320/fertilizer-prices-fossil-fuels/",
         "article_id": "inbox-233e0f206d20cbf8",
         "canonical_url": "https://www.technologyreview.com/2026/09/03/1143320/fertilizer-prices-fossil-fuels",
-        "ingested_at": "2026-09-06T23:58:50.947230+00:00"
+        "ingested_at": "2026-09-07T04:49:19.078820+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -35026,7 +35744,7 @@
         "source_url": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
         "article_id": "inbox-5f97eb6489c3522b",
         "canonical_url": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise",
-        "ingested_at": "2026-09-06T23:58:50.947230+00:00"
+        "ingested_at": "2026-09-07T04:49:19.078820+00:00"
       },
       "comparable_features": {
         "event_type": "company_announcement",
@@ -37341,7 +38059,7 @@
         "source_url": "https://openai.com/index/safety-overview-gpt-6-astra",
         "article_id": "inbox-b693b4efd0fde07e",
         "canonical_url": "https://openai.com/index/safety-overview-gpt-6-astra",
-        "ingested_at": "2026-09-06T23:58:51.112806+00:00"
+        "ingested_at": "2026-09-07T04:49:19.314192+00:00"
       },
       "comparable_features": {
         "event_type": "technology_milestone",
@@ -39712,7 +40430,7 @@
         "source_url": "https://spectrum.ieee.org/forms-of-engineering-mentorship",
         "article_id": "inbox-ac952555fe99b2f2",
         "canonical_url": "https://spectrum.ieee.org/forms-of-engineering-mentorship",
-        "ingested_at": "2026-09-06T23:58:49.603832+00:00"
+        "ingested_at": "2026-09-07T04:49:15.680279+00:00"
       },
       "comparable_features": {
         "event_type": "partnership",
@@ -41134,7 +41852,7 @@
         "source_url": "https://spectrum.ieee.org/canadarm-ieee-300th-milestone",
         "article_id": "inbox-ed7f5fca30214f6c",
         "canonical_url": "https://spectrum.ieee.org/canadarm-ieee-300th-milestone",
-        "ingested_at": "2026-09-06T23:58:49.603832+00:00"
+        "ingested_at": "2026-09-07T04:49:15.680279+00:00"
       },
       "comparable_features": {
         "event_type": "government_action",
@@ -42661,780 +43379,6 @@
         "magnitude_bucket": "unknown",
         "technology_tags": [],
         "source_category": "bleepingcomputer"
-      }
-    },
-    {
-      "event_id": "evt-73e0b2958c3f5f70",
-      "event_type": "government_action",
-      "event_types": [
-        "government_action"
-      ],
-      "timestamp": "2026-09-02T15:40:00+00:00",
-      "source_ids": [
-        "google-ai"
-      ],
-      "article_ids": [
-        "inbox-9bcf775f71c2a20c"
-      ],
-      "companies": [],
-      "entities": [],
-      "countries": [],
-      "sectors": [
-        "enterprise_tech",
-        "cybersecurity",
-        "defence_tech"
-      ],
-      "assets": [],
-      "amounts": [],
-      "technologies": [
-        "ai"
-      ],
-      "geography": {
-        "headquarters": [],
-        "event_location_labels": [],
-        "event_country_ids": [],
-        "regulatory_jurisdiction_labels": [],
-        "regulatory_country_ids": [],
-        "regions": [],
-        "market_location_country_ids": []
-      },
-      "facts": [
-        "Proactive cyber defense for governments and enterprises",
-        "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools."
-      ],
-      "confidence": "medium",
-      "interpretation_status": "unreviewed",
-      "interpretations": [],
-      "hypotheses": [],
-      "provenance": {
-        "source_id": "google-ai",
-        "source_name": "Google AI Blog",
-        "source_url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-        "article_id": "inbox-9bcf775f71c2a20c",
-        "canonical_url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program",
-        "ingested_at": "2026-09-06T23:58:51.432925+00:00"
-      },
-      "comparable_features": {
-        "event_type": "government_action",
-        "event_types": [
-          "government_action"
-        ],
-        "entities": [],
-        "sectors": [
-          "enterprise_tech",
-          "cybersecurity",
-          "defence_tech"
-        ],
-        "countries": [],
-        "assets": [],
-        "has_amount": false,
-        "magnitude_bucket": "unknown",
-        "technology_tags": [
-          "ai"
-        ],
-        "source_category": "google-ai"
-      }
-    },
-    {
-      "event_id": "evt-3a49ca4499247915",
-      "event_type": "company_announcement",
-      "event_types": [
-        "company_announcement"
-      ],
-      "timestamp": "2026-09-02T15:38:50+00:00",
-      "source_ids": [
-        "nasa-breaking"
-      ],
-      "article_ids": [
-        "inbox-52798e83eb2b09b0"
-      ],
-      "companies": [],
-      "entities": [],
-      "countries": [],
-      "sectors": [
-        "space"
-      ],
-      "assets": [],
-      "amounts": [],
-      "technologies": [],
-      "geography": {
-        "headquarters": [],
-        "event_location_labels": [],
-        "event_country_ids": [],
-        "regulatory_jurisdiction_labels": [],
-        "regulatory_country_ids": [],
-        "regions": [],
-        "market_location_country_ids": []
-      },
-      "facts": [
-        "Rising Over Louisiana",
-        "On Aug. 28, 2026 (the evening of Aug. 27 in some time zones), the Moon passed into Earth’s shadow, creating a deep partial lunar eclipse. At the moment of greatest eclipse, 12:13 a.m. EDT, 96.3% of the Moon’s disk was immersed in Earth’s umbra—the central, darkest part of the shadow where sunlight is completely blocked. [&#8230;]"
-      ],
-      "confidence": "medium",
-      "interpretation_status": "unreviewed",
-      "interpretations": [],
-      "hypotheses": [],
-      "provenance": {
-        "source_id": "nasa-breaking",
-        "source_name": "NASA Breaking News",
-        "source_url": "https://www.nasa.gov/image-article/rising-over-louisiana/",
-        "article_id": "inbox-52798e83eb2b09b0",
-        "canonical_url": "https://www.nasa.gov/image-article/rising-over-louisiana",
-        "ingested_at": "2026-09-04T11:24:37.655712+00:00"
-      },
-      "comparable_features": {
-        "event_type": "company_announcement",
-        "event_types": [
-          "company_announcement"
-        ],
-        "entities": [],
-        "sectors": [
-          "space"
-        ],
-        "countries": [],
-        "assets": [],
-        "has_amount": false,
-        "magnitude_bucket": "unknown",
-        "technology_tags": [],
-        "source_category": "nasa-breaking"
-      }
-    },
-    {
-      "event_id": "evt-7625a7716318b497",
-      "event_type": "company_announcement",
-      "event_types": [
-        "company_announcement"
-      ],
-      "timestamp": "2026-09-02T15:31:00+00:00",
-      "source_ids": [
-        "the-register"
-      ],
-      "article_ids": [
-        "inbox-b21ab799beab9a4a"
-      ],
-      "companies": [
-        "microsoft"
-      ],
-      "entities": [
-        "microsoft"
-      ],
-      "countries": [],
-      "sectors": [],
-      "assets": [
-        "msft"
-      ],
-      "amounts": [],
-      "technologies": [
-        "ai"
-      ],
-      "geography": {
-        "headquarters": [
-          {
-            "entity_id": "microsoft",
-            "country_id": "840",
-            "country_label": "United States",
-            "location_type": "headquarters",
-            "evidence": "entity_registry"
-          }
-        ],
-        "event_location_labels": [],
-        "event_country_ids": [],
-        "regulatory_jurisdiction_labels": [],
-        "regulatory_country_ids": [],
-        "regions": [],
-        "market_location_country_ids": []
-      },
-      "facts": [
-        "Microsoft will stop finishing your sentences in Word and Outlook",
-        "Predictive text remains available, but users will have to invite it into their workflow"
-      ],
-      "confidence": "medium",
-      "interpretation_status": "unreviewed",
-      "interpretations": [],
-      "hypotheses": [],
-      "provenance": {
-        "source_id": "the-register",
-        "source_name": "The Register",
-        "source_url": "https://www.theregister.com/ai-and-ml/2026/09/02/microsoft-will-stop-finishing-your-sentences-in-word-and-outlook/5293860",
-        "article_id": "inbox-b21ab799beab9a4a",
-        "canonical_url": "https://www.theregister.com/ai-and-ml/2026/09/02/microsoft-will-stop-finishing-your-sentences-in-word-and-outlook/5293860",
-        "ingested_at": "2026-09-04T05:58:17.568741+00:00"
-      },
-      "comparable_features": {
-        "event_type": "company_announcement",
-        "event_types": [
-          "company_announcement"
-        ],
-        "entities": [
-          "microsoft"
-        ],
-        "sectors": [],
-        "countries": [],
-        "assets": [
-          "msft"
-        ],
-        "has_amount": false,
-        "magnitude_bucket": "unknown",
-        "technology_tags": [
-          "ai"
-        ],
-        "source_category": "the-register"
-      }
-    },
-    {
-      "event_id": "evt-68ee8da0614b1e7a",
-      "event_type": "company_announcement",
-      "event_types": [
-        "company_announcement"
-      ],
-      "timestamp": "2026-09-02T15:25:55+00:00",
-      "source_ids": [
-        "hacker-news"
-      ],
-      "article_ids": [
-        "inbox-ecee2fab01f3a2d0"
-      ],
-      "companies": [
-        "amd"
-      ],
-      "entities": [
-        "amd"
-      ],
-      "countries": [],
-      "sectors": [
-        "defence_tech",
-        "semiconductors"
-      ],
-      "assets": [
-        "amd"
-      ],
-      "amounts": [],
-      "technologies": [],
-      "geography": {
-        "headquarters": [
-          {
-            "entity_id": "amd",
-            "country_id": "840",
-            "country_label": "United States",
-            "location_type": "headquarters",
-            "evidence": "entity_registry"
-          }
-        ],
-        "event_location_labels": [],
-        "event_country_ids": [],
-        "regulatory_jurisdiction_labels": [],
-        "regulatory_country_ids": [],
-        "regions": [],
-        "market_location_country_ids": []
-      },
-      "facts": [
-        "SteamdDB Joins Nexus Mods",
-        "Article URL: https://www.nexusmods.com/news/15597 Comments URL: https://news.ycombinator.com/item?id=49537738 Points: 95 # Comments: 60"
-      ],
-      "confidence": "low",
-      "interpretation_status": "unreviewed",
-      "interpretations": [],
-      "hypotheses": [],
-      "provenance": {
-        "source_id": "hacker-news",
-        "source_name": "Hacker News",
-        "source_url": "https://www.nexusmods.com/news/15597",
-        "article_id": "inbox-ecee2fab01f3a2d0",
-        "canonical_url": "https://www.nexusmods.com/news/15597",
-        "ingested_at": "2026-09-02T22:41:05.838034+00:00"
-      },
-      "comparable_features": {
-        "event_type": "company_announcement",
-        "event_types": [
-          "company_announcement"
-        ],
-        "entities": [
-          "amd"
-        ],
-        "sectors": [
-          "defence_tech",
-          "semiconductors"
-        ],
-        "countries": [],
-        "assets": [
-          "amd"
-        ],
-        "has_amount": false,
-        "magnitude_bucket": "unknown",
-        "technology_tags": [],
-        "source_category": "hacker-news"
-      }
-    },
-    {
-      "event_id": "evt-3e5d7215bb12f004",
-      "event_type": "funding",
-      "event_types": [
-        "funding"
-      ],
-      "timestamp": "2026-09-02T15:15:02+00:00",
-      "source_ids": [
-        "coindesk"
-      ],
-      "article_ids": [
-        "inbox-63b33228c77f9b95"
-      ],
-      "companies": [],
-      "entities": [],
-      "countries": [],
-      "sectors": [
-        "crypto"
-      ],
-      "assets": [],
-      "amounts": [],
-      "technologies": [],
-      "geography": {
-        "headquarters": [],
-        "event_location_labels": [],
-        "event_country_ids": [],
-        "regulatory_jurisdiction_labels": [],
-        "regulatory_country_ids": [],
-        "regions": [],
-        "market_location_country_ids": []
-      },
-      "facts": [
-        "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline",
-        "In this week's Crypto Long & Short, Varun Datta of Truth Ventures writes that crypto venture capital's retreat to later-stage deals is a consensus trade dressed as discipline. With proven companies taking 57% of last quarter's capital, he argues the founding-stage gap is where the returns are, and lays out three things to look for."
-      ],
-      "confidence": "medium",
-      "interpretation_status": "unreviewed",
-      "interpretations": [],
-      "hypotheses": [],
-      "provenance": {
-        "source_id": "coindesk",
-        "source_name": "CoinDesk",
-        "source_url": "https://www.coindesk.com/coindesk-indices/2026/09/02/crypto-long-and-short-crypto-vcs-are-mistaking-consensus-for-discipline",
-        "article_id": "inbox-63b33228c77f9b95",
-        "canonical_url": "https://www.coindesk.com/coindesk-indices/2026/09/02/crypto-long-and-short-crypto-vcs-are-mistaking-consensus-for-discipline",
-        "ingested_at": "2026-09-04T05:58:20.883399+00:00"
-      },
-      "comparable_features": {
-        "event_type": "funding",
-        "event_types": [
-          "funding"
-        ],
-        "entities": [],
-        "sectors": [
-          "crypto"
-        ],
-        "countries": [],
-        "assets": [],
-        "has_amount": false,
-        "magnitude_bucket": "unknown",
-        "technology_tags": [],
-        "source_category": "coindesk"
-      }
-    },
-    {
-      "event_id": "evt-02360b100ec4028a",
-      "event_type": "company_announcement",
-      "event_types": [
-        "company_announcement"
-      ],
-      "timestamp": "2026-09-02T15:12:40+00:00",
-      "source_ids": [
-        "hacker-news"
-      ],
-      "article_ids": [
-        "inbox-36dfc74a51af4950"
-      ],
-      "companies": [
-        "google"
-      ],
-      "entities": [
-        "google"
-      ],
-      "countries": [],
-      "sectors": [
-        "ai",
-        "cybersecurity",
-        "defence_tech"
-      ],
-      "assets": [
-        "goog"
-      ],
-      "amounts": [],
-      "technologies": [],
-      "geography": {
-        "headquarters": [
-          {
-            "entity_id": "google",
-            "country_id": "840",
-            "country_label": "United States",
-            "location_type": "headquarters",
-            "evidence": "entity_registry"
-          }
-        ],
-        "event_location_labels": [],
-        "event_country_ids": [],
-        "regulatory_jurisdiction_labels": [],
-        "regulatory_country_ids": [],
-        "regions": [],
-        "market_location_country_ids": []
-      },
-      "facts": [
-        "Gemini 3.8 Flash and 3.8 Flash Cyber",
-        "https://deepmind.google/models/model-cards/gemini-3-8-flash/ Comments URL: https://news.ycombinator.com/item?id=49537553 Points: 1125 # Comments: 633"
-      ],
-      "confidence": "low",
-      "interpretation_status": "unreviewed",
-      "interpretations": [],
-      "hypotheses": [],
-      "provenance": {
-        "source_id": "hacker-news",
-        "source_name": "Hacker News",
-        "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-        "article_id": "inbox-36dfc74a51af4950",
-        "canonical_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber",
-        "ingested_at": "2026-09-03T16:29:55.950518+00:00"
-      },
-      "comparable_features": {
-        "event_type": "company_announcement",
-        "event_types": [
-          "company_announcement"
-        ],
-        "entities": [
-          "google"
-        ],
-        "sectors": [
-          "ai",
-          "cybersecurity",
-          "defence_tech"
-        ],
-        "countries": [],
-        "assets": [
-          "goog"
-        ],
-        "has_amount": false,
-        "magnitude_bucket": "unknown",
-        "technology_tags": [],
-        "source_category": "hacker-news"
-      }
-    },
-    {
-      "event_id": "evt-6ae5c82a184c76fa",
-      "event_type": "company_announcement",
-      "event_types": [
-        "company_announcement"
-      ],
-      "timestamp": "2026-09-02T15:12:40+00:00",
-      "source_ids": [
-        "hacker-news"
-      ],
-      "article_ids": [
-        "inbox-f58f738dcd678595"
-      ],
-      "companies": [
-        "google"
-      ],
-      "entities": [
-        "google"
-      ],
-      "countries": [],
-      "sectors": [
-        "ai",
-        "defence_tech"
-      ],
-      "assets": [
-        "goog"
-      ],
-      "amounts": [],
-      "technologies": [],
-      "geography": {
-        "headquarters": [
-          {
-            "entity_id": "google",
-            "country_id": "840",
-            "country_label": "United States",
-            "location_type": "headquarters",
-            "evidence": "entity_registry"
-          }
-        ],
-        "event_location_labels": [],
-        "event_country_ids": [],
-        "regulatory_jurisdiction_labels": [],
-        "regulatory_country_ids": [],
-        "regions": [],
-        "market_location_country_ids": []
-      },
-      "facts": [
-        "Gemini 3.8 Flash",
-        "Article URL: https://deepmind.google/models/model-cards/gemini-3-8-flash/ Comments URL: https://news.ycombinator.com/item?id=49537553 Points: 257 # Comments: 134"
-      ],
-      "confidence": "low",
-      "interpretation_status": "unreviewed",
-      "interpretations": [],
-      "hypotheses": [],
-      "provenance": {
-        "source_id": "hacker-news",
-        "source_name": "Hacker News",
-        "source_url": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
-        "article_id": "inbox-f58f738dcd678595",
-        "canonical_url": "https://deepmind.google/models/model-cards/gemini-3-8-flash",
-        "ingested_at": "2026-09-02T16:38:55.197219+00:00"
-      },
-      "comparable_features": {
-        "event_type": "company_announcement",
-        "event_types": [
-          "company_announcement"
-        ],
-        "entities": [
-          "google"
-        ],
-        "sectors": [
-          "ai",
-          "defence_tech"
-        ],
-        "countries": [],
-        "assets": [
-          "goog"
-        ],
-        "has_amount": false,
-        "magnitude_bucket": "unknown",
-        "technology_tags": [],
-        "source_category": "hacker-news"
-      }
-    },
-    {
-      "event_id": "evt-c77b68622516d4c1",
-      "event_type": "company_announcement",
-      "event_types": [
-        "company_announcement"
-      ],
-      "timestamp": "2026-09-02T15:05:41+00:00",
-      "source_ids": [
-        "toms-hardware"
-      ],
-      "article_ids": [
-        "inbox-c8fc2e0cc38399ac"
-      ],
-      "companies": [
-        "tsmc"
-      ],
-      "entities": [
-        "tsmc"
-      ],
-      "countries": [],
-      "sectors": [
-        "semiconductors"
-      ],
-      "assets": [
-        "tsm"
-      ],
-      "amounts": [],
-      "technologies": [],
-      "geography": {
-        "headquarters": [
-          {
-            "entity_id": "tsmc",
-            "country_id": "158",
-            "country_label": "Taiwan",
-            "location_type": "headquarters",
-            "evidence": "entity_registry"
-          }
-        ],
-        "event_location_labels": [],
-        "event_country_ids": [],
-        "regulatory_jurisdiction_labels": [],
-        "regulatory_country_ids": [],
-        "regions": [],
-        "market_location_country_ids": []
-      },
-      "facts": [
-        "The current state of Hybrid Bonding in 2026 — TSMC sits at 6 microns and the HBM delay that nobody expected",
-        "Hybrid bonding, the copper-to-copper joining technique that replaces solder microbumps in 3D chip stacks, is in high-volume production on logic and freshly postponed on memory."
-      ],
-      "confidence": "medium",
-      "interpretation_status": "unreviewed",
-      "interpretations": [],
-      "hypotheses": [],
-      "provenance": {
-        "source_id": "toms-hardware",
-        "source_name": "Tom's Hardware",
-        "source_url": "https://www.tomshardware.com/tech-industry/semiconductors/hybrid-bonding-roadmap-examined",
-        "article_id": "inbox-c8fc2e0cc38399ac",
-        "canonical_url": "https://www.tomshardware.com/tech-industry/semiconductors/hybrid-bonding-roadmap-examined",
-        "ingested_at": "2026-09-04T11:24:38.294148+00:00"
-      },
-      "comparable_features": {
-        "event_type": "company_announcement",
-        "event_types": [
-          "company_announcement"
-        ],
-        "entities": [
-          "tsmc"
-        ],
-        "sectors": [
-          "semiconductors"
-        ],
-        "countries": [],
-        "assets": [
-          "tsm"
-        ],
-        "has_amount": false,
-        "magnitude_bucket": "unknown",
-        "technology_tags": [],
-        "source_category": "toms-hardware"
-      }
-    },
-    {
-      "event_id": "evt-265724d0451c1cd8",
-      "event_type": "company_announcement",
-      "event_types": [
-        "company_announcement"
-      ],
-      "timestamp": "2026-09-02T15:01:23+00:00",
-      "source_ids": [
-        "techcrunch"
-      ],
-      "article_ids": [
-        "inbox-8c9179a5ff9b98fe"
-      ],
-      "companies": [],
-      "entities": [],
-      "countries": [],
-      "sectors": [
-        "enterprise_tech",
-        "ai",
-        "cybersecurity"
-      ],
-      "assets": [],
-      "amounts": [
-        {
-          "raw": "$100M",
-          "usd": 100000000.0,
-          "currency": "USD"
-        }
-      ],
-      "technologies": [
-        "ai"
-      ],
-      "geography": {
-        "headquarters": [],
-        "event_location_labels": [],
-        "event_country_ids": [],
-        "regulatory_jurisdiction_labels": [],
-        "regulatory_country_ids": [],
-        "regions": [],
-        "market_location_country_ids": []
-      },
-      "facts": [
-        "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
-        "Security companies are scrambling to build products that can monitor not just agents but also the tools and add-ons they use."
-      ],
-      "confidence": "medium",
-      "interpretation_status": "unreviewed",
-      "interpretations": [],
-      "hypotheses": [],
-      "provenance": {
-        "source_id": "techcrunch",
-        "source_name": "TechCrunch",
-        "source_url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
-        "article_id": "inbox-8c9179a5ff9b98fe",
-        "canonical_url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments",
-        "ingested_at": "2026-09-03T11:21:27.464757+00:00"
-      },
-      "comparable_features": {
-        "event_type": "company_announcement",
-        "event_types": [
-          "company_announcement"
-        ],
-        "entities": [],
-        "sectors": [
-          "enterprise_tech",
-          "ai",
-          "cybersecurity"
-        ],
-        "countries": [],
-        "assets": [],
-        "has_amount": true,
-        "magnitude_bucket": "ten_million_plus",
-        "technology_tags": [
-          "ai"
-        ],
-        "source_category": "techcrunch"
-      }
-    },
-    {
-      "event_id": "evt-f0742c1bec3134a6",
-      "event_type": "government_action",
-      "event_types": [
-        "government_action"
-      ],
-      "timestamp": "2026-09-02T15:00:00+00:00",
-      "source_ids": [
-        "the-register"
-      ],
-      "article_ids": [
-        "inbox-97dc8fc851c1af9f"
-      ],
-      "companies": [
-        "nasa"
-      ],
-      "entities": [
-        "nasa"
-      ],
-      "countries": [],
-      "sectors": [
-        "space"
-      ],
-      "assets": [],
-      "amounts": [],
-      "technologies": [],
-      "geography": {
-        "headquarters": [
-          {
-            "entity_id": "nasa",
-            "country_id": "840",
-            "country_label": "United States",
-            "location_type": "headquarters",
-            "evidence": "entity_registry"
-          }
-        ],
-        "event_location_labels": [],
-        "event_country_ids": [],
-        "regulatory_jurisdiction_labels": [],
-        "regulatory_country_ids": [],
-        "regions": [],
-        "market_location_country_ids": []
-      },
-      "facts": [
-        "NASA's Swift shortens orbital lifetime for the sake of science",
-        "Instruments reactivated for a final hurrah before reentry"
-      ],
-      "confidence": "medium",
-      "interpretation_status": "unreviewed",
-      "interpretations": [],
-      "hypotheses": [],
-      "provenance": {
-        "source_id": "the-register",
-        "source_name": "The Register",
-        "source_url": "https://www.theregister.com/science/2026/09/02/nasas-swift-shortens-orbital-lifetime-for-the-sake-of-science/5293911",
-        "article_id": "inbox-97dc8fc851c1af9f",
-        "canonical_url": "https://www.theregister.com/science/2026/09/02/nasas-swift-shortens-orbital-lifetime-for-the-sake-of-science/5293911",
-        "ingested_at": "2026-09-04T05:58:17.568741+00:00"
-      },
-      "comparable_features": {
-        "event_type": "government_action",
-        "event_types": [
-          "government_action"
-        ],
-        "entities": [
-          "nasa"
-        ],
-        "sectors": [
-          "space"
-        ],
-        "countries": [],
-        "assets": [],
-        "has_amount": false,
-        "magnitude_bucket": "unknown",
-        "technology_tags": [],
-        "source_category": "the-register"
       }
     }
   ]
