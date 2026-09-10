@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T11:27:03.434398+00:00",
+  "generated_at": "2026-09-10T16:29:11.604360+00:00",
   "freshness": "short_lived",
   "observations": [
     {
-      "observation_id": "price-nvda-1789039623",
+      "observation_id": "price-nvda-1789057751",
       "asset_id": "nvda",
       "market_id": "nasdaq-nvda",
       "symbol": "NVDA",
-      "timestamp": "2026-09-10T11:27:03.565229+00:00",
+      "timestamp": "2026-09-10T16:29:11.660147+00:00",
       "source": "yahoo_finance_chart",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&range=5d",
       "price": {
         "open": null,
-        "high": 226.18,
-        "low": 223.46,
-        "close": 223.67,
-        "previous_close": 217.44,
-        "volume": 79204871
+        "high": 220.99,
+        "low": 217.2,
+        "close": 217.75,
+        "previous_close": 224.41,
+        "volume": 53105219
       },
       "currency": "USD",
       "bid": null,
@@ -26,20 +26,20 @@
       "order_flow": null
     },
     {
-      "observation_id": "price-tsm-1789039623",
+      "observation_id": "price-tsm-1789057751",
       "asset_id": "tsm",
       "market_id": "nyse-tsm",
       "symbol": "TSM",
-      "timestamp": "2026-09-10T11:27:03.680036+00:00",
+      "timestamp": "2026-09-10T16:29:11.726653+00:00",
       "source": "yahoo_finance_chart",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?interval=1d&range=5d",
       "price": {
         "open": null,
-        "high": 439.4,
-        "low": 431.87,
-        "close": 435.36,
-        "previous_close": 414.0,
-        "volume": 7443121
+        "high": 432.53,
+        "low": 424.05,
+        "close": 429.41,
+        "previous_close": 415.5,
+        "volume": 4580755
       },
       "currency": "USD",
       "bid": null,
@@ -48,20 +48,20 @@
       "order_flow": null
     },
     {
-      "observation_id": "price-msft-1789039623",
+      "observation_id": "price-msft-1789057751",
       "asset_id": "msft",
       "market_id": "nasdaq-msft",
       "symbol": "MSFT",
-      "timestamp": "2026-09-10T11:27:03.797704+00:00",
+      "timestamp": "2026-09-10T16:29:11.793674+00:00",
       "source": "yahoo_finance_chart",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?interval=1d&range=5d",
       "price": {
         "open": null,
-        "high": 494.39,
-        "low": 489.8,
-        "close": 491.65,
-        "previous_close": 501.02,
-        "volume": 12778304
+        "high": 493.402,
+        "low": 486.0,
+        "close": 493.01,
+        "previous_close": 496.82,
+        "volume": 5546682
       },
       "currency": "USD",
       "bid": null,
@@ -70,20 +70,20 @@
       "order_flow": null
     },
     {
-      "observation_id": "price-goog-1789039623",
+      "observation_id": "price-goog-1789057751",
       "asset_id": "goog",
       "market_id": "nasdaq-goog",
       "symbol": "GOOG",
-      "timestamp": "2026-09-10T11:27:03.897741+00:00",
+      "timestamp": "2026-09-10T16:29:11.840926+00:00",
       "source": "yahoo_finance_chart",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOG?interval=1d&range=5d",
       "price": {
         "open": null,
-        "high": 329.34,
-        "low": 325.63,
-        "close": 328.38,
-        "previous_close": 332.03,
-        "volume": 18920503
+        "high": 329.32,
+        "low": 325.651,
+        "close": 328.246,
+        "previous_close": 333.78,
+        "volume": 6077959
       },
       "currency": "USD",
       "bid": null,
@@ -92,20 +92,20 @@
       "order_flow": null
     },
     {
-      "observation_id": "price-aapl-1789039624",
+      "observation_id": "price-aapl-1789057751",
       "asset_id": "aapl",
       "market_id": "nasdaq-aapl",
       "symbol": "AAPL",
-      "timestamp": "2026-09-10T11:27:04.027777+00:00",
+      "timestamp": "2026-09-10T16:29:11.922674+00:00",
       "source": "yahoo_finance_chart",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?interval=1d&range=5d",
       "price": {
         "open": null,
-        "high": 319.15,
-        "low": 309.9,
-        "close": 315.34,
-        "previous_close": 325.13,
-        "volume": 64902991
+        "high": 324.35,
+        "low": 316.57,
+        "close": 321.65,
+        "previous_close": 324.96,
+        "volume": 34020670
       },
       "currency": "USD",
       "bid": null,
@@ -114,20 +114,20 @@
       "order_flow": null
     },
     {
-      "observation_id": "price-amzn-1789039624",
+      "observation_id": "price-amzn-1789057751",
       "asset_id": "amzn",
       "market_id": "nasdaq-amzn",
       "symbol": "AMZN",
-      "timestamp": "2026-09-10T11:27:04.126764+00:00",
+      "timestamp": "2026-09-10T16:29:11.970353+00:00",
       "source": "yahoo_finance_chart",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?interval=1d&range=5d",
       "price": {
         "open": null,
-        "high": 254.62,
-        "low": 250.65,
-        "close": 252.4,
-        "previous_close": 254.92,
-        "volume": 32177880
+        "high": 253.06,
+        "low": 249.58,
+        "close": 252.6,
+        "previous_close": 254.98,
+        "volume": 11075235
       },
       "currency": "USD",
       "bid": null,
@@ -136,20 +136,20 @@
       "order_flow": null
     },
     {
-      "observation_id": "price-meta-1789039624",
+      "observation_id": "price-meta-1789057752",
       "asset_id": "meta",
       "market_id": "nasdaq-meta",
       "symbol": "META",
-      "timestamp": "2026-09-10T11:27:04.226168+00:00",
+      "timestamp": "2026-09-10T16:29:12.049889+00:00",
       "source": "yahoo_finance_chart",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/META?interval=1d&range=5d",
       "price": {
         "open": null,
-        "high": 657.86,
-        "low": 638.56,
-        "close": 653.69,
-        "previous_close": 578.54,
-        "volume": 35359694
+        "high": 663.5,
+        "low": 643.09,
+        "close": 650.905,
+        "previous_close": 592.85,
+        "volume": 11077070
       },
       "currency": "USD",
       "bid": null,
@@ -158,20 +158,20 @@
       "order_flow": null
     },
     {
-      "observation_id": "price-intc-1789039624",
+      "observation_id": "price-intc-1789057752",
       "asset_id": "intc",
       "market_id": "nasdaq-intc",
       "symbol": "INTC",
-      "timestamp": "2026-09-10T11:27:04.353156+00:00",
+      "timestamp": "2026-09-10T16:29:12.135468+00:00",
       "source": "yahoo_finance_chart",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?interval=1d&range=5d",
       "price": {
         "open": null,
-        "high": 106.69,
-        "low": 102.835,
-        "close": 106.24,
-        "previous_close": 88.97,
-        "volume": 96066104
+        "high": 103.23,
+        "low": 99.34,
+        "close": 100.862,
+        "previous_close": 90.05,
+        "volume": 54600768
       },
       "currency": "USD",
       "bid": null,
@@ -180,20 +180,20 @@
       "order_flow": null
     },
     {
-      "observation_id": "price-amd-1789039624",
+      "observation_id": "price-amd-1789057752",
       "asset_id": "amd",
       "market_id": "nasdaq-amd",
       "symbol": "AMD",
-      "timestamp": "2026-09-10T11:27:04.449073+00:00",
+      "timestamp": "2026-09-10T16:29:12.185229+00:00",
       "source": "yahoo_finance_chart",
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?interval=1d&range=5d",
       "price": {
         "open": null,
-        "high": 526.79,
-        "low": 506.36,
-        "close": 521.095,
-        "previous_close": 459.61,
-        "volume": 22033121
+        "high": 516.332,
+        "low": 503.55,
+        "close": 503.991,
+        "previous_close": 457.06,
+        "volume": 8262298
       },
       "currency": "USD",
       "bid": null,
@@ -202,17 +202,17 @@
       "order_flow": null
     },
     {
-      "observation_id": "price-btc-1789039624",
+      "observation_id": "price-btc-1789057752",
       "asset_id": "btc",
       "market_id": "coingecko-btc-usd",
       "symbol": "BTC",
-      "timestamp": "2026-09-10T11:27:04.607742+00:00",
+      "timestamp": "2026-09-10T16:29:12.223120+00:00",
       "source": "coingecko",
       "source_url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_vol=true&include_24hr_change=true",
       "price": {
-        "close": 77987,
-        "volume": 32385113119.127476,
-        "change_24h_pct": -1.1261228174216766
+        "close": 76940,
+        "volume": 32531554214.454365,
+        "change_24h_pct": -2.084378594524051
       },
       "currency": "USD",
       "bid": null,
