@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T01:04:59.666671+00:00",
+  "generated_at": "2026-09-13T06:16:02.304388+00:00",
   "pipeline": [
     "SOURCES",
     "INGEST",
@@ -16,9 +16,7 @@
     "auto_publish": false,
     "editorial_state": "INBOX"
   },
-  "errors": [
-    "NASA Breaking News: HTTP Error 429: Too Many Requests"
-  ],
+  "errors": [],
   "items": [
     {
       "id": "inbox-5cb06f3d5ce8cd84",
@@ -33,7 +31,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-14T00:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.670612+00:00",
+      "ingested_at": "2026-09-13T06:16:00.402939+00:00",
       "suggested_topics": [
         "ai",
         "enterprise_tech"
@@ -43,7 +41,176 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T01:11:06.806119+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.670612+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.402939+00:00"
+    },
+    {
+      "id": "inbox-31fcd222667499be",
+      "title": "APOD: 2026 September 13 – Comet NEOWISE Rising over the Adriatic Sea",
+      "summary": "APOD Science APOD APOD: 2026 September 13 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. To view this [&#8230;]",
+      "canonical_url": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea",
+      "original_url": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/",
+      "source": "NASA Breaking News",
+      "source_id": "nasa-breaking",
+      "source_type": "rss",
+      "source_category": "government",
+      "source_reliability": "official",
+      "published_at": "2026-09-13T04:05:00+00:00",
+      "ingested_at": "2026-09-13T06:16:00.191959+00:00",
+      "suggested_topics": [
+        "space"
+      ],
+      "suggested_entities": [],
+      "primary_sector": "space",
+      "editorial_state": "INBOX",
+      "publish": false,
+      "first_seen_at": "2026-09-13T06:16:00.191959+00:00",
+      "last_seen_at": "2026-09-13T06:16:00.191959+00:00"
+    },
+    {
+      "id": "inbox-ebde293fe478e835",
+      "title": "A succession crisis that tore England apart",
+      "summary": "Article URL: https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart Comments URL: https://news.ycombinator.com/item?id=49679647 Points: 15 # Comments: 7",
+      "canonical_url": "https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart",
+      "original_url": "https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart",
+      "url": "https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_type": "rss",
+      "source_category": "aggregator",
+      "source_reliability": "community-link",
+      "published_at": "2026-09-13T03:18:29+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
+      "suggested_topics": [
+        "defence_tech"
+      ],
+      "suggested_entities": [],
+      "primary_sector": "defence_tech",
+      "editorial_state": "INBOX",
+      "publish": false,
+      "first_seen_at": "2026-09-13T06:15:59.970814+00:00",
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
+    },
+    {
+      "id": "inbox-dc9364fa61ccd663",
+      "title": "Aligned to Whom?",
+      "summary": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 7 # Comments: 0",
+      "canonical_url": "https://hyperbo.la/w/aligned-to-whom",
+      "original_url": "https://hyperbo.la/w/aligned-to-whom/",
+      "url": "https://hyperbo.la/w/aligned-to-whom/",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_type": "rss",
+      "source_category": "aggregator",
+      "source_reliability": "community-link",
+      "published_at": "2026-09-13T03:17:18+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
+      "suggested_topics": [
+        "defence_tech"
+      ],
+      "suggested_entities": [],
+      "primary_sector": "defence_tech",
+      "editorial_state": "INBOX",
+      "publish": false,
+      "first_seen_at": "2026-09-13T06:15:59.970814+00:00",
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
+    },
+    {
+      "id": "inbox-6bfd623a0c536d0e",
+      "title": "After Math",
+      "summary": "Article URL: https://terrytao.wordpress.com/2026/09/12/after-math/ Comments URL: https://news.ycombinator.com/item?id=49679637 Points: 9 # Comments: 2",
+      "canonical_url": "https://terrytao.wordpress.com/2026/09/12/after-math",
+      "original_url": "https://terrytao.wordpress.com/2026/09/12/after-math/",
+      "url": "https://terrytao.wordpress.com/2026/09/12/after-math/",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_type": "rss",
+      "source_category": "aggregator",
+      "source_reliability": "community-link",
+      "published_at": "2026-09-13T03:16:41+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
+      "suggested_topics": [
+        "defence_tech"
+      ],
+      "suggested_entities": [],
+      "primary_sector": "defence_tech",
+      "editorial_state": "INBOX",
+      "publish": false,
+      "first_seen_at": "2026-09-13T06:15:59.970814+00:00",
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
+    },
+    {
+      "id": "inbox-45abc2aa92c528df",
+      "title": "The Interim Computer Museum",
+      "summary": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 66 # Comments: 7",
+      "canonical_url": "https://icm.museum/",
+      "original_url": "https://icm.museum/",
+      "url": "https://icm.museum/",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_type": "rss",
+      "source_category": "aggregator",
+      "source_reliability": "community-link",
+      "published_at": "2026-09-13T02:43:57+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
+      "suggested_topics": [
+        "defence_tech"
+      ],
+      "suggested_entities": [],
+      "primary_sector": "defence_tech",
+      "editorial_state": "INBOX",
+      "publish": false,
+      "first_seen_at": "2026-09-13T06:15:59.970814+00:00",
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
+    },
+    {
+      "id": "inbox-73991bd130bdb8d3",
+      "title": "Don't call yourself an artisanal programmer",
+      "summary": "Article URL: https://purplesyringa.moe/blog/dont-call-yourself-an-artisanal-programmer/ Comments URL: https://news.ycombinator.com/item?id=49679360 Points: 33 # Comments: 31",
+      "canonical_url": "https://purplesyringa.moe/blog/dont-call-yourself-an-artisanal-programmer",
+      "original_url": "https://purplesyringa.moe/blog/dont-call-yourself-an-artisanal-programmer/",
+      "url": "https://purplesyringa.moe/blog/dont-call-yourself-an-artisanal-programmer/",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_type": "rss",
+      "source_category": "aggregator",
+      "source_reliability": "community-link",
+      "published_at": "2026-09-13T02:29:39+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
+      "suggested_topics": [
+        "defence_tech"
+      ],
+      "suggested_entities": [],
+      "primary_sector": "defence_tech",
+      "editorial_state": "INBOX",
+      "publish": false,
+      "first_seen_at": "2026-09-13T06:15:59.970814+00:00",
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
+    },
+    {
+      "id": "inbox-08f491b1667ac45b",
+      "title": "Why are AI agents lying, cheating and coordinating?",
+      "summary": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 61 # Comments: 57",
+      "canonical_url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+      "original_url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+      "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_type": "rss",
+      "source_category": "aggregator",
+      "source_reliability": "community-link",
+      "published_at": "2026-09-13T01:22:31+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
+      "suggested_topics": [
+        "ai",
+        "defence_tech"
+      ],
+      "suggested_entities": [],
+      "primary_sector": "ai",
+      "editorial_state": "INBOX",
+      "publish": false,
+      "first_seen_at": "2026-09-13T06:15:59.970814+00:00",
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
     },
     {
       "id": "inbox-2047f56087dedd7e",
@@ -58,7 +225,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-13T00:42:50+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "hardware",
         "semiconductors"
@@ -68,7 +235,57 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-13T01:04:58.329334+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
+    },
+    {
+      "id": "inbox-556564edcdf1ea00",
+      "title": "Everyone should slow down AI development except for me",
+      "summary": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 336 # Comments: 185",
+      "canonical_url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me",
+      "original_url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+      "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_type": "rss",
+      "source_category": "aggregator",
+      "source_reliability": "community-link",
+      "published_at": "2026-09-13T00:30:44+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
+      "suggested_topics": [
+        "ai",
+        "defence_tech"
+      ],
+      "suggested_entities": [],
+      "primary_sector": "ai",
+      "editorial_state": "INBOX",
+      "publish": false,
+      "first_seen_at": "2026-09-13T06:15:59.970814+00:00",
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
+    },
+    {
+      "id": "inbox-8452a34b464c0090",
+      "title": "AgentsDock: An IDE designed for agentic AI research",
+      "summary": "Article URL: https://agentsdock.net/ Comments URL: https://news.ycombinator.com/item?id=49678435 Points: 33 # Comments: 10",
+      "canonical_url": "https://agentsdock.net/",
+      "original_url": "https://agentsdock.net/",
+      "url": "https://agentsdock.net/",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_type": "rss",
+      "source_category": "aggregator",
+      "source_reliability": "community-link",
+      "published_at": "2026-09-12T23:45:58+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
+      "suggested_topics": [
+        "ai",
+        "defence_tech"
+      ],
+      "suggested_entities": [],
+      "primary_sector": "ai",
+      "editorial_state": "INBOX",
+      "publish": false,
+      "first_seen_at": "2026-09-13T06:15:59.970814+00:00",
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
     },
     {
       "id": "inbox-25e0e0d2f5d98b4c",
@@ -83,14 +300,62 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T23:25:38+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-13T01:04:56.271247+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
+    },
+    {
+      "id": "inbox-8cfbe5e4d7e3b227",
+      "title": "Don't be the out of touch Kung Fu master",
+      "summary": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 86 # Comments: 57",
+      "canonical_url": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
+      "original_url": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
+      "url": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_type": "rss",
+      "source_category": "aggregator",
+      "source_reliability": "community-link",
+      "published_at": "2026-09-12T21:51:43+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
+      "suggested_topics": [
+        "defence_tech"
+      ],
+      "suggested_entities": [],
+      "primary_sector": "defence_tech",
+      "editorial_state": "INBOX",
+      "publish": false,
+      "first_seen_at": "2026-09-13T06:15:59.970814+00:00",
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
+    },
+    {
+      "id": "inbox-b689a36e24a98dc3",
+      "title": "P(doom)",
+      "summary": "Article URL: https://lucumr.pocoo.org/2026/9/12/pdoom/ Comments URL: https://news.ycombinator.com/item?id=49677450 Points: 47 # Comments: 18",
+      "canonical_url": "https://lucumr.pocoo.org/2026/9/12/pdoom",
+      "original_url": "https://lucumr.pocoo.org/2026/9/12/pdoom/",
+      "url": "https://lucumr.pocoo.org/2026/9/12/pdoom/",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_type": "rss",
+      "source_category": "aggregator",
+      "source_reliability": "community-link",
+      "published_at": "2026-09-12T21:35:38+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
+      "suggested_topics": [
+        "defence_tech"
+      ],
+      "suggested_entities": [],
+      "primary_sector": "defence_tech",
+      "editorial_state": "INBOX",
+      "publish": false,
+      "first_seen_at": "2026-09-13T06:15:59.970814+00:00",
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
     },
     {
       "id": "inbox-002c96c51ffe8694",
@@ -105,7 +370,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-12T21:09:31+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -116,7 +381,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T22:21:39.200258+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-54846a26aeed011f",
@@ -131,7 +396,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-12T21:09:06+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto"
       ],
@@ -140,12 +405,12 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T22:21:39.200258+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-d7c96be36b5d5255",
       "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
-      "summary": "Article URL: https://withspecific.com/benchmarks/real-swe Comments URL: https://news.ycombinator.com/item?id=49676820 Points: 95 # Comments: 59",
+      "summary": "Article URL: https://withspecific.com/benchmarks/real-swe Comments URL: https://news.ycombinator.com/item?id=49676820 Points: 195 # Comments: 104",
       "canonical_url": "https://withspecific.com/benchmarks/real-swe",
       "original_url": "https://withspecific.com/benchmarks/real-swe",
       "url": "https://withspecific.com/benchmarks/real-swe",
@@ -155,7 +420,7 @@
       "source_category": "aggregator",
       "source_reliability": "community-link",
       "published_at": "2026-09-12T20:25:48+00:00",
-      "ingested_at": "2026-09-13T01:04:57.272662+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
       "suggested_topics": [
         "enterprise_tech",
         "ai",
@@ -166,7 +431,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T22:21:37.250004+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.272662+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
     },
     {
       "id": "inbox-a104037071c5ac4f",
@@ -181,7 +446,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T20:19:16+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -192,7 +457,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T22:21:32.368603+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-2255c55da954735a",
@@ -256,7 +521,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T19:34:44+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -268,7 +533,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T17:14:13.195748+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-633e815c5f826445",
@@ -283,19 +548,19 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T19:21:19+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T19:26:42.894215+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-6a7d21cc2dccf1b0",
       "title": "Linux Zoom client proactively reading everything written to X11 clipboard",
-      "summary": "Article URL: https://hachyderm.io/@simontatham/117201594980991062 Comments URL: https://news.ycombinator.com/item?id=49675902 Points: 171 # Comments: 53",
+      "summary": "Article URL: https://hachyderm.io/@simontatham/117201594980991062 Comments URL: https://news.ycombinator.com/item?id=49675902 Points: 247 # Comments: 82",
       "canonical_url": "https://hachyderm.io/@simontatham/117201594980991062",
       "original_url": "https://hachyderm.io/@simontatham/117201594980991062",
       "url": "https://hachyderm.io/@simontatham/117201594980991062",
@@ -305,7 +570,7 @@
       "source_category": "aggregator",
       "source_reliability": "community-link",
       "published_at": "2026-09-12T18:58:57+00:00",
-      "ingested_at": "2026-09-13T01:04:57.272662+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
       "suggested_topics": [
         "defence_tech"
       ],
@@ -314,7 +579,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T22:21:37.250004+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.272662+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
     },
     {
       "id": "inbox-3eb39fb23fea0771",
@@ -329,7 +594,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-12T18:51:04+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto"
       ],
@@ -338,7 +603,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T19:26:45.541801+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-46dae396d2bcdf58",
@@ -353,7 +618,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-12T18:43:33+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -365,7 +630,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T19:26:45.541801+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-ce21ba8d88ec51b8",
@@ -397,7 +662,7 @@
     {
       "id": "inbox-af411e0cdecc84ba",
       "title": "Will There Be a 7G?",
-      "summary": "Article URL: https://arxiv.org/abs/2609.01877 Comments URL: https://news.ycombinator.com/item?id=49674498 Points: 81 # Comments: 134",
+      "summary": "Article URL: https://arxiv.org/abs/2609.01877 Comments URL: https://news.ycombinator.com/item?id=49674498 Points: 88 # Comments: 152",
       "canonical_url": "https://arxiv.org/abs/2609.01877",
       "original_url": "https://arxiv.org/abs/2609.01877",
       "url": "https://arxiv.org/abs/2609.01877",
@@ -407,7 +672,7 @@
       "source_category": "aggregator",
       "source_reliability": "community-link",
       "published_at": "2026-09-12T17:05:31+00:00",
-      "ingested_at": "2026-09-13T01:04:57.272662+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
       "suggested_topics": [
         "defence_tech"
       ],
@@ -416,12 +681,12 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T19:26:43.558431+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.272662+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
     },
     {
       "id": "inbox-293594f465636825",
       "title": "Make your first edit to OpenStreetMap",
-      "summary": "Article URL: https://high5apps.github.io/josm-plugin-website-wizard/ Comments URL: https://news.ycombinator.com/item?id=49674050 Points: 308 # Comments: 75",
+      "summary": "Article URL: https://high5apps.github.io/josm-plugin-website-wizard/ Comments URL: https://news.ycombinator.com/item?id=49674050 Points: 400 # Comments: 92",
       "canonical_url": "https://high5apps.github.io/josm-plugin-website-wizard",
       "original_url": "https://high5apps.github.io/josm-plugin-website-wizard/",
       "url": "https://high5apps.github.io/josm-plugin-website-wizard/",
@@ -431,7 +696,7 @@
       "source_category": "aggregator",
       "source_reliability": "community-link",
       "published_at": "2026-09-12T16:25:08+00:00",
-      "ingested_at": "2026-09-13T01:04:57.272662+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
       "suggested_topics": [
         "defence_tech"
       ],
@@ -440,7 +705,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T17:14:13.659186+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.272662+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
     },
     {
       "id": "inbox-56d39acbea55acb9",
@@ -455,7 +720,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-12T16:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto"
       ],
@@ -464,7 +729,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T17:14:14.765889+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-fa19c0108b327aab",
@@ -479,7 +744,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-12T16:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto",
         "ai"
@@ -489,12 +754,12 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T17:14:14.765889+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-b0bdf90025e8f92a",
       "title": "Microcode in Intel's 8087 floating-point chip: the scale instruction",
-      "summary": "Article URL: https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html Comments URL: https://news.ycombinator.com/item?id=49673580 Points: 87 # Comments: 24",
+      "summary": "Article URL: https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html Comments URL: https://news.ycombinator.com/item?id=49673580 Points: 100 # Comments: 31",
       "canonical_url": "https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html",
       "original_url": "https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html",
       "url": "https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html",
@@ -504,7 +769,7 @@
       "source_category": "aggregator",
       "source_reliability": "community-link",
       "published_at": "2026-09-12T15:49:52+00:00",
-      "ingested_at": "2026-09-13T01:04:57.272662+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
       "suggested_topics": [
         "semiconductors",
         "defence_tech"
@@ -514,7 +779,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T17:14:13.659186+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.272662+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
     },
     {
       "id": "inbox-1a9758f0e60d66cf",
@@ -567,7 +832,7 @@
     {
       "id": "inbox-78fd06ffcb8fa821",
       "title": "Nvidia is the central bank of AI",
-      "summary": "https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points: 380 # Comments: 261",
+      "summary": "https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points: 442 # Comments: 309",
       "canonical_url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
       "original_url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
       "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
@@ -577,7 +842,7 @@
       "source_category": "aggregator",
       "source_reliability": "community-link",
       "published_at": "2026-09-12T15:08:27+00:00",
-      "ingested_at": "2026-09-13T01:04:57.272662+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
       "suggested_topics": [
         "ai",
         "defence_tech",
@@ -591,7 +856,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T17:14:13.659186+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.272662+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
     },
     {
       "id": "inbox-87705297cfd35a69",
@@ -606,7 +871,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-12T15:03:10+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "ai",
         "defence_tech"
@@ -618,12 +883,12 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T17:14:14.354419+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-e1cae43b35fb957c",
       "title": "I made a build visualizer to understand Bun's compile times",
-      "summary": "Article URL: https://lalitm.com/post/buildprof/ Comments URL: https://news.ycombinator.com/item?id=49672842 Points: 89 # Comments: 17",
+      "summary": "Article URL: https://lalitm.com/post/buildprof/ Comments URL: https://news.ycombinator.com/item?id=49672842 Points: 113 # Comments: 22",
       "canonical_url": "https://lalitm.com/post/buildprof",
       "original_url": "https://lalitm.com/post/buildprof/",
       "url": "https://lalitm.com/post/buildprof/",
@@ -633,7 +898,7 @@
       "source_category": "aggregator",
       "source_reliability": "community-link",
       "published_at": "2026-09-12T14:45:28+00:00",
-      "ingested_at": "2026-09-13T01:04:57.272662+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
       "suggested_topics": [
         "defence_tech"
       ],
@@ -642,7 +907,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T19:26:43.558431+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.272662+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
     },
     {
       "id": "inbox-497e1f78e0049c97",
@@ -657,7 +922,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T14:40:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [
         "cybersecurity",
         "regulation"
@@ -667,7 +932,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T17:14:13.195748+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-fce617f951e12c72",
@@ -756,7 +1021,7 @@
       "source_category": "journalism",
       "source_reliability": "security-specialist",
       "published_at": "2026-09-12T14:14:32+00:00",
-      "ingested_at": "2026-09-13T01:04:56.208783+00:00",
+      "ingested_at": "2026-09-13T06:15:59.123563+00:00",
       "suggested_topics": [
         "cybersecurity",
         "cloud"
@@ -766,12 +1031,12 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T17:14:13.173560+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.208783+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.123563+00:00"
     },
     {
       "id": "inbox-7b48abdc6253004b",
       "title": "We must pace the frontier",
-      "summary": "Article URL: https://darioamodei.com/post/we-must-pace-the-frontier Comments URL: https://news.ycombinator.com/item?id=49672510 Points: 527 # Comments: 740",
+      "summary": "Article URL: https://darioamodei.com/post/we-must-pace-the-frontier Comments URL: https://news.ycombinator.com/item?id=49672510 Points: 609 # Comments: 852",
       "canonical_url": "https://darioamodei.com/post/we-must-pace-the-frontier",
       "original_url": "https://darioamodei.com/post/we-must-pace-the-frontier",
       "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
@@ -781,7 +1046,7 @@
       "source_category": "aggregator",
       "source_reliability": "community-link",
       "published_at": "2026-09-12T14:10:49+00:00",
-      "ingested_at": "2026-09-13T01:04:57.272662+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
       "suggested_topics": [
         "defence_tech"
       ],
@@ -790,7 +1055,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T19:26:43.558431+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.272662+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
     },
     {
       "id": "inbox-6fc842c28c72366d",
@@ -805,7 +1070,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-12T14:09:29+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "cybersecurity",
         "hardware",
@@ -816,7 +1081,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T14:11:42.379611+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-b9ab2ea6fff008a4",
@@ -831,7 +1096,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-12T14:08:19+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "semiconductors"
       ],
@@ -840,7 +1105,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T14:11:42.379611+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-c430f8f4ed19e4e4",
@@ -880,14 +1145,14 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-12T14:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T14:11:42.616280+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-a279579254311cca",
@@ -926,7 +1191,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-12T13:31:55+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "consumer_tech",
         "hardware"
@@ -936,7 +1201,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T14:11:42.379611+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-64bf08668826e641",
@@ -951,7 +1216,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T13:26:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "regulation",
         "semiconductors"
@@ -963,7 +1228,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T14:11:39.653531+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-6b3995d2f815e7ff",
@@ -1002,7 +1267,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-12T12:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "ai",
         "hardware"
@@ -1012,7 +1277,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T14:11:42.379611+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-3dcae4a6a8c25d41",
@@ -1076,7 +1341,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-12T11:30:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "defence_tech",
         "robotics"
@@ -1086,7 +1351,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T14:11:42.379611+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-cdc6266a7cdee2bf",
@@ -1125,14 +1390,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T11:20:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T14:11:39.653531+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-11eaba1c8c04a319",
@@ -1172,14 +1437,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T11:08:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T14:11:39.774238+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-69fb5ecf0a277783",
@@ -1194,14 +1459,14 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-12T11:05:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T14:11:42.379611+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-1d0e03327dacf0fa",
@@ -1216,7 +1481,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T11:00:53+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [
         "robotics"
       ],
@@ -1225,7 +1490,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T14:11:38.809441+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-3d48ecdd95359adf",
@@ -1240,14 +1505,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T11:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T14:11:39.774238+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-5fe79c8efeb05959",
@@ -1262,7 +1527,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-12T11:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "crypto",
         "hardware",
@@ -1273,7 +1538,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T14:11:42.379611+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-f3e752f40bfbe601",
@@ -1288,7 +1553,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-12T10:48:32+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "semiconductors",
         "consumer_tech",
@@ -1299,7 +1564,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T10:53:25.181763+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-33d63266f26c3eab",
@@ -1339,7 +1604,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T10:30:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [
         "consumer_tech"
       ],
@@ -1348,7 +1613,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T10:53:15.423685+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-233306a1f70d13d8",
@@ -1363,7 +1628,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T10:30:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [
         "cybersecurity",
         "ai",
@@ -1376,7 +1641,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T10:53:15.423685+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-5c68d4a27b7306fd",
@@ -1391,7 +1656,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-12T10:30:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "cloud",
         "consumer_tech"
@@ -1401,7 +1666,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T10:53:25.181763+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-0d170125a62d5133",
@@ -1441,7 +1706,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-12T10:11:01+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto"
       ],
@@ -1450,7 +1715,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T10:53:25.383125+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-efcfe731af22a250",
@@ -1465,7 +1730,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T10:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [
         "ai",
         "semiconductors"
@@ -1475,7 +1740,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T10:53:15.423685+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-d58c5e95f25dd40c",
@@ -1490,14 +1755,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T10:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T10:53:15.423685+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-70096ac61278910d",
@@ -1512,7 +1777,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-12T10:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "crypto"
       ],
@@ -1521,7 +1786,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T10:53:25.181763+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-387755afcd693a51",
@@ -1536,14 +1801,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T09:30:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T10:53:15.423685+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-037f517607930251",
@@ -1582,14 +1847,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-12T09:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T10:53:15.362828+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-f82249c258c6b9fe",
@@ -1825,7 +2090,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-11T23:47:51+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto"
       ],
@@ -1834,7 +2099,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T01:11:07.589333+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-de95e4960c18eb16",
@@ -1875,7 +2140,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T23:34:45+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [
         "space"
       ],
@@ -1884,7 +2149,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T01:10:59.563789+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-1cf453651873d758",
@@ -1926,7 +2191,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T22:58:17+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [
         "ai",
         "robotics"
@@ -1936,7 +2201,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T01:11:00.535837+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-a3305657085b1917",
@@ -1999,7 +2264,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T21:49:59+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -2008,7 +2273,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T01:11:00.337140+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-279be4927402155c",
@@ -2048,14 +2313,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T21:41:16+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T22:38:14.498065+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-77b18a7fb8f6c296",
@@ -2144,19 +2409,19 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T21:19:05+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T22:38:15.432080+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-0cbdd0ec0e9be5c8",
       "title": "Android NAT-T keepalive offload bypasses VPN lockdown",
-      "summary": "https://mullvad.net/en/blog/another-way-to-leak-traffic-on-a... Comments URL: https://news.ycombinator.com/item?id=49665502 Points: 171 # Comments: 44",
+      "summary": "https://mullvad.net/en/blog/another-way-to-leak-traffic-on-a... Comments URL: https://news.ycombinator.com/item?id=49665502 Points: 192 # Comments: 45",
       "canonical_url": "https://supuk.ch/papers/android-natt-keepalive-vpn-bypass",
       "original_url": "https://supuk.ch/papers/android-natt-keepalive-vpn-bypass",
       "url": "https://supuk.ch/papers/android-natt-keepalive-vpn-bypass",
@@ -2166,7 +2431,7 @@
       "source_category": "aggregator",
       "source_reliability": "community-link",
       "published_at": "2026-09-11T21:16:48+00:00",
-      "ingested_at": "2026-09-13T01:04:57.272662+00:00",
+      "ingested_at": "2026-09-13T06:15:59.970814+00:00",
       "suggested_topics": [
         "consumer_tech",
         "defence_tech"
@@ -2176,7 +2441,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T19:26:43.558431+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.272662+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.970814+00:00"
     },
     {
       "id": "inbox-48427ee4b7df91d1",
@@ -2191,14 +2456,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T21:14:26+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T22:38:14.498065+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-90b6594fa7da576f",
@@ -2213,7 +2478,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T20:59:47+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [
         "ai",
         "defence_tech"
@@ -2223,7 +2488,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T22:38:15.432080+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-cee55cfc2aedfc6a",
@@ -2238,7 +2503,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T20:57:36+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [
         "ai",
         "semiconductors"
@@ -2250,7 +2515,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T22:38:15.432080+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-34abb3e7dba3b861",
@@ -2265,14 +2530,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T20:33:18+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T22:38:15.432080+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-62d103635ddcbd58",
@@ -2287,7 +2552,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T20:32:59+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [
         "energy"
       ],
@@ -2296,7 +2561,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T22:38:14.498065+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-4156ece97c27995f",
@@ -2311,14 +2576,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T20:30:17+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T22:38:15.432080+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-3321b93accfa5591",
@@ -2333,7 +2598,7 @@
       "source_category": "journalism",
       "source_reliability": "security-specialist",
       "published_at": "2026-09-11T20:19:09+00:00",
-      "ingested_at": "2026-09-13T01:04:56.208783+00:00",
+      "ingested_at": "2026-09-13T06:15:59.123563+00:00",
       "suggested_topics": [
         "ai",
         "consumer_tech",
@@ -2346,7 +2611,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T22:38:15.386679+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.208783+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.123563+00:00"
     },
     {
       "id": "inbox-58bee68520c3dd6a",
@@ -2361,7 +2626,7 @@
       "source_category": "journalism",
       "source_reliability": "institutional",
       "published_at": "2026-09-11T20:05:06+00:00",
-      "ingested_at": "2026-09-13T01:04:57.335755+00:00",
+      "ingested_at": "2026-09-13T06:16:00.066037+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -2370,7 +2635,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T22:38:18.958489+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.335755+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.066037+00:00"
     },
     {
       "id": "inbox-5cead46a894400df",
@@ -2385,7 +2650,7 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-11T19:48:09+00:00",
-      "ingested_at": "2026-09-12T17:14:13.748760+00:00",
+      "ingested_at": "2026-09-13T06:16:00.191959+00:00",
       "suggested_topics": [
         "space"
       ],
@@ -2394,7 +2659,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T05:53:07.395924+00:00",
-      "last_seen_at": "2026-09-12T17:14:13.748760+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.191959+00:00"
     },
     {
       "id": "inbox-42deb9f6924f978b",
@@ -2433,14 +2698,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T19:36:43+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:36.000027+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-5202a4d269ae7c27",
@@ -2455,7 +2720,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T19:35:54+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [
         "ai",
         "crypto",
@@ -2466,7 +2731,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:36.140892+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-db66a7cb526846f0",
@@ -2481,7 +2746,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T19:34:09+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [
         "ai",
         "defence_tech"
@@ -2493,7 +2758,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T22:38:14.498065+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-af5b20fb6b7e2936",
@@ -2508,14 +2773,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T19:21:34+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:36.000027+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-a85cb847c3257f6b",
@@ -2530,7 +2795,7 @@
       "source_category": "journalism",
       "source_reliability": "security-specialist",
       "published_at": "2026-09-11T19:00:29+00:00",
-      "ingested_at": "2026-09-13T01:04:56.208783+00:00",
+      "ingested_at": "2026-09-13T06:15:59.123563+00:00",
       "suggested_topics": [
         "cybersecurity"
       ],
@@ -2539,7 +2804,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:36.044228+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.208783+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.123563+00:00"
     },
     {
       "id": "inbox-4fe9eddd51bbca30",
@@ -2554,7 +2819,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T19:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [
         "ai",
         "hardware"
@@ -2564,7 +2829,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:36.140892+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-d51d8374d0f2a5f5",
@@ -2579,7 +2844,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T18:59:25+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -2588,7 +2853,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:36.000027+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-7edf006a134f207c",
@@ -2603,14 +2868,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T18:58:01+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:36.140892+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-da7480c5b9b28256",
@@ -2649,14 +2914,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T18:49:39+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:34.933823+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-163d12be069641f5",
@@ -2720,7 +2985,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T18:22:22+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [
         "ai",
         "data_centres",
@@ -2733,7 +2998,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:34.933823+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-d40e06716c24087a",
@@ -2797,14 +3062,14 @@
       "source_category": "journalism",
       "source_reliability": "institutional",
       "published_at": "2026-09-11T18:00:02+00:00",
-      "ingested_at": "2026-09-13T01:04:56.648891+00:00",
+      "ingested_at": "2026-09-13T06:15:59.480161+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:36.719021+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.648891+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.480161+00:00"
     },
     {
       "id": "inbox-0354435352030fea",
@@ -2892,7 +3157,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T17:43:30+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "manufacturing"
       ],
@@ -2901,7 +3166,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T01:11:00.337140+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-89f6debb4305f4d9",
@@ -2940,7 +3205,7 @@
       "source_category": "journalism",
       "source_reliability": "security-specialist",
       "published_at": "2026-09-11T17:26:50+00:00",
-      "ingested_at": "2026-09-13T01:04:56.208783+00:00",
+      "ingested_at": "2026-09-13T06:15:59.123563+00:00",
       "suggested_topics": [
         "cybersecurity"
       ],
@@ -2949,7 +3214,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:36.044228+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.208783+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.123563+00:00"
     },
     {
       "id": "inbox-bcd6bbdd6d3c9d65",
@@ -2988,7 +3253,7 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-11T17:19:47+00:00",
-      "ingested_at": "2026-09-12T17:14:13.748760+00:00",
+      "ingested_at": "2026-09-13T06:16:00.191959+00:00",
       "suggested_topics": [
         "space"
       ],
@@ -2997,7 +3262,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:37.045829+00:00",
-      "last_seen_at": "2026-09-12T17:14:13.748760+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.191959+00:00"
     },
     {
       "id": "inbox-a74ecebe0713ded5",
@@ -3012,14 +3277,14 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-11T17:12:45+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:37.816990+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-bbe676b4892e314b",
@@ -3059,7 +3324,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T16:50:01+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "space",
         "energy"
@@ -3069,7 +3334,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:35.833165+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-61c03a5c562fc4a1",
@@ -3084,7 +3349,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T16:46:25+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -3095,7 +3360,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:36.140892+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-e4aeb552bd365691",
@@ -3110,7 +3375,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-11T16:32:36+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "semiconductors",
         "telecom"
@@ -3122,7 +3387,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:37.663662+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-97ce467f739e5cf9",
@@ -3137,7 +3402,7 @@
       "source_category": "journalism",
       "source_reliability": "security-specialist",
       "published_at": "2026-09-11T16:29:44+00:00",
-      "ingested_at": "2026-09-13T01:04:56.208783+00:00",
+      "ingested_at": "2026-09-13T06:15:59.123563+00:00",
       "suggested_topics": [
         "cybersecurity",
         "cloud",
@@ -3148,7 +3413,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:08.583719+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.208783+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.123563+00:00"
     },
     {
       "id": "inbox-cdfacd9186fa43f7",
@@ -3163,7 +3428,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-11T16:26:12+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "hardware",
         "semiconductors",
@@ -3174,7 +3439,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:10.466050+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-4f70d71ec5f7e104",
@@ -3189,7 +3454,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T16:20:43+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [
         "space"
       ],
@@ -3198,7 +3463,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:34.933823+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-23814433bf21e142",
@@ -3213,14 +3478,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T16:19:49+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:08.418046+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-5c93fce61445780d",
@@ -3342,7 +3607,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T16:03:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "crypto"
       ],
@@ -3351,7 +3616,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:35.833165+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-dc124b3de4c6d69b",
@@ -3366,7 +3631,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-11T16:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.670612+00:00",
+      "ingested_at": "2026-09-13T06:16:00.402939+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -3375,7 +3640,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-12T01:11:06.806119+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.670612+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.402939+00:00"
     },
     {
       "id": "inbox-7836411d3cc84207",
@@ -3464,7 +3729,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-11T15:45:56+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "macro"
       ],
@@ -3473,7 +3738,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:10.837944+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-870a0f8d532bfc4c",
@@ -3488,7 +3753,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-11T15:32:15+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "hardware"
       ],
@@ -3497,7 +3762,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:10.466050+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-70ffa8e3c49d7304",
@@ -3536,14 +3801,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T15:19:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:08.653175+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-97d51129f63b7e9c",
@@ -3558,7 +3823,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-11T15:17:08+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto",
         "energy"
@@ -3568,7 +3833,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:10.837944+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-37572446478117c9",
@@ -3583,14 +3848,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T15:16:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:35.833165+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-14c64577e38af9e9",
@@ -3605,7 +3870,7 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-11T15:05:20+00:00",
-      "ingested_at": "2026-09-12T17:14:13.748760+00:00",
+      "ingested_at": "2026-09-13T06:16:00.191959+00:00",
       "suggested_topics": [
         "space"
       ],
@@ -3614,7 +3879,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:37.045829+00:00",
-      "last_seen_at": "2026-09-12T17:14:13.748760+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.191959+00:00"
     },
     {
       "id": "inbox-0088ca5c06256677",
@@ -3655,7 +3920,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T15:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [
         "ai",
         "defence_tech",
@@ -3666,7 +3931,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:08.418046+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-504bfc1bbe28d199",
@@ -3681,7 +3946,7 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-11T14:56:25+00:00",
-      "ingested_at": "2026-09-12T17:14:13.748760+00:00",
+      "ingested_at": "2026-09-13T06:16:00.191959+00:00",
       "suggested_topics": [
         "space"
       ],
@@ -3690,7 +3955,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:37.045829+00:00",
-      "last_seen_at": "2026-09-12T17:14:13.748760+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.191959+00:00"
     },
     {
       "id": "inbox-9d34e26cf434d170",
@@ -3730,7 +3995,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T14:27:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "enterprise_tech",
         "ai",
@@ -3741,7 +4006,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:08.283217+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-eee9dea1559b773b",
@@ -3780,7 +4045,7 @@
       "source_category": "journalism",
       "source_reliability": "security-specialist",
       "published_at": "2026-09-11T14:01:11+00:00",
-      "ingested_at": "2026-09-13T01:04:56.208783+00:00",
+      "ingested_at": "2026-09-13T06:15:59.123563+00:00",
       "suggested_topics": [
         "ai",
         "cybersecurity"
@@ -3792,7 +4057,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:08.583719+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.208783+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.123563+00:00"
     },
     {
       "id": "inbox-5b2a9d9e5628db73",
@@ -3839,7 +4104,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-11T13:46:51+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto"
       ],
@@ -3848,7 +4113,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:10.837944+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-920a4ee8618d2a5d",
@@ -3935,7 +4200,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T13:32:54+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [
         "crypto",
         "cybersecurity",
@@ -3946,7 +4211,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:08.653175+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-413e16d32e5ecfe5",
@@ -3961,14 +4226,14 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-11T13:32:52+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:10.837944+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-671272edbcc67890",
@@ -3983,14 +4248,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T13:12:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:08.283217+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-6b5473bb8739ad83",
@@ -4005,7 +4270,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T13:02:35+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [
         "ai",
         "defence_tech"
@@ -4017,7 +4282,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:06.592926+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-28c471e007436186",
@@ -4032,14 +4297,14 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-11T12:50:35+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:10.466050+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-21851884ad49093a",
@@ -4054,7 +4319,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-11T12:44:08+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "ai",
         "space"
@@ -4064,7 +4329,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:10.466050+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-fddcfc8b9661900d",
@@ -4079,7 +4344,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-11T12:32:25+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "macro"
       ],
@@ -4088,7 +4353,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:10.837944+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-55d8db6c932b3ded",
@@ -4103,7 +4368,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T12:15:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "cybersecurity"
       ],
@@ -4112,7 +4377,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:08.283217+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-39e2a3ff1bf6b147",
@@ -4127,7 +4392,7 @@
       "source_category": "journalism",
       "source_reliability": "institutional",
       "published_at": "2026-09-11T12:10:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.335755+00:00",
+      "ingested_at": "2026-09-13T06:16:00.066037+00:00",
       "suggested_topics": [
         "biotech"
       ],
@@ -4136,7 +4401,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:09.484056+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.335755+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.066037+00:00"
     },
     {
       "id": "inbox-2f5cdaa56ed23b06",
@@ -4151,7 +4416,7 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-11T12:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.643535+00:00",
+      "ingested_at": "2026-09-13T06:16:01.412974+00:00",
       "suggested_topics": [
         "cybersecurity",
         "enterprise_tech",
@@ -4162,7 +4427,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:37.859744+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.643535+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.412974+00:00"
     },
     {
       "id": "inbox-8a9141793873200b",
@@ -4177,7 +4442,7 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-11T12:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.643535+00:00",
+      "ingested_at": "2026-09-13T06:16:01.412974+00:00",
       "suggested_topics": [
         "cybersecurity",
         "enterprise_tech"
@@ -4187,7 +4452,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T22:38:19.955963+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.643535+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.412974+00:00"
     },
     {
       "id": "inbox-f33bb64303a30d1f",
@@ -4202,7 +4467,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T11:34:41+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "cybersecurity",
         "cloud"
@@ -4212,7 +4477,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:08.283217+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-ee65a527412d919a",
@@ -4227,14 +4492,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T11:30:58+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:06.592926+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-e22f5f385571beb0",
@@ -4249,7 +4514,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-11T11:30:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "hardware",
         "supply_chain"
@@ -4259,7 +4524,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:10.466050+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-0e1d04a5b4408583",
@@ -4274,7 +4539,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-11T11:20:26+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto",
         "macro"
@@ -4284,7 +4549,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:35.596785+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-df32ef802e627d0f",
@@ -4299,7 +4564,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T11:20:02+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [
         "enterprise_tech",
         "quantum"
@@ -4309,7 +4574,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:06.592926+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-8ca80ab2b3bb98f2",
@@ -4324,7 +4589,7 @@
       "source_category": "journalism",
       "source_reliability": "security-specialist",
       "published_at": "2026-09-11T11:15:22+00:00",
-      "ingested_at": "2026-09-13T01:04:56.208783+00:00",
+      "ingested_at": "2026-09-13T06:15:59.123563+00:00",
       "suggested_topics": [
         "cybersecurity"
       ],
@@ -4333,7 +4598,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.857107+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.208783+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.123563+00:00"
     },
     {
       "id": "inbox-798de1621f5452a4",
@@ -4373,14 +4638,14 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-11T11:05:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:35.485315+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-10c7a399616dbce5",
@@ -4395,14 +4660,14 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-11T11:05:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:35.485315+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-4968be47ff2e2dfb",
@@ -4417,7 +4682,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-11T11:04:12+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto"
       ],
@@ -4426,7 +4691,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:35.596785+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-89f074e860e93089",
@@ -4441,7 +4706,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T11:00:44+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [
         "space"
       ],
@@ -4450,7 +4715,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:06.592926+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-959e4094d99ed0a6",
@@ -4465,7 +4730,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T11:00:30+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [
         "space"
       ],
@@ -4474,7 +4739,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:06.592926+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-3d93fac3a2c0423c",
@@ -4489,14 +4754,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T11:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.800264+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-fd9fadad3762185d",
@@ -4511,14 +4776,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T11:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.800264+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-16422fe395d4577a",
@@ -4533,7 +4798,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-11T11:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "semiconductors"
       ],
@@ -4544,7 +4809,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:35.485315+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-b8989b5e95778301",
@@ -4559,7 +4824,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-11T10:50:59+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "semiconductors",
         "hardware"
@@ -4571,7 +4836,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:35.485315+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-c23cbb67211b7fa1",
@@ -4586,7 +4851,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-11T10:50:47+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto"
       ],
@@ -4595,7 +4860,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:35.596785+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-fa33b4fb17dc1cd3",
@@ -4637,14 +4902,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T10:45:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.800264+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-614699058a0872fc",
@@ -4659,7 +4924,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T10:35:22+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "ai",
         "enterprise_tech"
@@ -4669,7 +4934,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T16:33:08.283217+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-13bd6efd7b9515f4",
@@ -4684,14 +4949,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T10:33:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.800264+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-c96bf34f14988ea3",
@@ -4706,14 +4971,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T10:30:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.800264+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-69c43d39e566c74e",
@@ -4728,7 +4993,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-11T10:30:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "cloud"
       ],
@@ -4737,7 +5002,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:35.485315+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-989a0b4e4d2cf902",
@@ -4776,7 +5041,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-11T10:13:44+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto"
       ],
@@ -4785,7 +5050,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:35.596785+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-a437e76d39456c12",
@@ -4800,14 +5065,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T10:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.800264+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-da559ee66bd48c45",
@@ -4822,7 +5087,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-11T10:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "ai",
         "defence_tech"
@@ -4834,7 +5099,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:35.485315+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-98c0a05fdca0a9aa",
@@ -4849,7 +5114,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-11T10:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.670612+00:00",
+      "ingested_at": "2026-09-13T06:16:00.402939+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -4860,7 +5125,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:37.169296+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.670612+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.402939+00:00"
     },
     {
       "id": "inbox-2bfd4564a268a2b7",
@@ -4875,7 +5140,7 @@
       "source_category": "journalism",
       "source_reliability": "security-specialist",
       "published_at": "2026-09-11T09:39:37+00:00",
-      "ingested_at": "2026-09-13T01:04:56.208783+00:00",
+      "ingested_at": "2026-09-13T06:15:59.123563+00:00",
       "suggested_topics": [
         "hardware"
       ],
@@ -4884,7 +5149,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.857107+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.208783+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.123563+00:00"
     },
     {
       "id": "inbox-173017e5939d9fbe",
@@ -4923,7 +5188,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-11T09:26:43+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "defence_tech"
       ],
@@ -4932,7 +5197,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:35.485315+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-697bd135162835ca",
@@ -4947,14 +5212,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T09:16:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.749493+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-23321d013219d0c1",
@@ -4969,7 +5234,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T09:15:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [
         "robotics"
       ],
@@ -4978,7 +5243,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.800264+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-49de546052d588b0",
@@ -4993,7 +5258,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T09:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [
         "semiconductors"
       ],
@@ -5002,7 +5267,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.800264+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-4a28075312db0b2c",
@@ -5017,7 +5282,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T09:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -5026,7 +5291,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.800264+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-8531627ebe98880c",
@@ -5041,7 +5306,7 @@
       "source_category": "journalism",
       "source_reliability": "institutional",
       "published_at": "2026-09-11T09:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.335755+00:00",
+      "ingested_at": "2026-09-13T06:16:00.066037+00:00",
       "suggested_topics": [
         "biotech"
       ],
@@ -5050,7 +5315,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:34.770950+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.335755+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.066037+00:00"
     },
     {
       "id": "inbox-3ed0449347f7a78b",
@@ -5089,14 +5354,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T08:31:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.749493+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-ff726b5f8db0369a",
@@ -5159,7 +5424,7 @@
       "source_category": "journalism",
       "source_reliability": "security-specialist",
       "published_at": "2026-09-11T07:55:15+00:00",
-      "ingested_at": "2026-09-13T01:04:56.208783+00:00",
+      "ingested_at": "2026-09-13T06:15:59.123563+00:00",
       "suggested_topics": [
         "cybersecurity"
       ],
@@ -5168,7 +5433,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.857107+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.208783+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.123563+00:00"
     },
     {
       "id": "inbox-737e78e7810ecad5",
@@ -5183,7 +5448,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T07:15:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "ai",
         "semiconductors"
@@ -5193,7 +5458,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.749493+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-4e2ea9d20c5a4259",
@@ -5208,7 +5473,7 @@
       "source_category": "journalism",
       "source_reliability": "security-specialist",
       "published_at": "2026-09-11T06:48:37+00:00",
-      "ingested_at": "2026-09-13T01:04:56.208783+00:00",
+      "ingested_at": "2026-09-13T06:15:59.123563+00:00",
       "suggested_topics": [
         "cybersecurity"
       ],
@@ -5217,7 +5482,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.857107+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.208783+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.123563+00:00"
     },
     {
       "id": "inbox-04a917b124f14527",
@@ -5232,14 +5497,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T06:30:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.749493+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-600adea2ff0f1229",
@@ -5254,14 +5519,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T06:26:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.749493+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-4efef0b5568c58f7",
@@ -5276,7 +5541,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-11T06:17:31+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto",
         "enterprise_tech",
@@ -5289,7 +5554,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:35.596785+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-8f4faf59b6b24c91",
@@ -5304,7 +5569,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-11T05:13:15+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto"
       ],
@@ -5313,7 +5578,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T06:04:31.428946+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-72eaf65f91e770ff",
@@ -5328,14 +5593,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T05:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-02T05:52:54.474219+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-f6160f703780a3f5",
@@ -5350,14 +5615,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T05:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-01T05:16:19.713409+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-39b0c338e09b13e8",
@@ -5372,14 +5637,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T05:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-01T05:16:19.713409+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-bcec857cc5092c0d",
@@ -5394,14 +5659,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T05:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-01T05:16:19.713409+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-b893cd743d89f0e5",
@@ -5416,14 +5681,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T05:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-01T05:16:19.713409+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-083790318f512479",
@@ -5438,14 +5703,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T05:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-01T05:16:19.713409+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-807230e932b302d5",
@@ -5482,14 +5747,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T05:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T06:04:30.163233+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-0c4f6b6e137aeaab",
@@ -5504,14 +5769,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T05:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T06:04:30.163233+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-6fbc6eec77588e77",
@@ -5526,7 +5791,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T05:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [
         "hardware"
       ],
@@ -5535,7 +5800,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T06:04:30.163233+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-96f96de3f2e8a377",
@@ -5550,7 +5815,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T05:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [
         "hardware"
       ],
@@ -5559,7 +5824,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T06:04:30.163233+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-425bcb620c04ca89",
@@ -5574,14 +5839,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T05:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T06:04:30.163233+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-6cfefbf70209c36a",
@@ -5596,14 +5861,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T05:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T06:04:30.163233+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-659b7ad17c960596",
@@ -5618,7 +5883,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T05:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.074677+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [
         "space"
       ],
@@ -5627,7 +5892,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T06:04:30.163233+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.074677+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-7d687d0a3c41d21d",
@@ -5642,14 +5907,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T05:00:00+00:00",
-      "ingested_at": "2026-09-12T19:26:42.487236+00:00",
+      "ingested_at": "2026-09-13T06:15:59.048546+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T06:04:30.163233+00:00",
-      "last_seen_at": "2026-09-12T19:26:42.487236+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.048546+00:00"
     },
     {
       "id": "inbox-2c2838b4476fda0e",
@@ -5689,7 +5954,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-11T04:46:15+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto",
         "macro"
@@ -5699,7 +5964,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T06:04:31.428946+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-d86e4265c84498a0",
@@ -5714,7 +5979,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-11T04:25:21+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -5723,7 +5988,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T06:04:31.428946+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-46aad628fc82fe3f",
@@ -5738,7 +6003,7 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-11T04:05:00+00:00",
-      "ingested_at": "2026-09-12T17:14:13.748760+00:00",
+      "ingested_at": "2026-09-13T06:16:00.191959+00:00",
       "suggested_topics": [
         "space"
       ],
@@ -5747,7 +6012,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T06:04:30.661025+00:00",
-      "last_seen_at": "2026-09-12T17:14:13.748760+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.191959+00:00"
     },
     {
       "id": "inbox-bd322f90f8cd57c2",
@@ -5762,14 +6027,14 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-11T04:01:00+00:00",
-      "ingested_at": "2026-09-12T17:14:13.748760+00:00",
+      "ingested_at": "2026-09-13T06:16:00.191959+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T19:46:37.045829+00:00",
-      "last_seen_at": "2026-09-12T17:14:13.748760+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.191959+00:00"
     },
     {
       "id": "inbox-bcfa57f956af8fd5",
@@ -5808,7 +6073,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-11T02:43:10+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "ai",
         "cloud"
@@ -5818,7 +6083,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T11:28:32.749493+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-c43641bd144c140f",
@@ -5983,7 +6248,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T22:59:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -5994,7 +6259,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T01:09:38.403018+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-9bd65aade22773a8",
@@ -6034,7 +6299,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T22:38:35+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "ai",
         "defence_tech",
@@ -6047,7 +6312,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T01:09:38.403018+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-b60ce54c9e454e8c",
@@ -6086,14 +6351,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T22:30:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:28.946110+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-2eab1f927cc954a2",
@@ -6108,7 +6373,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T22:16:05+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [
         "hardware"
       ],
@@ -6117,7 +6382,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-11T01:09:37.503929+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-e9012c5ef6bf69e9",
@@ -6132,7 +6397,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T21:51:59+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [
         "semiconductors"
       ],
@@ -6143,7 +6408,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:28.946110+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-f47340abc8312617",
@@ -6158,7 +6423,7 @@
       "source_category": "journalism",
       "source_reliability": "security-specialist",
       "published_at": "2026-09-10T21:40:43+00:00",
-      "ingested_at": "2026-09-13T01:04:56.208783+00:00",
+      "ingested_at": "2026-09-13T06:15:59.123563+00:00",
       "suggested_topics": [
         "cybersecurity",
         "consumer_tech"
@@ -6168,7 +6433,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:28.871686+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.208783+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.123563+00:00"
     },
     {
       "id": "inbox-d1cfa6304816d0ad",
@@ -6183,14 +6448,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T21:35:00+00:00",
-      "ingested_at": "2026-09-13T01:04:56.271247+00:00",
+      "ingested_at": "2026-09-13T06:15:59.173748+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:28.946110+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.271247+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.173748+00:00"
     },
     {
       "id": "inbox-97f8cf8af32f3c02",
@@ -6256,7 +6521,7 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-10T21:11:32+00:00",
-      "ingested_at": "2026-09-12T17:14:13.748760+00:00",
+      "ingested_at": "2026-09-13T06:16:00.191959+00:00",
       "suggested_topics": [
         "space",
         "defence_tech"
@@ -6266,7 +6531,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:35.030698+00:00",
-      "last_seen_at": "2026-09-12T17:14:13.748760+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.191959+00:00"
     },
     {
       "id": "inbox-b55be03ec4fa085d",
@@ -6334,7 +6599,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T20:55:29+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [
         "cloud"
       ],
@@ -6343,7 +6608,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:27.978845+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-2e3c5ff444f94019",
@@ -6382,7 +6647,7 @@
       "source_category": "journalism",
       "source_reliability": "security-specialist",
       "published_at": "2026-09-10T20:34:37+00:00",
-      "ingested_at": "2026-09-13T01:04:56.208783+00:00",
+      "ingested_at": "2026-09-13T06:15:59.123563+00:00",
       "suggested_topics": [
         "cybersecurity"
       ],
@@ -6391,7 +6656,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:28.871686+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.208783+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.123563+00:00"
     },
     {
       "id": "inbox-553a545ca476f6a8",
@@ -6457,7 +6722,7 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-10T20:26:52+00:00",
-      "ingested_at": "2026-09-12T17:14:13.748760+00:00",
+      "ingested_at": "2026-09-13T06:16:00.191959+00:00",
       "suggested_topics": [
         "space"
       ],
@@ -6466,7 +6731,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:35.030698+00:00",
-      "last_seen_at": "2026-09-12T17:14:13.748760+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.191959+00:00"
     },
     {
       "id": "inbox-aa1736d8758b5d6a",
@@ -6481,7 +6746,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-10T20:21:57+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto"
       ],
@@ -6490,7 +6755,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:35.919811+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-c314fa7c0d24fa23",
@@ -6527,7 +6792,7 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-10T20:12:39+00:00",
-      "ingested_at": "2026-09-12T17:14:13.748760+00:00",
+      "ingested_at": "2026-09-13T06:16:00.191959+00:00",
       "suggested_topics": [
         "space"
       ],
@@ -6536,7 +6801,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:35.030698+00:00",
-      "last_seen_at": "2026-09-12T17:14:13.748760+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.191959+00:00"
     },
     {
       "id": "inbox-ced6b48bacbd40b9",
@@ -6551,7 +6816,7 @@
       "source_category": "journalism",
       "source_reliability": "institutional",
       "published_at": "2026-09-10T20:00:04+00:00",
-      "ingested_at": "2026-09-13T01:04:56.648891+00:00",
+      "ingested_at": "2026-09-13T06:15:59.480161+00:00",
       "suggested_topics": [
         "defence_tech",
         "telecom",
@@ -6567,7 +6832,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:29.096840+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.648891+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.480161+00:00"
     },
     {
       "id": "inbox-766032a77dd58fd5",
@@ -6582,14 +6847,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T19:50:24+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:28.742761+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-97bf8faeaae673d2",
@@ -6652,14 +6917,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T19:43:55+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:28.742761+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-7251bffd7866a06a",
@@ -6701,7 +6966,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-10T19:35:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "macro",
         "supply_chain"
@@ -6711,7 +6976,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T19:45:25.992103+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-b6ce17684438d1d5",
@@ -6750,7 +7015,7 @@
       "source_category": "journalism",
       "source_reliability": "security-specialist",
       "published_at": "2026-09-10T19:15:07+00:00",
-      "ingested_at": "2026-09-13T01:04:56.208783+00:00",
+      "ingested_at": "2026-09-13T06:15:59.123563+00:00",
       "suggested_topics": [
         "cybersecurity"
       ],
@@ -6759,7 +7024,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T19:45:22.550119+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.208783+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.123563+00:00"
     },
     {
       "id": "inbox-724875134ee117a8",
@@ -6774,14 +7039,14 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-10T19:13:21+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T19:45:25.992103+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-45a3a37a93b847b5",
@@ -6796,7 +7061,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T19:09:29+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [
         "space"
       ],
@@ -6805,7 +7070,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T19:45:21.423264+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-9108c584f2f0a5e5",
@@ -6820,7 +7085,7 @@
       "source_category": "journalism",
       "source_reliability": "security-specialist",
       "published_at": "2026-09-10T19:07:33+00:00",
-      "ingested_at": "2026-09-13T01:04:56.208783+00:00",
+      "ingested_at": "2026-09-13T06:15:59.123563+00:00",
       "suggested_topics": [
         "cybersecurity"
       ],
@@ -6829,7 +7094,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T19:45:22.550119+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.208783+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.123563+00:00"
     },
     {
       "id": "inbox-6f9cb492a4d24c58",
@@ -6868,7 +7133,7 @@
       "source_category": "journalism",
       "source_reliability": "crypto-specialist",
       "published_at": "2026-09-10T19:01:30+00:00",
-      "ingested_at": "2026-09-13T01:04:58.554892+00:00",
+      "ingested_at": "2026-09-13T06:16:01.339776+00:00",
       "suggested_topics": [
         "crypto",
         "regulation"
@@ -6878,7 +7143,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T19:45:26.304192+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.554892+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.339776+00:00"
     },
     {
       "id": "inbox-6e8feff67c86ad12",
@@ -6893,7 +7158,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T18:49:43+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -6902,7 +7167,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:28.742761+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-686b828986d9c6c0",
@@ -6917,7 +7182,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T18:41:09+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [
         "consumer_tech"
       ],
@@ -6926,7 +7191,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T19:45:21.423264+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-03a5b003610ac940",
@@ -6965,7 +7230,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T18:15:10+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -6976,7 +7241,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:28.742761+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-182ba9b40ac703e5",
@@ -6991,14 +7256,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T18:14:14+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T19:45:21.423264+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-c54967e60774a563",
@@ -7060,7 +7325,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-10T17:54:53+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "semiconductors",
         "hardware"
@@ -7070,7 +7335,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T19:45:25.992103+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-f4f92d3188691d76",
@@ -7111,14 +7376,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T17:54:33+00:00",
-      "ingested_at": "2026-09-13T01:04:54.445451+00:00",
+      "ingested_at": "2026-09-13T06:15:57.823053+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T19:45:21.423264+00:00",
-      "last_seen_at": "2026-09-13T01:04:54.445451+00:00"
+      "last_seen_at": "2026-09-13T06:15:57.823053+00:00"
     },
     {
       "id": "inbox-02d4c3e2670cfcc0",
@@ -7405,7 +7670,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-10T16:30:35+00:00",
-      "ingested_at": "2026-09-13T01:04:58.941704+00:00",
+      "ingested_at": "2026-09-13T06:16:01.649457+00:00",
       "suggested_topics": [
         "ai",
         "manufacturing",
@@ -7419,7 +7684,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T19:45:26.898099+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.941704+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.649457+00:00"
     },
     {
       "id": "inbox-82bad487767fb5e2",
@@ -7458,7 +7723,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T16:21:22+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -7467,7 +7732,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:28.742761+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-7555e63d892b1ec2",
@@ -7552,7 +7817,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T16:09:12+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "space"
       ],
@@ -7561,7 +7826,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:28.742761+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-96cfc7d1b0a2a127",
@@ -7576,7 +7841,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-10T16:04:10+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "consumer_tech",
         "semiconductors"
@@ -7586,7 +7851,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:10.296752+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-186e9e52edeba2cd",
@@ -7625,7 +7890,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-10T16:00:04+00:00",
-      "ingested_at": "2026-09-13T01:04:58.941704+00:00",
+      "ingested_at": "2026-09-13T06:16:01.649457+00:00",
       "suggested_topics": [
         "ai",
         "robotics",
@@ -7638,7 +7903,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T19:45:26.898099+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.941704+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.649457+00:00"
     },
     {
       "id": "inbox-b5d0379a50e55de3",
@@ -7677,7 +7942,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-10T16:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.670612+00:00",
+      "ingested_at": "2026-09-13T06:16:00.402939+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -7688,7 +7953,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:09.312441+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.670612+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.402939+00:00"
     },
     {
       "id": "inbox-19e47c80c5b1b16a",
@@ -7703,14 +7968,14 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-10T16:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.011815+00:00",
+      "ingested_at": "2026-09-13T06:16:00.714228+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:09.766945+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.011815+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.714228+00:00"
     },
     {
       "id": "inbox-cc4627c667f075f2",
@@ -7749,7 +8014,7 @@
       "source_category": "journalism",
       "source_reliability": "security-specialist",
       "published_at": "2026-09-10T15:55:56+00:00",
-      "ingested_at": "2026-09-13T01:04:56.208783+00:00",
+      "ingested_at": "2026-09-13T06:15:59.123563+00:00",
       "suggested_topics": [
         "cybersecurity",
         "ai",
@@ -7760,7 +8025,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:08.098619+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.208783+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.123563+00:00"
     },
     {
       "id": "inbox-6643977ee271d9af",
@@ -8164,7 +8429,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-10T15:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.670612+00:00",
+      "ingested_at": "2026-09-13T06:16:00.402939+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -8175,7 +8440,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:09.312441+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.670612+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.402939+00:00"
     },
     {
       "id": "inbox-7f56a7a7f7cf1b9f",
@@ -8190,14 +8455,14 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-10T15:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:10.296752+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-cd4bb4c715437fb1",
@@ -8261,7 +8526,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T14:47:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "cloud"
       ],
@@ -8270,7 +8535,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:07.945134+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-63f5fee8c9d9569b",
@@ -8404,7 +8669,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-10T14:25:28+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "cybersecurity",
         "crypto"
@@ -8414,7 +8679,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:10.296752+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-e92c68dc962ca4cd",
@@ -8503,7 +8768,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T14:08:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "ai",
         "data_centres"
@@ -8513,7 +8778,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:07.945134+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-af90ff7ad7a2a806",
@@ -8697,7 +8962,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-10T13:20:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "ai",
         "crypto"
@@ -8709,7 +8974,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:10.296752+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-0a9178e2027f1713",
@@ -8724,14 +8989,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T13:13:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:07.945134+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-733e2e496eb814d3",
@@ -8746,14 +9011,14 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-10T13:06:32+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:10.296752+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-48cb558a0f000083",
@@ -8768,7 +9033,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-10T13:00:21+00:00",
-      "ingested_at": "2026-09-13T01:04:58.941704+00:00",
+      "ingested_at": "2026-09-13T06:16:01.649457+00:00",
       "suggested_topics": [
         "semiconductors",
         "ai"
@@ -8780,7 +9045,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:10.653422+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.941704+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.649457+00:00"
     },
     {
       "id": "inbox-cf734709f11a495a",
@@ -8795,7 +9060,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-10T13:00:18+00:00",
-      "ingested_at": "2026-09-13T01:04:58.941704+00:00",
+      "ingested_at": "2026-09-13T06:16:01.649457+00:00",
       "suggested_topics": [
         "hardware",
         "cloud"
@@ -8807,7 +9072,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:10.653422+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.941704+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.649457+00:00"
     },
     {
       "id": "inbox-63fd1e2dc6c82f8f",
@@ -8822,7 +9087,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T13:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "ai",
         "semiconductors"
@@ -8834,7 +9099,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:07.945134+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-193fd5e7b1748a67",
@@ -8895,7 +9160,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-10T13:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "semiconductors",
         "ai"
@@ -8905,7 +9170,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:10.296752+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-20f05556a668c5cc",
@@ -8970,7 +9235,7 @@
       "source_category": "journalism",
       "source_reliability": "specialist",
       "published_at": "2026-09-10T12:40:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.329334+00:00",
+      "ingested_at": "2026-09-13T06:16:01.092428+00:00",
       "suggested_topics": [
         "semiconductors",
         "ai",
@@ -8983,7 +9248,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:10.296752+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.329334+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.092428+00:00"
     },
     {
       "id": "inbox-f87757d9c66ee34c",
@@ -8998,14 +9263,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T12:28:32+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:07.945134+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-237dbfd4a6d1a03e",
@@ -9093,7 +9358,7 @@
       "source_category": "journalism",
       "source_reliability": "institutional",
       "published_at": "2026-09-10T12:10:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.335755+00:00",
+      "ingested_at": "2026-09-13T06:16:00.066037+00:00",
       "suggested_topics": [
         "crypto",
         "energy"
@@ -9103,7 +9368,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:09.064169+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.335755+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.066037+00:00"
     },
     {
       "id": "inbox-8ec544477d5cba5c",
@@ -9193,7 +9458,7 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-10T12:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.643535+00:00",
+      "ingested_at": "2026-09-13T06:16:01.412974+00:00",
       "suggested_topics": [
         "cybersecurity",
         "defence_tech",
@@ -9205,7 +9470,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:10.433898+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.643535+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.412974+00:00"
     },
     {
       "id": "inbox-c1667d57414562fb",
@@ -9220,7 +9485,7 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-10T12:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.643535+00:00",
+      "ingested_at": "2026-09-13T06:16:01.412974+00:00",
       "suggested_topics": [
         "cybersecurity",
         "manufacturing",
@@ -9232,7 +9497,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:10.433898+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.643535+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.412974+00:00"
     },
     {
       "id": "inbox-89473ca25f2af4c3",
@@ -9247,7 +9512,7 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-10T12:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.643535+00:00",
+      "ingested_at": "2026-09-13T06:16:01.412974+00:00",
       "suggested_topics": [
         "cybersecurity",
         "hardware",
@@ -9262,7 +9527,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:10.433898+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.643535+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.412974+00:00"
     },
     {
       "id": "inbox-e483b7e540eed8a7",
@@ -9277,7 +9542,7 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-10T12:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.643535+00:00",
+      "ingested_at": "2026-09-13T06:16:01.412974+00:00",
       "suggested_topics": [
         "cybersecurity",
         "manufacturing",
@@ -9290,7 +9555,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:10.433898+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.643535+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.412974+00:00"
     },
     {
       "id": "inbox-0d3b8c765abf2d89",
@@ -9305,7 +9570,7 @@
       "source_category": "government",
       "source_reliability": "official",
       "published_at": "2026-09-10T12:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.643535+00:00",
+      "ingested_at": "2026-09-13T06:16:01.412974+00:00",
       "suggested_topics": [
         "cybersecurity",
         "enterprise_tech"
@@ -9315,7 +9580,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:35.961140+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.643535+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.412974+00:00"
     },
     {
       "id": "inbox-414e5a532067a23e",
@@ -9424,7 +9689,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T11:30:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "cybersecurity",
         "crypto"
@@ -9434,7 +9699,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:07.945134+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-bf7ce539d388c807",
@@ -9546,7 +9811,7 @@
       "source_category": "journalism",
       "source_reliability": "institutional",
       "published_at": "2026-09-10T11:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.335755+00:00",
+      "ingested_at": "2026-09-13T06:16:00.066037+00:00",
       "suggested_topics": [
         "energy"
       ],
@@ -9555,7 +9820,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T11:27:00.679226+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.335755+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.066037+00:00"
     },
     {
       "id": "inbox-50ae3d0218db063b",
@@ -9594,7 +9859,7 @@
       "source_category": "journalism",
       "source_reliability": "institutional",
       "published_at": "2026-09-10T11:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.335755+00:00",
+      "ingested_at": "2026-09-13T06:16:00.066037+00:00",
       "suggested_topics": [
         "ai",
         "data_centres",
@@ -9605,7 +9870,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T11:27:00.679226+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.335755+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.066037+00:00"
     },
     {
       "id": "inbox-6d78459abafc9fee",
@@ -9744,7 +10009,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T10:30:50+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -9753,7 +10018,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:07.945134+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-bc3184e2b6a5a1d4",
@@ -9959,7 +10224,7 @@
       "source_category": "journalism",
       "source_reliability": "institutional",
       "published_at": "2026-09-10T10:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.335755+00:00",
+      "ingested_at": "2026-09-13T06:16:00.066037+00:00",
       "suggested_topics": [
         "energy"
       ],
@@ -9968,7 +10233,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T11:27:00.679226+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.335755+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.066037+00:00"
     },
     {
       "id": "inbox-c79531662b6e8e50",
@@ -10005,14 +10270,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T09:45:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T11:26:59.781038+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-378719b19b98ecaa",
@@ -10143,14 +10408,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T09:05:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T11:26:59.781038+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-1d19f9afa1d6fa15",
@@ -10211,7 +10476,7 @@
       "source_category": "journalism",
       "source_reliability": "institutional",
       "published_at": "2026-09-10T09:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.335755+00:00",
+      "ingested_at": "2026-09-13T06:16:00.066037+00:00",
       "suggested_topics": [
         "crypto"
       ],
@@ -10220,7 +10485,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T11:27:00.679226+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.335755+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.066037+00:00"
     },
     {
       "id": "inbox-1ca53ce18de6ce4c",
@@ -10235,7 +10500,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-10T09:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.941704+00:00",
+      "ingested_at": "2026-09-13T06:16:01.649457+00:00",
       "suggested_topics": [
         "semiconductors",
         "ai",
@@ -10248,7 +10513,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T11:27:02.464409+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.941704+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.649457+00:00"
     },
     {
       "id": "inbox-a4a53b62b8cc8a71",
@@ -10263,7 +10528,7 @@
       "source_category": "journalism",
       "source_reliability": "institutional",
       "published_at": "2026-09-10T08:58:01+00:00",
-      "ingested_at": "2026-09-13T01:04:57.335755+00:00",
+      "ingested_at": "2026-09-13T06:16:00.066037+00:00",
       "suggested_topics": [
         "ai",
         "enterprise_tech"
@@ -10273,7 +10538,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T11:27:00.679226+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.335755+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.066037+00:00"
     },
     {
       "id": "inbox-389b53c77e7cc7d2",
@@ -10385,7 +10650,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T07:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "cybersecurity"
       ],
@@ -10394,7 +10659,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T11:26:59.781038+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-11e3bd5556e99fee",
@@ -10409,7 +10674,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-10T07:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.670612+00:00",
+      "ingested_at": "2026-09-13T06:16:00.402939+00:00",
       "suggested_topics": [
         "ai",
         "cybersecurity",
@@ -10422,7 +10687,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T16:29:09.312441+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.670612+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.402939+00:00"
     },
     {
       "id": "inbox-6a34627c5afac0a3",
@@ -10437,7 +10702,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-10T07:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.670612+00:00",
+      "ingested_at": "2026-09-13T06:16:00.402939+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -10448,7 +10713,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T19:45:24.174442+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.670612+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.402939+00:00"
     },
     {
       "id": "inbox-b9aee5ee18fc966f",
@@ -10536,7 +10801,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T06:23:12+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "hardware",
         "semiconductors"
@@ -10546,7 +10811,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T11:26:59.781038+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-b0b3828b9e2e4771",
@@ -10841,7 +11106,7 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T04:53:32+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [
         "enterprise_tech",
         "ai"
@@ -10851,7 +11116,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T11:26:59.781038+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-ffdab941af77b5fb",
@@ -10936,14 +11201,14 @@
       "source_category": "journalism",
       "source_reliability": "independent-tech",
       "published_at": "2026-09-10T02:05:58+00:00",
-      "ingested_at": "2026-09-13T01:04:55.965277+00:00",
+      "ingested_at": "2026-09-13T06:15:58.959148+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T11:26:59.781038+00:00",
-      "last_seen_at": "2026-09-13T01:04:55.965277+00:00"
+      "last_seen_at": "2026-09-13T06:15:58.959148+00:00"
     },
     {
       "id": "inbox-45e110d10824befc",
@@ -11057,7 +11322,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-10T00:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.670612+00:00",
+      "ingested_at": "2026-09-13T06:16:00.402939+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -11066,7 +11331,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T19:45:24.174442+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.670612+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.402939+00:00"
     },
     {
       "id": "inbox-f6f632ac4ab3116d",
@@ -11081,7 +11346,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-10T00:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.941704+00:00",
+      "ingested_at": "2026-09-13T06:16:01.649457+00:00",
       "suggested_topics": [
         "ai",
         "cloud",
@@ -11095,7 +11360,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T01:07:48.278557+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.941704+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.649457+00:00"
     },
     {
       "id": "inbox-866bafb2d06b4335",
@@ -11110,7 +11375,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-10T00:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.670612+00:00",
+      "ingested_at": "2026-09-13T06:16:00.402939+00:00",
       "suggested_topics": [
         "cloud"
       ],
@@ -11119,7 +11384,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-10T22:38:35.148984+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.670612+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.402939+00:00"
     },
     {
       "id": "inbox-61315ee71937a18a",
@@ -12721,7 +12986,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-09T17:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.670612+00:00",
+      "ingested_at": "2026-09-13T06:16:00.402939+00:00",
       "suggested_topics": [
         "ai",
         "cybersecurity"
@@ -12733,7 +12998,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-09T19:49:14.026695+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.670612+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.402939+00:00"
     },
     {
       "id": "inbox-3f2c2d5097f82f93",
@@ -13122,7 +13387,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-09T16:00:42+00:00",
-      "ingested_at": "2026-09-13T01:04:58.941704+00:00",
+      "ingested_at": "2026-09-13T06:16:01.649457+00:00",
       "suggested_topics": [
         "ai",
         "semiconductors",
@@ -13135,7 +13400,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-09T16:43:17.178339+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.941704+00:00"
+      "last_seen_at": "2026-09-13T06:16:01.649457+00:00"
     },
     {
       "id": "inbox-053eeb64a10bdd59",
@@ -13174,14 +13439,14 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-09T16:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.011815+00:00",
+      "ingested_at": "2026-09-13T06:16:00.714228+00:00",
       "suggested_topics": [],
       "suggested_entities": [],
       "primary_sector": "general",
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-09T16:43:16.167909+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.011815+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.714228+00:00"
     },
     {
       "id": "inbox-8ec9f70bf2cdbb75",
@@ -13196,7 +13461,7 @@
       "source_category": "official",
       "source_reliability": "primary-vendor",
       "published_at": "2026-09-09T16:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:58.011815+00:00",
+      "ingested_at": "2026-09-13T06:16:00.714228+00:00",
       "suggested_topics": [
         "ai"
       ],
@@ -13205,7 +13470,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-09T16:43:16.167909+00:00",
-      "last_seen_at": "2026-09-13T01:04:58.011815+00:00"
+      "last_seen_at": "2026-09-13T06:16:00.714228+00:00"
     },
     {
       "id": "inbox-609d5765377144cb",
@@ -13631,7 +13896,7 @@
       "source_category": "journalism",
       "source_reliability": "institutional",
       "published_at": "2026-09-09T15:03:38+00:00",
-      "ingested_at": "2026-09-13T01:04:56.648891+00:00",
+      "ingested_at": "2026-09-13T06:15:59.480161+00:00",
       "suggested_topics": [
         "ai",
         "energy"
@@ -13641,7 +13906,7 @@
       "editorial_state": "INBOX",
       "publish": false,
       "first_seen_at": "2026-09-09T16:43:09.819031+00:00",
-      "last_seen_at": "2026-09-13T01:04:56.648891+00:00"
+      "last_seen_at": "2026-09-13T06:15:59.480161+00:00"
     },
     {
       "id": "inbox-c87cb765a98febb4",
@@ -14376,275 +14641,6 @@
       "publish": false,
       "first_seen_at": "2026-09-09T16:43:09.681344+00:00",
       "last_seen_at": "2026-09-09T16:43:09.681344+00:00"
-    },
-    {
-      "id": "inbox-b3fd1ab9ef31c30a",
-      "title": "Algorand names former Chainlink executive William Herkelrath as CEO",
-      "summary": "The former Chainlink and Curv executive will lead the blockchain organization’s push into institutional finance and quantum-resistant security.",
-      "canonical_url": "https://www.coindesk.com/business/2026/09/09/algorand-names-former-chainlink-executive-william-herkelrath-as-ceo",
-      "original_url": "https://www.coindesk.com/business/2026/09/09/algorand-names-former-chainlink-executive-william-herkelrath-as-ceo",
-      "url": "https://www.coindesk.com/business/2026/09/09/algorand-names-former-chainlink-executive-william-herkelrath-as-ceo",
-      "source": "CoinDesk",
-      "source_id": "coindesk",
-      "source_type": "rss",
-      "source_category": "journalism",
-      "source_reliability": "crypto-specialist",
-      "published_at": "2026-09-09T13:00:00+00:00",
-      "ingested_at": "2026-09-10T11:27:02.049569+00:00",
-      "suggested_topics": [
-        "crypto",
-        "cybersecurity",
-        "quantum"
-      ],
-      "suggested_entities": [],
-      "primary_sector": "crypto",
-      "editorial_state": "INBOX",
-      "publish": false,
-      "first_seen_at": "2026-09-09T16:43:16.719857+00:00",
-      "last_seen_at": "2026-09-10T11:27:02.049569+00:00"
-    },
-    {
-      "id": "inbox-2136c47120543b98",
-      "title": "The AI policy window is open. We need to act.",
-      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-      "canonical_url": "https://openai.com/index/ai-policy-window",
-      "original_url": "https://openai.com/index/ai-policy-window",
-      "url": "https://openai.com/index/ai-policy-window",
-      "source": "OpenAI News",
-      "source_id": "openai-news",
-      "source_type": "rss",
-      "source_category": "official",
-      "source_reliability": "primary-vendor",
-      "published_at": "2026-09-09T13:00:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.670612+00:00",
-      "suggested_topics": [
-        "ai"
-      ],
-      "suggested_entities": [],
-      "primary_sector": "ai",
-      "editorial_state": "INBOX",
-      "publish": false,
-      "first_seen_at": "2026-09-10T01:07:46.977194+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.670612+00:00"
-    },
-    {
-      "id": "inbox-88ba76ac932a494b",
-      "title": "WeChat worm could pwn a friend before they even answered the call",
-      "summary": "Calif says AI helped turn a VoIP memory bug into cross-platform RCE before Tencent shut it down",
-      "canonical_url": "https://www.theregister.com/security/2026/09/09/wechat-worm-could-pwn-a-friend-before-they-even-answered-the-call/5295234",
-      "original_url": "https://www.theregister.com/security/2026/09/09/wechat-worm-could-pwn-a-friend-before-they-even-answered-the-call/5295234",
-      "url": "https://www.theregister.com/security/2026/09/09/wechat-worm-could-pwn-a-friend-before-they-even-answered-the-call/5295234",
-      "source": "The Register",
-      "source_id": "the-register",
-      "source_type": "atom",
-      "source_category": "journalism",
-      "source_reliability": "independent-tech",
-      "published_at": "2026-09-09T12:45:00+00:00",
-      "ingested_at": "2026-09-11T11:28:32.749493+00:00",
-      "suggested_topics": [
-        "ai"
-      ],
-      "suggested_entities": [],
-      "primary_sector": "ai",
-      "editorial_state": "INBOX",
-      "publish": false,
-      "first_seen_at": "2026-09-09T16:43:09.424287+00:00",
-      "last_seen_at": "2026-09-11T11:28:32.749493+00:00"
-    },
-    {
-      "id": "inbox-cf70c18fac115ba0",
-      "title": "Goodram PX700 2TB SSD Review: High-end punch on a budget core",
-      "summary": "The Goodram PX700 matches good all-around performance with high power-efficiency in a cool-running package. It performs mostly like a premium drive, although pricing remains a concern.",
-      "canonical_url": "https://www.tomshardware.com/pc-components/ssds/goodram-px700-2tb-ssd-review",
-      "original_url": "https://www.tomshardware.com/pc-components/ssds/goodram-px700-2tb-ssd-review",
-      "url": "https://www.tomshardware.com/pc-components/ssds/goodram-px700-2tb-ssd-review",
-      "source": "Tom's Hardware",
-      "source_id": "toms-hardware",
-      "source_type": "rss",
-      "source_category": "journalism",
-      "source_reliability": "specialist",
-      "published_at": "2026-09-09T12:34:37+00:00",
-      "ingested_at": "2026-09-11T11:28:35.485315+00:00",
-      "suggested_topics": [],
-      "suggested_entities": [],
-      "primary_sector": "general",
-      "editorial_state": "INBOX",
-      "publish": false,
-      "first_seen_at": "2026-09-09T16:43:16.535779+00:00",
-      "last_seen_at": "2026-09-11T11:28:35.485315+00:00"
-    },
-    {
-      "id": "inbox-0d877d643b13108c",
-      "title": "Besxar is building an orbital semiconductor factory, one SpaceX rocket at a time",
-      "summary": "If you want to manufacture in space—and bring the products back again—there&#8217;s a limited set of options: Wait to go to the International Space Station, or partner with a handful of start-ups launching spacecraft that spend time in orbit before they return to Earth. But the vehicle that goes to space and comes back to [&#8230;]",
-      "canonical_url": "https://techcrunch.com/2026/09/09/besxar-is-strapping-advanced-chip-fabs-onto-spacexs-falcon-9-rockets",
-      "original_url": "https://techcrunch.com/2026/09/09/besxar-is-strapping-advanced-chip-fabs-onto-spacexs-falcon-9-rockets/",
-      "url": "https://techcrunch.com/2026/09/09/besxar-is-strapping-advanced-chip-fabs-onto-spacexs-falcon-9-rockets/",
-      "source": "TechCrunch",
-      "source_id": "techcrunch",
-      "source_type": "rss",
-      "source_category": "journalism",
-      "source_reliability": "independent-tech",
-      "published_at": "2026-09-09T12:30:00+00:00",
-      "ingested_at": "2026-09-09T16:43:09.681344+00:00",
-      "suggested_topics": [
-        "space",
-        "manufacturing",
-        "semiconductors"
-      ],
-      "suggested_entities": [],
-      "primary_sector": "space",
-      "editorial_state": "INBOX",
-      "publish": false,
-      "first_seen_at": "2026-09-09T16:43:09.681344+00:00",
-      "last_seen_at": "2026-09-09T16:43:09.681344+00:00"
-    },
-    {
-      "id": "inbox-8fba41a9702e5d69",
-      "title": "OpenAI's breakthrough solution for the elusive Navier-Stokes problem overshadowed by plagiarism controversy — researcher says OpenAI scraped Codex session and issued career threats",
-      "summary": "OpenAI announced that a team using one of its internal frontier models has solved the Navier-Stokes problem. However, the announcement has been mired in controversy.",
-      "canonical_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-breakthrough-solution-for-the-elusive-navier-stokes-problem-overshadowed-by-plagiarism-controversy-researcher-says-openai-scraped-codex-session-and-issued-career-threats",
-      "original_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-breakthrough-solution-for-the-elusive-navier-stokes-problem-overshadowed-by-plagiarism-controversy-researcher-says-openai-scraped-codex-session-and-issued-career-threats",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-breakthrough-solution-for-the-elusive-navier-stokes-problem-overshadowed-by-plagiarism-controversy-researcher-says-openai-scraped-codex-session-and-issued-career-threats",
-      "source": "Tom's Hardware",
-      "source_id": "toms-hardware",
-      "source_type": "rss",
-      "source_category": "journalism",
-      "source_reliability": "specialist",
-      "published_at": "2026-09-09T12:30:00+00:00",
-      "ingested_at": "2026-09-11T11:28:35.485315+00:00",
-      "suggested_topics": [
-        "ai"
-      ],
-      "suggested_entities": [
-        "openai"
-      ],
-      "primary_sector": "ai",
-      "editorial_state": "INBOX",
-      "publish": false,
-      "first_seen_at": "2026-09-09T16:43:16.535779+00:00",
-      "last_seen_at": "2026-09-11T11:28:35.485315+00:00"
-    },
-    {
-      "id": "inbox-9bb1514b5d599776",
-      "title": "Germany moves to tax bitcoin like stocks as new draft bill targets tax-free gains",
-      "summary": "Existing holdings would keep the current tax treatment, which can allow tax-free sales after a 12-month holding period.",
-      "canonical_url": "https://www.coindesk.com/business/2026/09/09/germany-moves-to-tax-bitcoin-like-stocks-as-new-draft-bill-targets-tax-free-gains",
-      "original_url": "https://www.coindesk.com/business/2026/09/09/germany-moves-to-tax-bitcoin-like-stocks-as-new-draft-bill-targets-tax-free-gains",
-      "url": "https://www.coindesk.com/business/2026/09/09/germany-moves-to-tax-bitcoin-like-stocks-as-new-draft-bill-targets-tax-free-gains",
-      "source": "CoinDesk",
-      "source_id": "coindesk",
-      "source_type": "rss",
-      "source_category": "journalism",
-      "source_reliability": "crypto-specialist",
-      "published_at": "2026-09-09T12:13:59+00:00",
-      "ingested_at": "2026-09-10T11:27:02.049569+00:00",
-      "suggested_topics": [
-        "crypto"
-      ],
-      "suggested_entities": [],
-      "primary_sector": "crypto",
-      "editorial_state": "INBOX",
-      "publish": false,
-      "first_seen_at": "2026-09-09T16:43:16.719857+00:00",
-      "last_seen_at": "2026-09-10T11:27:02.049569+00:00"
-    },
-    {
-      "id": "inbox-66bff2a233b5385e",
-      "title": "The Download: OpenAI’s turning point for math and a battery record",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What OpenAI’s latest controversy tells us about the future of math OpenAI says its agents have solved one of the most important open problems in mathematics. Under normal circumstances, that would&#8230;",
-      "canonical_url": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record",
-      "original_url": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
-      "url": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
-      "source": "MIT Technology Review",
-      "source_id": "mit-tech-review",
-      "source_type": "rss",
-      "source_category": "journalism",
-      "source_reliability": "institutional",
-      "published_at": "2026-09-09T12:10:00+00:00",
-      "ingested_at": "2026-09-13T01:04:57.335755+00:00",
-      "suggested_topics": [
-        "ai"
-      ],
-      "suggested_entities": [
-        "openai"
-      ],
-      "primary_sector": "ai",
-      "editorial_state": "INBOX",
-      "publish": false,
-      "first_seen_at": "2026-09-09T16:43:15.384144+00:00",
-      "last_seen_at": "2026-09-13T01:04:57.335755+00:00"
-    },
-    {
-      "id": "inbox-b4794a29a06d1d21",
-      "title": "Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up",
-      "summary": "As it grapples with a bevy of lawsuits, Suno said its new model, Suno v6, is not trained using music it used to train previous versions of the AI model.",
-      "canonical_url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up",
-      "original_url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
-      "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
-      "source": "TechCrunch",
-      "source_id": "techcrunch",
-      "source_type": "rss",
-      "source_category": "journalism",
-      "source_reliability": "independent-tech",
-      "published_at": "2026-09-09T12:05:34+00:00",
-      "ingested_at": "2026-09-09T16:43:09.681344+00:00",
-      "suggested_topics": [
-        "ai",
-        "cloud"
-      ],
-      "suggested_entities": [],
-      "primary_sector": "ai",
-      "editorial_state": "INBOX",
-      "publish": false,
-      "first_seen_at": "2026-09-09T16:43:09.681344+00:00",
-      "last_seen_at": "2026-09-09T16:43:09.681344+00:00"
-    },
-    {
-      "id": "inbox-b0763bc6d5f6f6c2",
-      "title": "Microsoft closes the book on Publisher and unplugs Project Online",
-      "summary": "Office 2021 joins the October retirement list as customers weigh pricier alternatives",
-      "canonical_url": "https://www.theregister.com/software/2026/09/09/microsoft-closes-the-book-on-publisher-and-unplugs-project-online/5295205",
-      "original_url": "https://www.theregister.com/software/2026/09/09/microsoft-closes-the-book-on-publisher-and-unplugs-project-online/5295205",
-      "url": "https://www.theregister.com/software/2026/09/09/microsoft-closes-the-book-on-publisher-and-unplugs-project-online/5295205",
-      "source": "The Register",
-      "source_id": "the-register",
-      "source_type": "atom",
-      "source_category": "journalism",
-      "source_reliability": "independent-tech",
-      "published_at": "2026-09-09T12:03:00+00:00",
-      "ingested_at": "2026-09-11T11:28:32.749493+00:00",
-      "suggested_topics": [],
-      "suggested_entities": [],
-      "primary_sector": "general",
-      "editorial_state": "INBOX",
-      "publish": false,
-      "first_seen_at": "2026-09-09T16:43:09.424287+00:00",
-      "last_seen_at": "2026-09-11T11:28:32.749493+00:00"
-    },
-    {
-      "id": "inbox-e2df33608a7e7b74",
-      "title": "Roame (YC S23) Is Hiring Viral Content Editor",
-      "summary": "Article URL: https://www.ycombinator.com/companies/roame/jobs/KuVVqSh-content-systems-builder-editor Comments URL: https://news.ycombinator.com/item?id=49625110 Points: 0 # Comments: 0",
-      "canonical_url": "https://www.ycombinator.com/companies/roame/jobs/KuVVqSh-content-systems-builder-editor",
-      "original_url": "https://www.ycombinator.com/companies/roame/jobs/KuVVqSh-content-systems-builder-editor",
-      "url": "https://www.ycombinator.com/companies/roame/jobs/KuVVqSh-content-systems-builder-editor",
-      "source": "Hacker News",
-      "source_id": "hacker-news",
-      "source_type": "rss",
-      "source_category": "aggregator",
-      "source_reliability": "community-link",
-      "published_at": "2026-09-09T12:01:38+00:00",
-      "ingested_at": "2026-09-09T22:35:43.992470+00:00",
-      "suggested_topics": [
-        "defence_tech"
-      ],
-      "suggested_entities": [],
-      "primary_sector": "defence_tech",
-      "editorial_state": "INBOX",
-      "publish": false,
-      "first_seen_at": "2026-09-09T16:43:15.328210+00:00",
-      "last_seen_at": "2026-09-09T22:35:43.992470+00:00"
     }
   ]
 }
