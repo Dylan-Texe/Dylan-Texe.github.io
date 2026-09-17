@@ -1,153 +1,153 @@
 {
   "version": 1,
-  "generated_at": "2026-09-17T18:18:25.846328+00:00",
+  "generated_at": "2026-09-17T22:14:05.930033+00:00",
   "observations": [
     {
-      "observation_id": "price-nvda-1789669106",
+      "observation_id": "price-nvda-1789683246",
       "asset_id": "nvda",
-      "timestamp": "2026-09-17T18:18:26.009283+00:00",
-      "source_observation": "price-nvda-1789669106",
+      "timestamp": "2026-09-17T22:14:06.050546+00:00",
+      "source_observation": "price-nvda-1789683246",
       "calculation": {
-        "return_1d": 0.006852,
-        "price_change_1d": 1.494,
-        "close": 219.525,
-        "previous_close": 218.031,
-        "distance_from_day_high_pct": -0.001569,
-        "distance_from_day_low_pct": 0.01096,
-        "volume": 56288799
+        "return_1d": -0.000843,
+        "price_change_1d": -0.185,
+        "close": 219.34,
+        "previous_close": 219.525,
+        "distance_from_day_high_pct": -0.002547,
+        "distance_from_day_low_pct": 0.010108,
+        "volume": 92845751
       }
     },
     {
-      "observation_id": "price-tsm-1789669106",
+      "observation_id": "price-tsm-1789683246",
       "asset_id": "tsm",
-      "timestamp": "2026-09-17T18:18:26.122905+00:00",
-      "source_observation": "price-tsm-1789669106",
+      "timestamp": "2026-09-17T22:14:06.149114+00:00",
+      "source_observation": "price-tsm-1789683246",
       "calculation": {
-        "return_1d": 0.014807,
-        "price_change_1d": 6.275,
-        "close": 430.07,
-        "previous_close": 423.795,
-        "distance_from_day_high_pct": -0.000174,
-        "distance_from_day_low_pct": 0.015777,
-        "volume": 5226483
+        "return_1d": 0.000442,
+        "price_change_1d": 0.19,
+        "close": 430.26,
+        "previous_close": 430.07,
+        "distance_from_day_high_pct": -0.000627,
+        "distance_from_day_low_pct": 0.016226,
+        "volume": 12425894
       }
     },
     {
-      "observation_id": "price-msft-1789669106",
+      "observation_id": "price-msft-1789683246",
       "asset_id": "msft",
-      "timestamp": "2026-09-17T18:18:26.237991+00:00",
-      "source_observation": "price-msft-1789669106",
+      "timestamp": "2026-09-17T22:14:06.308021+00:00",
+      "source_observation": "price-msft-1789683246",
       "calculation": {
-        "return_1d": -0.001834,
-        "price_change_1d": -0.91,
-        "close": 495.17,
-        "previous_close": 496.08,
-        "distance_from_day_high_pct": -0.012563,
-        "distance_from_day_low_pct": 0.003842,
-        "volume": 8213465
+        "return_1d": 0.00521,
+        "price_change_1d": 2.58,
+        "close": 497.75,
+        "previous_close": 495.17,
+        "distance_from_day_high_pct": -0.007418,
+        "distance_from_day_low_pct": 0.009072,
+        "volume": 17779010
       }
     },
     {
-      "observation_id": "price-goog-1789669106",
+      "observation_id": "price-goog-1789683246",
       "asset_id": "goog",
-      "timestamp": "2026-09-17T18:18:26.336425+00:00",
-      "source_observation": "price-goog-1789669106",
+      "timestamp": "2026-09-17T22:14:06.485796+00:00",
+      "source_observation": "price-goog-1789683246",
       "calculation": {
-        "return_1d": -0.006655,
-        "price_change_1d": -2.29,
-        "close": 341.8,
-        "previous_close": 344.09,
-        "distance_from_day_high_pct": -0.012039,
-        "distance_from_day_low_pct": 0.003818,
-        "volume": 8077361
+        "return_1d": 0.0055,
+        "price_change_1d": 1.88,
+        "close": 343.68,
+        "previous_close": 341.8,
+        "distance_from_day_high_pct": -0.006605,
+        "distance_from_day_low_pct": 0.009339,
+        "volume": 14669379
       }
     },
     {
-      "observation_id": "price-aapl-1789669106",
+      "observation_id": "price-aapl-1789683246",
       "asset_id": "aapl",
-      "timestamp": "2026-09-17T18:18:26.469635+00:00",
-      "source_observation": "price-aapl-1789669106",
+      "timestamp": "2026-09-17T22:14:06.592092+00:00",
+      "source_observation": "price-aapl-1789683246",
       "calculation": {
-        "return_1d": 0.004807,
-        "price_change_1d": 1.605,
-        "close": 335.525,
-        "previous_close": 333.92,
-        "distance_from_day_high_pct": -0.002809,
-        "distance_from_day_low_pct": 0.016145,
-        "volume": 17636519
+        "return_1d": 0.004396,
+        "price_change_1d": 1.475,
+        "close": 337.0,
+        "previous_close": 335.525,
+        "distance_from_day_high_pct": -0.003961,
+        "distance_from_day_low_pct": 0.020612,
+        "volume": 36423997
       }
     },
     {
-      "observation_id": "price-amzn-1789669106",
+      "observation_id": "price-amzn-1789683246",
       "asset_id": "amzn",
-      "timestamp": "2026-09-17T18:18:26.567766+00:00",
-      "source_observation": "price-amzn-1789669106",
+      "timestamp": "2026-09-17T22:14:06.649256+00:00",
+      "source_observation": "price-amzn-1789683246",
       "calculation": {
-        "return_1d": 0.001694,
-        "price_change_1d": 0.425,
-        "close": 251.25,
-        "previous_close": 250.825,
-        "distance_from_day_high_pct": -0.005856,
-        "distance_from_day_low_pct": 0.008065,
-        "volume": 16955983
+        "return_1d": -0.000239,
+        "price_change_1d": -0.06,
+        "close": 251.19,
+        "previous_close": 251.25,
+        "distance_from_day_high_pct": -0.006093,
+        "distance_from_day_low_pct": 0.007824,
+        "volume": 29639613
       }
     },
     {
-      "observation_id": "price-meta-1789669106",
+      "observation_id": "price-meta-1789683246",
       "asset_id": "meta",
-      "timestamp": "2026-09-17T18:18:26.671213+00:00",
-      "source_observation": "price-meta-1789669106",
+      "timestamp": "2026-09-17T22:14:06.740240+00:00",
+      "source_observation": "price-meta-1789683246",
       "calculation": {
-        "return_1d": -0.003882,
-        "price_change_1d": -2.636,
-        "close": 676.31,
-        "previous_close": 678.946,
-        "distance_from_day_high_pct": -0.009896,
-        "distance_from_day_low_pct": 0.013882,
-        "volume": 8607281
+        "return_1d": 0.008872,
+        "price_change_1d": 6.0,
+        "close": 682.31,
+        "previous_close": 676.31,
+        "distance_from_day_high_pct": -0.001303,
+        "distance_from_day_low_pct": 0.022877,
+        "volume": 15740199
       }
     },
     {
-      "observation_id": "price-intc-1789669106",
+      "observation_id": "price-intc-1789683246",
       "asset_id": "intc",
-      "timestamp": "2026-09-17T18:18:26.867401+00:00",
-      "source_observation": "price-intc-1789669106",
+      "timestamp": "2026-09-17T22:14:06.901479+00:00",
+      "source_observation": "price-intc-1789683246",
       "calculation": {
-        "return_1d": 0.050627,
-        "price_change_1d": 5.33,
-        "close": 110.61,
-        "previous_close": 105.28,
-        "distance_from_day_high_pct": -0.006824,
-        "distance_from_day_low_pct": 0.056447,
-        "volume": 103922947
+        "return_1d": -0.016364,
+        "price_change_1d": -1.81,
+        "close": 108.8,
+        "previous_close": 110.61,
+        "distance_from_day_high_pct": -0.023076,
+        "distance_from_day_low_pct": 0.03916,
+        "volume": 147854414
       }
     },
     {
-      "observation_id": "price-amd-1789669107",
+      "observation_id": "price-amd-1789683247",
       "asset_id": "amd",
-      "timestamp": "2026-09-17T18:18:27.026849+00:00",
-      "source_observation": "price-amd-1789669107",
+      "timestamp": "2026-09-17T22:14:07.080762+00:00",
+      "source_observation": "price-amd-1789683247",
       "calculation": {
-        "return_1d": 0.02967,
-        "price_change_1d": 15.715,
-        "close": 545.37,
-        "previous_close": 529.655,
-        "distance_from_day_high_pct": -0.010972,
-        "distance_from_day_low_pct": 0.033583,
-        "volume": 19841907
+        "return_1d": -0.000513,
+        "price_change_1d": -0.28,
+        "close": 545.09,
+        "previous_close": 545.37,
+        "distance_from_day_high_pct": -0.011479,
+        "distance_from_day_low_pct": 0.033052,
+        "volume": 28330537
       }
     },
     {
-      "observation_id": "price-btc-1789669107",
+      "observation_id": "price-btc-1789683247",
       "asset_id": "btc",
-      "timestamp": "2026-09-17T18:18:27.189668+00:00",
-      "source_observation": "price-btc-1789669107",
+      "timestamp": "2026-09-17T22:14:07.195759+00:00",
+      "source_observation": "price-btc-1789683247",
       "calculation": {
-        "return_1d": 0.00272,
-        "price_change_1d": 208,
-        "close": 76669,
-        "previous_close": 76461,
-        "volume": 28693365945.742794
+        "return_1d": -0.004317,
+        "price_change_1d": -331,
+        "close": 76338,
+        "previous_close": 76669,
+        "volume": 24256432853.21944
       }
     }
   ]
