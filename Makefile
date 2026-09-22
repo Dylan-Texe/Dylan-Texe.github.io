@@ -7,6 +7,9 @@ build:
 	@test -f index.html
 	@test -f css/site.css
 	@test -f og-image.png
+	@test -f ufo/index.html
+	@test -f js/play-urls.js
+	@test -f assets/vapor-sky.svg
 
 dev:
 	@echo "Dylan - local preview at http://localhost:$(PORT)"

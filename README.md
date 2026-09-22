@@ -8,9 +8,10 @@ GitHub Pages portfolio of work: [dylan-texe.github.io](https://dylan-texe.github
 
 | Path | What it is |
 | --- | --- |
-| `/` | Home. Name, role, links, and four products. |
+| `/` | Home. Name, role, links, and the work list. |
 | `/about/` | Short note. |
 | `/colophon/` | How the page is made. |
+| `/ufo/` | UFO '84 play page. |
 
 ## Work
 
@@ -18,6 +19,10 @@ GitHub Pages portfolio of work: [dylan-texe.github.io](https://dylan-texe.github
 - [DocGlue](https://docglue.com) - live. Deal-pack and document workflow.
 - [syntax.energy](https://syntax.energy) - lab. Satire energy utility.
 - [Living System](https://project-x-living-system-taupe.vercel.app) - lab. Habitat for an escaped digital organism.
+- [UFO '84](https://ufo-80s.vercel.app) - play. Fun arcade, lost 1984 ROM vibe. Notes live at `/ufo/`. Source: [Dylan-Texe/UFO-80s](https://github.com/Dylan-Texe/UFO-80s).
+- [Pentaspace](https://pentaspace.vercel.app) - lab. 5D spatial lab, a view of five-dimensional math. Source: [Dylan-Texe/Pentaspace](https://github.com/Dylan-Texe/Pentaspace).
+
+Play targets are `UFO_PLAY_URL` and `PENTASPACE_URL` in `js/play-urls.js`.
 
 Living System has no custom domain on the Vercel project `project-x-living-system`. The link is that project's public production domain (`project-x-living-system-taupe.vercel.app`). Other `*.vercel.app` aliases on the project are deployment-protected.
 
