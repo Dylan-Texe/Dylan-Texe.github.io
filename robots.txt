@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
-Disallow: /data/ingest/
+Disallow: /archive/network-console/
+Disallow: /data/
 
-Sitemap: https://thetechbriefing.com/sitemap.xml
+Sitemap: https://dylan-texe.github.io/sitemap.xml

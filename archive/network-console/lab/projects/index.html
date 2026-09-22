@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Lab projects — The Tech Briefing</title>
+<meta name="description" content="Windows infrastructure, networking, and queued systems projects.">
+<link rel="canonical" href="https://thetechbriefing.com/lab/projects/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/atom+xml" title="The Tech Briefing feed" href="/feed.xml">
+<meta name="robots" content="noindex,nofollow">
+<meta property="og:site_name" content="The Tech Briefing">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lab projects — The Tech Briefing">
+<meta property="og:description" content="Windows infrastructure, networking, and queued systems projects.">
+<meta property="og:url" content="https://thetechbriefing.com/lab/projects/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Lab projects — The Tech Briefing">
+<meta name="twitter:description" content="Windows infrastructure, networking, and queued systems projects.">
+
+<link rel="stylesheet" href="/css/style.15738ed0.css"><link rel="stylesheet" href="/css/enhancements.3c0cd085.css"><link rel="stylesheet" href="/css/network.69d1d096.css">
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://thetechbriefing.com/"}, {"@type": "ListItem", "position": 2, "name": "Lab", "item": "https://thetechbriefing.com/lab/"}, {"@type": "ListItem", "position": 3, "name": "Projects", "item": "https://thetechbriefing.com/lab/projects/"}]}</script>
+</head>
+<body>
+<div class="retired-snapshot" style="position:sticky;top:0;z-index:50;background:#0c0e0b;color:#ece8df;font:500 12px/1.45 ui-monospace,monospace;padding:10px 16px;border-bottom:1px solid rgba(236,232,223,.35)">Retired snapshot. This is not the site. <a href="/" style="color:#ece8df">Pin</a> · <a href="https://thetechbriefing.com" style="color:#ece8df">thetechbriefing.com</a></div>
+
+<div class="scanlines" aria-hidden="true"></div>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<nav class="nav container" aria-label="Primary">
+  <a class="brand-lockup" href="/">
+    <span class="brand-name"><span class="status-dot"></span>The Tech Briefing</span>
+    <span class="brand-loop">READ → UNDERSTAND → VERIFY → CONNECT → DISCOVER</span>
+  </a>
+  <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu">MENU <span>☰</span></button>
+  <div class="nav-cluster">
+    <div class="nav-primary"><a href="/briefings/">BRIEFINGS</a><a href="/signals/">SIGNALS</a><a href="/intelligence/">INTELLIGENCE</a><a href="/topics/">TOPICS</a><a href="/archive/">ARCHIVE</a><a href="/lab/" aria-current="page">LAB</a><a href="/search/">SEARCH</a></div>
+    <div class="nav-secondary"><a href="/about/">ABOUT</a></div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu"><a href="/briefings/">BRIEFINGS</a><a href="/signals/">SIGNALS</a><a href="/intelligence/">INTELLIGENCE</a><a href="/topics/">TOPICS</a><a href="/archive/">ARCHIVE</a><a href="/lab/" aria-current="page">LAB</a><a href="/search/">SEARCH</a><a href="/about/">ABOUT</a></div>
+</nav>
+</header>
+<div class="edition-strip">
+  <div class="container">
+    <span>Edition 2026.08.28 // <b>OPEN</b></span>
+    <span>28 AUG 2026 // CAPE TOWN</span>
+  </div>
+</div>
+<main id="main">
+
+<section class="page-head container">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/lab/">Lab</a><span aria-hidden="true">/</span><span aria-current="page">Projects</span></nav>
+  <p class="masthead-kicker">LAB / PROJECTS</p>
+  <h1>PROJECTS<span>.</span></h1>
+  <p>Real systems work. Queued items are labeled as queued.</p>
+  <div class="lab-nav"><a href="/lab/">LAB HOME</a><a href="/lab/systems/">SYSTEMS</a><a href="/lab/reference/">REFERENCE</a></div>
+</section>
+<section class="section container"><div class="section-label">FEATURED</div><div class="section-content"><article class="project featured">
+          <div class="project-index">PROJECT_001</div>
+          <div class="project-main">
+            <p class="project-tag">COMPLETE / DOCUMENTED</p>
+            <h2>Windows Infrastructure Lab</h2>
+            <p>A small-business style Windows environment built around Windows Server 2022. DC01 provides Active Directory and DNS for the corp.lab domain. CLIENT01 was installed, configured to use DC01 for DNS, joined to the domain, authenticated with a domain account and placed into the Workstations OU. A Workstation Baseline GPO was created and linked, and a successful policy refresh was performed. Live deployment was paused before the final DHCP/file-service expansion because the host reached its practical RAM and CPU limits. The repository retains the reconstruction procedures for DHCP, file services, permissions and deeper GPO verification.</p>
+            <div class="lab-flow"><span>DC01</span><i>→</i><span>AD DS</span><i>→</i><span>DNS</span><i>→</i><span>GPO</span><i>→</i><span>CLIENT01</span></div>
+            <div class="tags"><span>WINDOWS SERVER</span><span>ACTIVE DIRECTORY</span><span>DNS</span><span>GROUP POLICY</span><span>POWERSHELL</span><span>LIBVIRT / KVM</span><span>E1000E</span></div>
+          </div>
+          <a class="project-link" href="https://github.com/Dylan-Texe/windows-infrastructure-lab" rel="noopener noreferrer">OPEN REPOSITORY ↗</a>
+        </article><article class="project featured">
+          <div class="project-index">PROJECT_002</div>
+          <div class="project-main">
+            <p class="project-tag">ACTIVE / BUILDING</p>
+            <h2>Networking Lab</h2>
+            <p>A practical networking environment covering TCP/IP, IPv4 and IPv6, DHCP, DNS, NAT, routing, VLANs, firewalling, network services, packet analysis and diagnostics. Reference material is maintained alongside experiments so concepts, configurations and observed behaviour can be traced back to actual lab work. Completed work is documented as it is actually tested; planned concepts remain explicitly separated from verified results.</p>
+            <div class="lab-flow"><span>CLIENTS</span><i>→</i><span>LAN</span><i>→</i><span>ROUTING</span><i>→</i><span>SERVICES</span><i>→</i><span>WAN</span></div>
+            <div class="tags"><span>TCP/IP</span><span>IPv4 / IPv6</span><span>DHCP</span><span>DNS</span><span>NAT</span><span>ROUTING</span><span>VLAN</span><span>FIREWALLS</span><span>PACKET ANALYSIS</span></div>
+          </div>
+          <a class="project-link" href="https://github.com/Dylan-Texe/networking-lab" rel="noopener noreferrer">OPEN REPOSITORY ↗</a>
+        </article></div></section>
+<section class="section container"><div class="section-label">QUEUE</div><div class="section-content"><div class="project-grid"><article class="project placeholder"><div class="mini-icon">PROJECT_003</div>
+        <p class="project-tag">QUEUED</p><h3>PowerShell IT Toolkit</h3><p>Reusable administration, diagnostics and automation tools.</p>
+        <a class="project-link" href="https://github.com/Dylan-Texe/powershell-it-toolkit" rel="noopener noreferrer">REPOSITORY ↗</a></article><article class="project placeholder"><div class="mini-icon">PROJECT_004</div>
+        <p class="project-tag">QUEUED</p><h3>Linux Infrastructure Lab</h3><p>Linux administration, services, networking, storage and recovery.</p>
+        <a class="project-link" href="https://github.com/Dylan-Texe/linux-infrastructure-lab" rel="noopener noreferrer">REPOSITORY ↗</a></article><article class="project placeholder"><div class="mini-icon">PROJECT_005</div>
+        <p class="project-tag">QUEUED</p><h3>Network Monitor</h3><p>Availability, latency, service health and monitoring.</p>
+        <a class="project-link" href="https://github.com/Dylan-Texe/network-monitor" rel="noopener noreferrer">REPOSITORY ↗</a></article><article class="project placeholder"><div class="mini-icon">PROJECT_006</div>
+        <p class="project-tag">QUEUED</p><h3>IoT Environment Monitor</h3><p>Arduino, Raspberry Pi and environmental sensor monitoring.</p>
+        <a class="project-link" href="https://github.com/Dylan-Texe/iot-environment-monitor" rel="noopener noreferrer">REPOSITORY ↗</a></article><article class="project placeholder"><div class="mini-icon">PROJECT_007</div>
+        <p class="project-tag">QUEUED</p><h3>AI Troubleshooting Assistant</h3><p>Evidence-driven troubleshooting with technical knowledge and local AI.</p>
+        <a class="project-link" href="https://github.com/Dylan-Texe/ai-troubleshooting-assistant" rel="noopener noreferrer">REPOSITORY ↗</a></article><article class="project placeholder"><div class="mini-icon">PROJECT_008</div>
+        <p class="project-tag">ARCHIVE</p><h3>Legacy Projects</h3><p>Older builds, experiments and technical history.</p>
+        <a class="project-link" href="https://github.com/Dylan-Texe/legacy-projects" rel="noopener noreferrer">REPOSITORY ↗</a></article></div></div></section>
+
+</main>
+<footer class="site-footer container">
+  <span>© 2026 The Tech Briefing // LAB: DYLAN THIART</span>
+  <span><a href="/about/">METHODOLOGY</a> · <a href="/feed.xml">FEED</a> · <a href="/lab/">LAB</a></span>
+</footer>
+<script src="/js/site.367599fb.js"></script>
+
+</body>
+</html>
