@@ -6,12 +6,15 @@ ingest:
 	python3 scripts/run_ingest.py
 
 build:
-	python3 scripts/build_site.py
+	@echo "Static portfolio — nothing to compile."
+	@echo "scripts/build_site.py is retired and will not overwrite index.html."
+	@test -f index.html
+	@test -f css/pin.css
+	@test -f og-image.png
 
-dev: build
-	@echo "The Tech Briefing — local preview at http://localhost:$(PORT)"
-	python3 -m http.server $(PORT)
+dev:
+	@echo "Dylan — local preview at http://localhost:$(PORT)"
+	PORT=$(PORT) python3 scripts/preview.py
 
 clean:
-	find css js -type f -regextype posix-extended -regex '.*/[^/]+\.[0-9a-f]{8}\.(css|js)$$' -delete 2>/dev/null || true
-	rm -f data/asset-manifest.json
+	@echo "No generated site assets to clean."

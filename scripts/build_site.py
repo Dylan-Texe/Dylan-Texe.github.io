@@ -1738,6 +1738,20 @@ def intelligence_page(data: dict) -> str:
 
 
 def main() -> None:
+    """Do not publish the retired network console over the portfolio.
+
+    index.html is the hand-written X pin. Running the old generator would
+    replace that page, the about/archive routes, sitemap, and robots file.
+    The previous console is kept as a snapshot under archive/network-console/.
+    Tech Briefing itself is https://thetechbriefing.com.
+    """
+    raise SystemExit(
+        "build_site.py no longer publishes to the site root.\n"
+        "The public site is the static portfolio in index.html.\n"
+        "Tech Briefing lives at https://thetechbriefing.com.\n"
+        "The previous console snapshot is under archive/network-console/."
+    )
+
     import subprocess
     import sys
 

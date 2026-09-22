@@ -1,8 +1,9 @@
 name: Ingest RSS inbox
 
+# This repository is Dylan's personal site. The hourly ingest used to feed a
+# network console that no longer publishes here. Tech Briefing lives at
+# https://thetechbriefing.com. Run the old pipeline only on purpose.
 on:
-  schedule:
-    - cron: '17 * * * *'
   workflow_dispatch:
 
 permissions:
