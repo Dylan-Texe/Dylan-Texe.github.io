@@ -7,6 +7,7 @@ build:
 	@test -f index.html
 	@test -f css/site.css
 	@test -f og-image.png
+	@test -f og-image-v2.png
 	@test -f ufo/index.html
 	@test -f js/play-urls.js
 	@test -f assets/vapor-sky.svg
