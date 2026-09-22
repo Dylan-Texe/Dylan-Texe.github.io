@@ -25,7 +25,7 @@ class Handler(SimpleHTTPRequestHandler):
 def main() -> None:
     port = int(os.environ.get("PORT", "8080"))
     server = ThreadingHTTPServer(("0.0.0.0", port), Handler)
-    print(f"Dylan — http://127.0.0.1:{port}")
+    print(f"Dylan - http://127.0.0.1:{port}")
     server.serve_forever()
 
 
