@@ -18,7 +18,7 @@ This is not the Tech Briefing product. That lives at [thetechbriefing.com](https
 Work on the pin:
 
 - [Tech Briefing](https://thetechbriefing.com) — live. Private intelligence. Morning desk briefing.
-- [Docglue](https://docglue.com) — live. Deal-pack and document workflow.
+- [DocGlue](https://docglue.com) — live. Deal-pack and document workflow.
 - [syntax.energy](https://syntax.energy) — lab. Satire energy utility.
 - [Living System](https://project-x-living-system-taupe.vercel.app) — lab. Habitat for an escaped digital organism.
 
