@@ -21,7 +21,7 @@ GitHub Pages portfolio of work: [dylan-texe.github.io](https://dylan-texe.github
 
 Living System has no custom domain on the Vercel project `project-x-living-system`. The link is that project's public production domain (`project-x-living-system-taupe.vercel.app`). Other `*.vercel.app` aliases on the project are deployment-protected.
 
-Email is [syntax.energy@proton.me](mailto:syntax.energy@proton.me).
+Email is [support@syntax.energy](mailto:support@syntax.energy).
 
 ## Preview
 
