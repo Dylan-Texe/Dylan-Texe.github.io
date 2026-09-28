@@ -286,6 +286,8 @@ a {
 
 .card {
   display: block;
+  position: relative;
+  overflow: hidden;
   padding: 0.85rem 0.95rem 0.95rem;
   border: 1px solid var(--line);
   border-radius: 14px;
@@ -497,12 +499,40 @@ kbd {
     border-color: var(--cyan);
     box-shadow:
       inset 0 1px 0 rgba(122, 246, 255, 0.3),
-      0 0 18px rgba(122, 246, 255, 0.12);
+      0 0 18px rgba(122, 246, 255, 0.12),
+      0 0 22px rgba(255, 79, 216, 0.1);
   }
 
   .mark:hover {
     background: var(--cyan);
     color: var(--ink);
+  }
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(
+      115deg,
+      transparent 36%,
+      rgba(122, 246, 255, 0.13) 48%,
+      rgba(255, 79, 216, 0.1) 54%,
+      transparent 66%
+    );
+    transform: translateX(-130%);
+    pointer-events: none;
+  }
+
+  .card:hover::after {
+    transform: translateX(130%);
+    transition: transform 720ms linear;
+  }
+
+  .card:hover h3 {
+    text-shadow: 0 0 10px rgba(122, 246, 255, 0.4);
   }
 }
 
@@ -521,6 +551,285 @@ kbd {
   .action,
   .mark {
     transition: background-color 120ms linear, border-color 120ms linear, color 120ms linear, box-shadow 120ms linear;
+  }
+
+  .status-live .pip,
+  .status-play .pip {
+    animation: pip-pulse 3.6s ease-in-out infinite;
+  }
+}
+
+@keyframes pip-pulse {
+  0%,
+  100% { opacity: 0.45; }
+  50% { opacity: 1; }
+}
+
+html.scene-live body::before {
+  background-image: url("/assets/vapor-sky-live.svg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+html.scene-live body::after {
+  opacity: 0;
+}
+
+html.scene-live .site-footer {
+  text-shadow: 0 1px 2px #000, 0 0 8px #000;
+}
+
+.scene,
+.scene-grid {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  user-select: none;
+}
+
+.scene {
+  z-index: 0;
+  overflow: hidden;
+}
+
+.scene-grid {
+  z-index: 2;
+  display: block;
+  mix-blend-mode: screen;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, transparent 36%, rgba(0, 0, 0, 0.42) 48%, rgba(0, 0, 0, 0.78) 70%, #000 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, transparent 36%, rgba(0, 0, 0, 0.42) 48%, rgba(0, 0, 0, 0.78) 70%, #000 100%);
+}
+
+.scene-stars,
+.scene-matrix,
+.scene-planets,
+.scene-vignette,
+.scene-scan,
+.scene-grain {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  pointer-events: none;
+}
+
+.scene-vignette {
+  background:
+    radial-gradient(ellipse at 50% 16%, transparent 0%, transparent 26%, rgba(5, 2, 12, 0.38) 76%),
+    linear-gradient(90deg, rgba(61, 240, 255, 0.14), transparent 10%, transparent 90%, rgba(255, 79, 216, 0.16));
+}
+
+.scene-scan {
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.22) 0px,
+    rgba(0, 0, 0, 0.22) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+}
+
+.scene-grain {
+  inset: -28px;
+  width: auto;
+  height: auto;
+  background-image: url("/assets/grain.svg");
+  background-size: 140px 140px;
+  opacity: 0.8;
+}
+
+.sky-body {
+  position: absolute;
+  left: 0;
+  top: 0;
+  will-change: transform;
+}
+
+.sun-glow {
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 214, 140, 0.5) 0%, rgba(255, 77, 138, 0.16) 42%, transparent 70%);
+  mix-blend-mode: screen;
+}
+
+.planet-ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 148%;
+  height: 29%;
+  border: 2px solid rgba(255, 79, 216, 0.62);
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(255, 79, 216, 0.22);
+  transform: translate(-50%, -50%) rotate(-16deg);
+}
+
+.planet-face {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #12061f;
+  box-shadow: 0 0 14px rgba(90, 50, 180, 0.28);
+}
+
+.planet-bands,
+.planet-haze,
+.planet-light,
+.planet-lat {
+  position: absolute;
+  inset: 0;
+}
+
+.planet-bands {
+  background: repeating-linear-gradient(
+    90deg,
+    #241246 0 10px,
+    #6a48e0 10px 16px,
+    #d7ccff 16px 19px,
+    #3a1d78 19px 34px,
+    #1a0b2e 34px 48px,
+    #ff4fd8 48px 52px,
+    #2a1468 52px 64px
+  );
+}
+
+.planet-haze {
+  background: repeating-linear-gradient(
+    90deg,
+    transparent 0 18px,
+    rgba(255, 210, 245, 0.2) 18px 28px,
+    transparent 28px 52px
+  );
+  opacity: 0.55;
+}
+
+.planet-light {
+  background: radial-gradient(
+    circle at 36% 34%,
+    rgba(210, 198, 255, 0.62) 0%,
+    rgba(109, 77, 255, 0.28) 32%,
+    rgba(42, 20, 104, 0.08) 62%,
+    rgba(8, 2, 16, 0.72) 100%
+  );
+}
+
+.planet-lat {
+  inset: auto 0;
+  top: 34%;
+  height: 20%;
+  border: 1.5px solid rgba(228, 217, 255, 0.5);
+  border-radius: 50%;
+}
+
+.moon-disc,
+.moon-spin {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+}
+
+.moon-disc {
+  background: #e7fdff;
+  box-shadow: 0 0 8px rgba(231, 253, 255, 0.4);
+}
+
+.moon-cut {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: rgba(18, 6, 31, 0.62);
+  transform: translate(-26%, -14%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .planet-bands {
+    animation: spin-bands 34s linear infinite;
+  }
+
+  .planet-haze {
+    animation: spin-haze 56s linear infinite reverse;
+  }
+
+  .planet-ring {
+    animation: ring-wobble 22s ease-in-out infinite;
+  }
+
+  .moon-spin {
+    animation: moon-spin 76s linear infinite;
+  }
+
+  .sun-glow {
+    animation: sun-pulse 11s ease-in-out infinite;
+  }
+
+  .scene-grain {
+    animation: grain-drift 3.2s steps(4) infinite;
+  }
+}
+
+@keyframes spin-bands {
+  from { background-position: 0 0; }
+  to { background-position: 64px 0; }
+}
+
+@keyframes spin-haze {
+  from { background-position: 0 0; }
+  to { background-position: 52px 0; }
+}
+
+@keyframes ring-wobble {
+  0%,
+  100% { transform: translate(-50%, -50%) rotate(-18deg); }
+  50% { transform: translate(-50%, -50%) rotate(-13deg); }
+}
+
+@keyframes moon-spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes sun-pulse {
+  0%,
+  100% { opacity: 0.2; }
+  50% { opacity: 0.46; }
+}
+
+@keyframes grain-drift {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-16px, 10px); }
+  50% { transform: translate(8px, -14px); }
+  75% { transform: translate(-6px, 16px); }
+  100% { transform: translate(0, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.scene-live body::before {
+    background-image:
+      url("/assets/grain.svg"),
+      repeating-linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.22) 0px,
+        rgba(0, 0, 0, 0.22) 1px,
+        transparent 1px,
+        transparent 4px
+      ),
+      url("/assets/vapor-grid.svg"),
+      url("/assets/vapor-sky.svg");
+    background-size: 140px 140px, auto, 100% 54%, cover;
+    background-position: 0 0, 0 0, center bottom, center top;
+    background-repeat: repeat, repeat, no-repeat, no-repeat;
+  }
+
+  html.scene-live body::after {
+    opacity: 1;
+  }
+
+  .scene,
+  .scene-grid {
+    display: none;
   }
 }
 
