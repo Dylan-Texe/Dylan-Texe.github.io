@@ -106,8 +106,7 @@
       '</div>' +
       '<div class="scene-vignette"></div>' +
       '<canvas class="scene-matrix"></canvas>' +
-      '<div class="scene-scan"></div>' +
-      '<div class="scene-grain"></div>';
+      '<div class="scene-scan"></div>';
 
     gridCanvas = document.createElement("canvas");
     gridCanvas.className = "scene-grid";
