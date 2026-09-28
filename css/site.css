@@ -70,7 +70,6 @@ body::before {
   z-index: -1;
   pointer-events: none;
   background-image:
-    url("/assets/grain.svg"),
     repeating-linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.22) 0px,
@@ -80,9 +79,9 @@ body::before {
     ),
     url("/assets/vapor-grid.svg"),
     url("/assets/vapor-sky.svg");
-  background-size: 140px 140px, auto, 100% 54%, cover;
-  background-position: 0 0, 0 0, center bottom, center top;
-  background-repeat: repeat, repeat, no-repeat, no-repeat;
+  background-size: auto, 100% 54%, cover;
+  background-position: 0 0, center bottom, center top;
+  background-repeat: repeat, no-repeat, no-repeat;
 }
 
 body::after {
@@ -566,10 +565,7 @@ kbd {
 }
 
 html.scene-live body::before {
-  background-image: url("/assets/vapor-sky-live.svg");
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
+  background: url("/assets/vapor-sky-live.svg") center top / cover no-repeat;
 }
 
 html.scene-live body::after {
@@ -786,7 +782,6 @@ html.scene-live .site-footer {
 @media (prefers-reduced-motion: reduce) {
   html.scene-live body::before {
     background-image:
-      url("/assets/grain.svg"),
       repeating-linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0.22) 0px,
@@ -796,9 +791,9 @@ html.scene-live .site-footer {
       ),
       url("/assets/vapor-grid.svg"),
       url("/assets/vapor-sky.svg");
-    background-size: 140px 140px, auto, 100% 54%, cover;
-    background-position: 0 0, 0 0, center bottom, center top;
-    background-repeat: repeat, repeat, no-repeat, no-repeat;
+    background-size: auto, 100% 54%, cover;
+    background-position: 0 0, center bottom, center top;
+    background-repeat: repeat, no-repeat, no-repeat;
   }
 
   html.scene-live body::after {
