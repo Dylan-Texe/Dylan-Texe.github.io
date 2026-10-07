@@ -28,6 +28,11 @@
     return n < 10 ? "0" + n : String(n);
   }
 
+  function smooth(t) {
+    t = clamp(t, 0, 1);
+    return t * t * (3 - 2 * t);
+  }
+
   function wantsDeck() {
     return cards.length > 1 && !reduceQuery.matches && wideQuery.matches;
   }
@@ -58,10 +63,11 @@
     var nextRaw = rel > 0 ? rel : 0;
     var past = Math.min(pastRaw, 1.05);
     var next = Math.min(nextRaw, 2.6);
-    var rotateX = 24 + next * 9 - past * 72;
-    var rotateY = next * -7 + past * 12;
-    var y = next * 34 - past * 26;
-    var z = -180 * next + past * 36;
+    var arrive = smooth(Math.min(nextRaw, 1));
+    var rotateX = 14 + arrive * 6 - past * 42;
+    var rotateY = arrive * -2.5 + past * 4;
+    var y = next * 22 - past * 16;
+    var z = -90 * next + past * 18;
     var scale = 1 - next * 0.07 - past * 0.05;
     var opacity = 1;
     if (nextRaw > 0) opacity = clamp(1 - Math.pow(nextRaw, 0.85) * 1.08, 0, 1);
