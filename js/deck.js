@@ -14,10 +14,12 @@
   var barEl = deck.querySelector("[data-deck-bar]");
   var reduceQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
   var wideQuery = window.matchMedia("(min-width: 800px)");
+  var fineQuery = window.matchMedia("(hover: hover) and (pointer: fine)");
   var root = document.documentElement;
   var on = false;
   var raf = 0;
   var metrics = { start: 0, range: 1 };
+  var tilt = { i: -1, x: 0, y: 0 };
 
   function clamp(v, a, b) {
     return Math.max(a, Math.min(b, v));
@@ -39,6 +41,7 @@
     if (!link) return;
     link.style.pointerEvents = "";
     link.style.opacity = "";
+    link.style.transform = "";
   }
 
   function measure() {
@@ -98,6 +101,13 @@
       if (link) {
         link.style.opacity = spot.opacity.toFixed(3);
         link.style.pointerEvents = spot.hit ? "auto" : "none";
+        if (tilt.i === i && spot.hit) {
+          link.style.transform =
+            "rotateX(" + (-tilt.y * 7).toFixed(2) + "deg) " +
+            "rotateY(" + (tilt.x * 9).toFixed(2) + "deg)";
+        } else {
+          link.style.transform = "";
+        }
       }
     }
   }
@@ -146,7 +156,47 @@
       if (!on) return;
       scrollToCard(index);
     });
+    link.addEventListener("pointermove", function (e) {
+      if (!fineQuery.matches || reduceQuery.matches) return;
+      if (e.pointerType && e.pointerType !== "mouse") return;
+      var rect = link.getBoundingClientRect();
+      var px = (e.clientX - rect.left) / Math.max(1, rect.width) - 0.5;
+      var py = (e.clientY - rect.top) / Math.max(1, rect.height) - 0.5;
+      link.style.setProperty("--gx", ((px + 0.5) * 100).toFixed(1) + "%");
+      link.style.setProperty("--gy", ((py + 0.5) * 100).toFixed(1) + "%");
+      if (on) {
+        tilt.i = index;
+        tilt.x = px;
+        tilt.y = py;
+        requestRender();
+        return;
+      }
+      link.style.transform =
+        "rotateX(" + (-py * 8).toFixed(2) + "deg) rotateY(" + (px * 10).toFixed(2) + "deg)";
+    });
+    link.addEventListener("pointerleave", function () {
+      link.style.removeProperty("--gx");
+      link.style.removeProperty("--gy");
+      if (tilt.i === index) {
+        tilt.i = -1;
+        tilt.x = 0;
+        tilt.y = 0;
+      }
+      if (on) requestRender();
+      else link.style.transform = "";
+    });
   });
+
+  var hero = document.querySelector(".hero");
+  if (hero) {
+    hero.addEventListener("pointermove", function (e) {
+      if (!fineQuery.matches || reduceQuery.matches) return;
+      if (e.pointerType && e.pointerType !== "mouse") return;
+      var rect = hero.getBoundingClientRect();
+      hero.style.setProperty("--hx", ((e.clientX - rect.left) / Math.max(1, rect.width) * 100).toFixed(1) + "%");
+      hero.style.setProperty("--hy", ((e.clientY - rect.top) / Math.max(1, rect.height) * 100).toFixed(1) + "%");
+    });
+  }
 
   deck.addEventListener("keydown", function (e) {
     if (!on) return;
