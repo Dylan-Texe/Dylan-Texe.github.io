@@ -64,8 +64,8 @@
     var z = -180 * next + past * 36;
     var scale = 1 - next * 0.07 - past * 0.05;
     var opacity = 1;
-    if (nextRaw > 1.55) opacity = clamp(1 - (nextRaw - 1.55) / 0.7, 0, 1);
-    if (pastRaw > 0.48) opacity = clamp(1 - (pastRaw - 0.48) / 0.5, 0, 1);
+    if (nextRaw > 0) opacity = clamp(1 - Math.pow(nextRaw, 0.85) * 1.08, 0, 1);
+    if (pastRaw > 0.42) opacity = Math.min(opacity, clamp(1 - (pastRaw - 0.42) / 0.45, 0, 1));
     var hit = rel >= -0.28 && rel < 0.55 && opacity > 0.5;
     return {
       rotateX: rotateX,
