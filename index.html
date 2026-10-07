@@ -50,10 +50,13 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="sheet">
+<div class="sheet sheet-home">
   <div class="sky-gap" aria-hidden="true"></div>
   <header class="topbar">
-    <a class="mark" href="/" aria-label="Dylan, home">DT</a>
+    <div class="brand-lockup">
+      <a class="mark" href="/" aria-label="Dylan, home">DT</a>
+      <a class="brand" href="/">Dylan</a>
+    </div>
     <nav class="topnav" aria-label="Primary">
       <a href="#work">Work</a>
       <a href="/about/">About</a>
@@ -63,6 +66,7 @@
   </header>
   <main id="main">
     <section class="hero" aria-labelledby="name">
+      <p class="eyebrow">Portfolio</p>
       <h1 id="name">Dylan</h1>
       <hr class="rule">
       <p class="role">Building tools for tech decisions.</p>
@@ -71,77 +75,123 @@
         <a class="action" href="mailto:support@syntax.energy">Email</a>
       </div>
     </section>
-    <section class="work-section" id="work" aria-labelledby="work-heading">
-      <div class="deck" data-deck>
-        <div class="deck-pin">
-          <div class="deck-head">
-            <h2 id="work-heading">Work</h2>
-            <p class="deck-meter" aria-hidden="true">
-              <span class="deck-meter-label"><span data-deck-now>01</span> / 06</span>
-              <span class="deck-meter-track"><span class="deck-meter-bar" data-deck-bar></span></span>
-            </p>
-          </div>
-          <div class="deck-stage">
-            <ol class="work">
-              <li class="deck-card">
-                <a class="card" href="https://thetechbriefing.com" target="_blank" rel="noopener noreferrer">
-                  <span class="status status-live"><span class="pip" aria-hidden="true"></span>Live</span>
-                  <h3><span class="index" aria-hidden="true">1</span> Tech Briefing</h3>
-                  <p>Private intelligence. Morning desk briefing.</p>
-                  <span class="visit">Visit <span aria-hidden="true">→</span></span>
-                  <span class="sr-only"> (opens in a new tab)</span>
-                </a>
-              </li>
-              <li class="deck-card">
-                <a class="card" href="https://docglue.com" target="_blank" rel="noopener noreferrer">
-                  <span class="status status-live"><span class="pip" aria-hidden="true"></span>Live</span>
-                  <h3><span class="index" aria-hidden="true">2</span> DocGlue</h3>
-                  <p>Deal-pack and document workflow.</p>
-                  <span class="visit">Visit <span aria-hidden="true">→</span></span>
-                  <span class="sr-only"> (opens in a new tab)</span>
-                </a>
-              </li>
-              <li class="deck-card">
-                <a class="card" href="https://syntax.energy" target="_blank" rel="noopener noreferrer">
-                  <span class="status"><span class="pip" aria-hidden="true"></span>Lab</span>
-                  <h3><span class="index" aria-hidden="true">3</span> syntax.energy</h3>
-                  <p>Satire energy utility.</p>
-                  <span class="visit">Visit <span aria-hidden="true">→</span></span>
-                  <span class="sr-only"> (opens in a new tab)</span>
-                </a>
-              </li>
-              <li class="deck-card">
-                <a class="card" href="https://project-x-living-system-taupe.vercel.app" target="_blank" rel="noopener noreferrer">
-                  <span class="status"><span class="pip" aria-hidden="true"></span>Lab</span>
-                  <h3><span class="index" aria-hidden="true">4</span> Living System</h3>
-                  <p>Habitat for an escaped digital organism.</p>
-                  <span class="visit">Visit <span aria-hidden="true">→</span></span>
-                  <span class="sr-only"> (opens in a new tab)</span>
-                </a>
-              </li>
-              <li class="deck-card">
-                <!-- TARGET_PLAY_URL: UFO_PLAY_URL in /js/play-urls.js -->
-                <a class="card" data-play-url="UFO_PLAY_URL" href="https://ufo-80s.vercel.app" target="_blank" rel="noopener noreferrer">
-                  <span class="status status-play"><span class="pip" aria-hidden="true"></span>Play</span>
-                  <h3><span class="index" aria-hidden="true">5</span> UFO '84</h3>
-                  <p>Fun arcade. Lost 1984 ROM vibe.</p>
-                  <span class="visit">Play <span aria-hidden="true">→</span></span>
-                  <span class="sr-only"> (opens in a new tab)</span>
-                </a>
-              </li>
-              <li class="deck-card">
-                <a class="card" data-play-url="PENTASPACE_URL" href="https://pentaspace.vercel.app" target="_blank" rel="noopener noreferrer">
-                  <span class="status"><span class="pip" aria-hidden="true"></span>Lab</span>
-                  <h3><span class="index" aria-hidden="true">6</span> Pentaspace</h3>
-                  <p>5D spatial lab. A view of five-dimensional math.</p>
-                  <span class="visit">Visit <span aria-hidden="true">→</span></span>
-                  <span class="sr-only"> (opens in a new tab)</span>
-                </a>
-              </li>
-            </ol>
-          </div>
+    <section class="work-section" id="work" data-carousel aria-labelledby="work-heading">
+      <h2 id="work-heading">Work</h2>
+      <div class="carousel-tools">
+        <p class="carousel-count"><span data-carousel-fraction>01 / 06</span></p>
+        <div class="carousel-arrows">
+          <button type="button" class="carousel-arrow" data-carousel-prev aria-label="Previous project">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button type="button" class="carousel-arrow" data-carousel-next aria-label="Next project">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
         </div>
       </div>
+      <div class="carousel-viewport" role="region" aria-roledescription="carousel" aria-label="Selected work">
+        <ol class="carousel-track" data-carousel-track>
+          <li class="carousel-slide is-active">
+            <a class="card card-briefing" href="https://thetechbriefing.com" target="_blank" rel="noopener noreferrer" aria-label="Tech Briefing, live. Private intelligence. Morning desk briefing. Opens in a new tab.">
+              <span class="card-stage stage-briefing" aria-hidden="true">
+                <span class="sun"></span>
+                <span class="horizon"></span>
+                <span class="bars"><i></i><i></i><i></i><i></i><i></i></span>
+                <span class="watermark">01</span>
+              </span>
+              <span class="card-copy">
+                <span class="status status-live"><span class="pip" aria-hidden="true"></span>Live</span>
+                <h3>Tech Briefing</h3>
+                <p>Private intelligence. Morning desk briefing.</p>
+                <span class="visit">Visit <span aria-hidden="true">→</span></span>
+              </span>
+            </a>
+          </li>
+          <li class="carousel-slide">
+            <a class="card card-doc" href="https://docglue.com" target="_blank" rel="noopener noreferrer" aria-label="DocGlue, live. Deal-pack and document workflow. Opens in a new tab.">
+              <span class="card-stage stage-doc" aria-hidden="true">
+                <span class="sheetlet s1"></span>
+                <span class="sheetlet s2"></span>
+                <span class="sheetlet s3"></span>
+                <span class="watermark">02</span>
+              </span>
+              <span class="card-copy">
+                <span class="status status-live"><span class="pip" aria-hidden="true"></span>Live</span>
+                <h3>DocGlue</h3>
+                <p>Deal-pack and document workflow.</p>
+                <span class="visit">Visit <span aria-hidden="true">→</span></span>
+              </span>
+            </a>
+          </li>
+          <li class="carousel-slide">
+            <a class="card card-energy" href="https://syntax.energy" target="_blank" rel="noopener noreferrer" aria-label="syntax.energy, lab. Satire energy utility. Opens in a new tab.">
+              <span class="card-stage stage-energy" aria-hidden="true">
+                <span class="eq"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+                <span class="watermark">03</span>
+              </span>
+              <span class="card-copy">
+                <span class="status"><span class="pip" aria-hidden="true"></span>Lab</span>
+                <h3>syntax.energy</h3>
+                <p>Satire energy utility.</p>
+                <span class="visit">Visit <span aria-hidden="true">→</span></span>
+              </span>
+            </a>
+          </li>
+          <li class="carousel-slide">
+            <a class="card card-living" href="https://project-x-living-system-taupe.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Living System, lab. Habitat for an escaped digital organism. Opens in a new tab.">
+              <span class="card-stage stage-living" aria-hidden="true">
+                <span class="blob"></span>
+                <span class="orbit o1"></span>
+                <span class="orbit o2"></span>
+                <span class="watermark">04</span>
+              </span>
+              <span class="card-copy">
+                <span class="status"><span class="pip" aria-hidden="true"></span>Lab</span>
+                <h3>Living System</h3>
+                <p>Habitat for an escaped digital organism.</p>
+                <span class="visit">Visit <span aria-hidden="true">→</span></span>
+              </span>
+            </a>
+          </li>
+          <li class="carousel-slide">
+            <!-- TARGET_PLAY_URL: UFO_PLAY_URL in /js/play-urls.js -->
+            <a class="card card-ufo" data-play-url="UFO_PLAY_URL" href="https://ufo-80s.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="UFO '84, play. Fun arcade. Lost 1984 ROM vibe. Opens in a new tab.">
+              <span class="card-stage stage-ufo" aria-hidden="true">
+                <span class="beam"></span>
+                <span class="saucer"></span>
+                <span class="dome"></span>
+                <span class="watermark">05</span>
+              </span>
+              <span class="card-copy">
+                <span class="status status-play"><span class="pip" aria-hidden="true"></span>Play</span>
+                <h3>UFO '84</h3>
+                <p>Fun arcade. Lost 1984 ROM vibe.</p>
+                <span class="visit">Play <span aria-hidden="true">→</span></span>
+              </span>
+            </a>
+          </li>
+          <li class="carousel-slide">
+            <a class="card card-penta" data-play-url="PENTASPACE_URL" href="https://pentaspace.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Pentaspace, lab. 5D spatial lab. A view of five-dimensional math. Opens in a new tab.">
+              <span class="card-stage stage-penta" aria-hidden="true">
+                <span class="frame f1"></span>
+                <span class="frame f2"></span>
+                <span class="frame f3"></span>
+                <span class="watermark">06</span>
+              </span>
+              <span class="card-copy">
+                <span class="status"><span class="pip" aria-hidden="true"></span>Lab</span>
+                <h3>Pentaspace</h3>
+                <p>5D spatial lab. A view of five-dimensional math.</p>
+                <span class="visit">Visit <span aria-hidden="true">→</span></span>
+              </span>
+            </a>
+          </li>
+        </ol>
+      </div>
+      <div class="carousel-foot">
+        <div class="carousel-dots" data-carousel-dots></div>
+        <div class="carousel-progress" aria-hidden="true"><span data-carousel-bar></span></div>
+      </div>
+      <p class="sr-only" data-carousel-live aria-live="polite"></p>
     </section>
   </main>
   <footer class="site-footer">
@@ -157,6 +207,6 @@
 </div>
 <script src="/js/play-urls.js"></script>
 <script src="/js/scene.js"></script>
-<script src="/js/deck.js"></script>
+<script src="/js/carousel.js"></script>
 </body>
 </html>
