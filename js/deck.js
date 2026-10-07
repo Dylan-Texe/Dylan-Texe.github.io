@@ -14,7 +14,6 @@
   var barEl = deck.querySelector("[data-deck-bar]");
   var reduceQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
   var wideQuery = window.matchMedia("(min-width: 800px)");
-  var fineQuery = window.matchMedia("(hover: hover) and (pointer: fine)");
   var root = document.documentElement;
   var on = false;
   var raf = 0;
@@ -157,7 +156,7 @@
       scrollToCard(index);
     });
     link.addEventListener("pointermove", function (e) {
-      if (!fineQuery.matches || reduceQuery.matches) return;
+      if (reduceQuery.matches) return;
       if (e.pointerType && e.pointerType !== "mouse") return;
       var rect = link.getBoundingClientRect();
       var px = (e.clientX - rect.left) / Math.max(1, rect.width) - 0.5;
@@ -190,7 +189,7 @@
   var hero = document.querySelector(".hero");
   if (hero) {
     hero.addEventListener("pointermove", function (e) {
-      if (!fineQuery.matches || reduceQuery.matches) return;
+      if (reduceQuery.matches) return;
       if (e.pointerType && e.pointerType !== "mouse") return;
       var rect = hero.getBoundingClientRect();
       hero.style.setProperty("--hx", ((e.clientX - rect.left) / Math.max(1, rect.width) * 100).toFixed(1) + "%");
