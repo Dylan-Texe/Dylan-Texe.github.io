@@ -13,6 +13,7 @@ build:
 	@test -f assets/vapor-sky.svg
 	@test -f assets/vapor-sky-live.svg
 	@test -f js/scene.js
+	@test -f js/deck.js
 
 dev:
 	@echo "Dylan - local preview at http://localhost:$(PORT)"

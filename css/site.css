@@ -355,7 +355,7 @@ a {
 
 .work-section h2 {
   width: fit-content;
-  margin: 1.35rem 0 0.75rem;
+  margin: 0;
   padding: 0.16rem 0.5rem;
   border-radius: 999px;
   background: rgba(8, 4, 16, 0.78);
@@ -929,6 +929,232 @@ html.scene-live .site-footer {
 
   .page h1 {
     font-size: 2rem;
+  }
+}
+
+.deck-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+  margin: 1.35rem 0 0.75rem;
+}
+
+.deck-meter {
+  display: none;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+}
+
+.deck-meter-label {
+  color: var(--cyan);
+  font-variant-numeric: tabular-nums;
+}
+
+.deck-meter-track {
+  display: block;
+  width: 5.5rem;
+  height: 2px;
+  border-radius: 99px;
+  background: rgba(255, 79, 216, 0.35);
+  overflow: hidden;
+}
+
+.deck-meter-bar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--cyan), var(--magenta));
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+.sheet:has(.deck) {
+  width: min(100% - 1.5rem, 46rem);
+}
+
+#work {
+  scroll-margin-top: 5.5rem;
+}
+
+html.deck-on {
+  overflow-x: clip;
+}
+
+html.deck-on .deck-meter {
+  display: flex;
+}
+
+html.deck-on .deck {
+  height: calc((var(--n, 6) - 1) * 62vh + min(76vh, 42rem));
+}
+
+html.deck-on .deck-pin {
+  position: sticky;
+  top: 4.85rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  height: min(76vh, 42rem);
+}
+
+html.deck-on .deck-head {
+  margin-top: 0.35rem;
+  margin-bottom: 0.55rem;
+}
+
+html.deck-on .deck-stage {
+  position: relative;
+  flex: 1;
+  min-height: 16rem;
+  perspective: 1400px;
+  perspective-origin: 50% 0%;
+}
+
+html.deck-on .deck-stage::before {
+  content: "";
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  top: 8%;
+  height: 78%;
+  background-image:
+    linear-gradient(rgba(122, 246, 255, 0.2) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 79, 216, 0.16) 1px, transparent 1px);
+  background-size: 46px 46px;
+  transform: rotateX(72deg);
+  transform-origin: center top;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), transparent 82%);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+html.deck-on .work {
+  position: absolute;
+  inset: 0;
+  display: block;
+  height: auto;
+  perspective: none;
+}
+
+html.deck-on .deck-card {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 4%;
+  height: min(23.5rem, 88%);
+  transform-origin: center center;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+html.deck-on .deck-card .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 1.35rem 1.25rem;
+  border-radius: 18px;
+  border-left-width: 3px;
+  border-left-color: var(--cyan);
+  background:
+    linear-gradient(165deg, rgba(40, 16, 58, 0.96), rgba(10, 5, 18, 0.96) 62%);
+  box-shadow:
+    inset 0 1px 0 rgba(122, 246, 255, 0.38),
+    0 20px 40px rgba(0, 0, 0, 0.42),
+    0 36px 70px rgba(0, 0, 0, 0.28);
+}
+
+html.deck-on .deck-card:nth-child(even) .card {
+  border-left-color: var(--magenta);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 79, 216, 0.38),
+    0 20px 40px rgba(0, 0, 0, 0.42),
+    0 36px 70px rgba(0, 0, 0, 0.28);
+}
+
+html.deck-on .index {
+  position: absolute;
+  top: 1.2rem;
+  left: 1.35rem;
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+}
+
+html.deck-on .status {
+  position: absolute;
+  top: 1.1rem;
+  right: 1.15rem;
+}
+
+html.deck-on .card h3 {
+  margin: 3.5rem 0 0.5rem;
+  max-width: 16ch;
+  font-size: clamp(2rem, 4vw, 2.85rem);
+  line-height: 0.98;
+}
+
+html.deck-on .card p {
+  max-width: 28rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+html.deck-on .visit {
+  margin-top: auto;
+  padding-top: 1.1rem;
+}
+
+@media (max-width: 799px) {
+  html.deck-on .deck,
+  html.deck-on .deck-pin,
+  html.deck-on .deck-card,
+  html.deck-on .work {
+    position: static;
+    height: auto;
+    transform: none;
+    perspective: none;
+  }
+
+  html.deck-on .deck-card {
+    opacity: 1;
+  }
+
+  html.deck-on .deck-meter {
+    display: none;
+  }
+
+  html.deck-on .work {
+    display: flex;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.deck-on .deck,
+  html.deck-on .deck-pin,
+  html.deck-on .deck-card,
+  html.deck-on .work {
+    position: static;
+    height: auto;
+    transform: none !important;
+    opacity: 1 !important;
+    perspective: none;
+  }
+
+  html.deck-on .deck-meter {
+    display: none;
+  }
+
+  html.deck-on .work {
+    display: flex;
+  }
+
+  html.deck-on .deck-stage::before {
+    display: none;
   }
 }
 
