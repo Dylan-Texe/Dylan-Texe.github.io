@@ -1031,8 +1031,10 @@ html.deck-on .deck-pin {
 }
 
 html.deck-on .deck-head {
+  position: relative;
+  z-index: 3;
   margin-top: 0.35rem;
-  margin-bottom: 0.55rem;
+  margin-bottom: 1.15rem;
 }
 
 html.deck-on .deck-stage {
@@ -1074,9 +1076,9 @@ html.deck-on .deck-card {
   position: absolute;
   left: 0;
   right: 0;
-  top: 11%;
-  height: min(21.5rem, 76%);
-  transform-origin: center center;
+  top: 22%;
+  height: min(19.5rem, 68%);
+  transform-origin: center 62%;
   transform-style: preserve-3d;
   will-change: transform;
 }
