@@ -930,18 +930,29 @@ html.scene-live .site-footer {
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 700px) {
   .topbar {
-    flex-wrap: wrap;
-    padding-bottom: 0.55rem;
+    position: static;
+    flex-wrap: nowrap;
+    gap: 0.45rem;
+    min-height: 0;
+    padding: 0.28rem 0.4rem 0.28rem 0.32rem;
+  }
+
+  .mark {
+    width: 1.85rem;
+    height: 1.85rem;
+    flex: none;
   }
 
   .topnav {
-    width: 100%;
-    justify-content: flex-start;
-    gap: 0.35rem 0.7rem;
-    padding-left: 0.15rem;
-    letter-spacing: 0.08em;
+    flex-wrap: nowrap;
+    width: auto;
+    justify-content: flex-end;
+    gap: 0.28rem 0.5rem;
+    padding-left: 0;
+    font-size: 0.58rem;
+    letter-spacing: 0.04em;
   }
 }
 
