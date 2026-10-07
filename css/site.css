@@ -246,6 +246,49 @@ a {
 
 .hero {
   text-align: center;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.hero::before,
+.hero::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.hero::before {
+  width: 78%;
+  height: 90%;
+  left: 11%;
+  top: -28%;
+  background: radial-gradient(
+    ellipse at var(--hx, 50%) var(--hy, 38%),
+    rgba(255, 79, 216, 0.32),
+    rgba(122, 246, 255, 0.1) 42%,
+    transparent 70%
+  );
+}
+
+.hero::after {
+  inset: 0;
+  background:
+    linear-gradient(
+      104deg,
+      transparent 0%,
+      transparent 16%,
+      rgba(122, 246, 255, 0.16) 16.35%,
+      transparent 16.9%,
+      transparent 80%,
+      rgba(255, 79, 216, 0.18) 80.35%,
+      transparent 81%
+    );
+  mask-image: linear-gradient(to bottom, #000 10%, transparent 78%);
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
 }
 
 .hero h1,
