@@ -46,6 +46,9 @@
     link.style.pointerEvents = "";
     link.style.opacity = "";
     link.style.transform = "";
+    var copy = link.querySelectorAll("h3, p, .status, .visit");
+    var c;
+    for (c = 0; c < copy.length; c += 1) copy[c].style.visibility = "";
   }
 
   function measure() {
@@ -66,12 +69,12 @@
     var arrive = smooth(Math.min(nextRaw, 1));
     var rotateX = 14 + arrive * 6 - past * 42;
     var rotateY = arrive * -2.5 + past * 4;
-    var y = next * 22 - past * 16;
-    var z = -90 * next + past * 18;
-    var scale = 1 - next * 0.07 - past * 0.05;
+    var y = next * 10 - past * 12;
+    var z = -70 * next + past * 14;
+    var scale = 1 - next * 0.04 - past * 0.04;
     var opacity = 1;
-    if (nextRaw > 0) opacity = clamp(1 - Math.pow(nextRaw, 0.85) * 1.08, 0, 1);
-    if (pastRaw > 0.42) opacity = Math.min(opacity, clamp(1 - (pastRaw - 0.42) / 0.45, 0, 1));
+    if (nextRaw > 0.46) opacity = clamp(1 - (nextRaw - 0.46) / 0.2, 0, 1);
+    if (pastRaw > 0.2) opacity = Math.min(opacity, clamp(1 - (pastRaw - 0.2) / 0.24, 0, 1));
     var hit = rel >= -0.28 && rel < 0.55 && opacity > 0.5;
     return {
       rotateX: rotateX,
@@ -94,6 +97,13 @@
     if (barEl) barEl.style.transform = "scaleX(" + p.toFixed(4) + ")";
 
     var i;
+    var lead = 0;
+    for (i = 0; i < cards.length; i += 1) {
+      var rel = i - active;
+      if (rel > 0.7) continue;
+      var fade = place(rel).opacity;
+      if (fade > lead) lead = fade;
+    }
     for (i = 0; i < cards.length; i += 1) {
       var spot = place(i - active);
       var card = cards[i];
@@ -104,6 +114,13 @@
         "rotateY(" + spot.rotateY.toFixed(2) + "deg) " +
         "scale(" + spot.scale.toFixed(3) + ")";
       if (link) {
+        var relNow = i - active;
+        var showCopy = relNow <= 0.7 && spot.opacity >= 0.5 && spot.opacity + 0.04 >= lead;
+        var copy = link.querySelectorAll("h3, p, .status, .visit");
+        var c;
+        for (c = 0; c < copy.length; c += 1) {
+          copy[c].style.visibility = showCopy ? "" : "hidden";
+        }
         link.style.opacity = spot.opacity.toFixed(3);
         link.style.pointerEvents = spot.hit ? "auto" : "none";
         if (tilt.i === i && spot.hit) {
