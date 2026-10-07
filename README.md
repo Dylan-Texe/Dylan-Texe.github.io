@@ -8,7 +8,7 @@ GitHub Pages portfolio of work: [dylan-texe.github.io](https://dylan-texe.github
 
 | Path | What it is |
 | --- | --- |
-| `/` | Home. Name, role, links, and the work list. Wide screens scroll the projects as a 3D deck. Small screens and reduced motion keep the list. |
+| `/` | Home. Name, role, links, and a horizontal work carousel. Wide screens center a large card with the next one peeking in. Phones swipe near full-width cards. |
 | `/about/` | Short note. |
 | `/colophon/` | How the page is made. |
 | `/ufo/` | UFO '84 play page. |
