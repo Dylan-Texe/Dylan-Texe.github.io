@@ -150,18 +150,67 @@ a {
   color: var(--ink);
   font-size: 0.75rem;
   text-decoration: none;
-  z-index: 3;
+  z-index: 80;
 }
 
 .skip:focus {
   transform: none;
 }
 
+.sky-gap {
+  height: clamp(4.25rem, 16vh, 8.5rem);
+}
+
 .topbar {
+  position: sticky;
+  top: max(0.65rem, env(safe-area-inset-top));
+  z-index: 40;
   display: flex;
   align-items: center;
-  min-height: 2.25rem;
-  margin-top: clamp(4.25rem, 16vh, 8.5rem);
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+  min-height: 2.75rem;
+  margin-top: 0;
+  padding: 0.4rem 0.55rem 0.4rem 0.4rem;
+  border: 1px solid rgba(255, 79, 216, 0.38);
+  border-radius: 14px;
+  background: rgba(8, 4, 16, 0.72);
+  box-shadow:
+    inset 0 1px 0 rgba(122, 246, 255, 0.22),
+    0 0 0 1px rgba(122, 246, 255, 0.06),
+    0 12px 32px rgba(0, 0, 0, 0.38),
+    0 0 28px rgba(255, 79, 216, 0.12);
+  backdrop-filter: blur(16px);
+}
+
+.topbar::after {
+  content: "";
+  position: absolute;
+  left: 14%;
+  right: 14%;
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cyan), var(--magenta), transparent);
+  pointer-events: none;
+}
+
+.topnav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.15rem 0.85rem;
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.topnav a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.topnav a[aria-current="page"] {
+  color: var(--cyan);
 }
 
 .mark {
@@ -197,6 +246,49 @@ a {
 
 .hero {
   text-align: center;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.hero::before,
+.hero::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.hero::before {
+  width: 78%;
+  height: 90%;
+  left: 11%;
+  top: -28%;
+  background: radial-gradient(
+    ellipse at var(--hx, 50%) var(--hy, 38%),
+    rgba(255, 79, 216, 0.32),
+    rgba(122, 246, 255, 0.1) 42%,
+    transparent 70%
+  );
+}
+
+.hero::after {
+  inset: 0;
+  background:
+    linear-gradient(
+      104deg,
+      transparent 0%,
+      transparent 16%,
+      rgba(122, 246, 255, 0.16) 16.35%,
+      transparent 16.9%,
+      transparent 80%,
+      rgba(255, 79, 216, 0.18) 80.35%,
+      transparent 81%
+    );
+  mask-image: linear-gradient(to bottom, #000 10%, transparent 78%);
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
 }
 
 .hero h1,
@@ -263,7 +355,7 @@ a {
 
 .work-section h2 {
   width: fit-content;
-  margin: 1.35rem 0 0.75rem;
+  margin: 0;
   padding: 0.16rem 0.5rem;
   border-radius: 999px;
   background: rgba(8, 4, 16, 0.78);
@@ -294,6 +386,21 @@ a {
   color: inherit;
   text-decoration: none;
   box-shadow: inset 0 1px 0 rgba(122, 246, 255, 0.16);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(
+    420px circle at var(--gx, 50%) var(--gy, 0%),
+    rgba(122, 246, 255, 0.2),
+    rgba(255, 79, 216, 0.07) 34%,
+    transparent 52%
+  );
+  opacity: 0;
+  pointer-events: none;
 }
 
 .status {
@@ -506,9 +613,26 @@ kbd {
     background: var(--cyan);
     color: var(--ink);
   }
+
+  .topnav a:hover {
+    color: var(--cyan);
+  }
 }
 
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  html:not(.deck-on) .work {
+    perspective: 1100px;
+  }
+
+  html:not(.deck-on) .card {
+    transform-style: preserve-3d;
+    transition: transform 160ms ease, background-color 120ms linear, border-color 120ms linear, color 120ms linear, box-shadow 120ms linear;
+  }
+
+  .card:hover::before {
+    opacity: 1;
+  }
+
   .card::after {
     content: "";
     position: absolute;
@@ -806,6 +930,32 @@ html.scene-live .site-footer {
   }
 }
 
+@media (max-width: 700px) {
+  .topbar {
+    position: static;
+    flex-wrap: nowrap;
+    gap: 0.45rem;
+    min-height: 0;
+    padding: 0.28rem 0.4rem 0.28rem 0.32rem;
+  }
+
+  .mark {
+    width: 1.85rem;
+    height: 1.85rem;
+    flex: none;
+  }
+
+  .topnav {
+    flex-wrap: nowrap;
+    width: auto;
+    justify-content: flex-end;
+    gap: 0.28rem 0.5rem;
+    padding-left: 0;
+    font-size: 0.58rem;
+    letter-spacing: 0.04em;
+  }
+}
+
 @media (max-width: 360px) {
   .sheet {
     width: min(100% - 1.25rem, 28.5rem);
@@ -818,6 +968,235 @@ html.scene-live .site-footer {
 
   .page h1 {
     font-size: 2rem;
+  }
+}
+
+.deck-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+  margin: 1.35rem 0 0.75rem;
+}
+
+.deck-meter {
+  display: none;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+}
+
+.deck-meter-label {
+  color: var(--cyan);
+  font-variant-numeric: tabular-nums;
+}
+
+.deck-meter-track {
+  display: block;
+  width: 5.5rem;
+  height: 2px;
+  border-radius: 99px;
+  background: rgba(255, 79, 216, 0.35);
+  overflow: hidden;
+}
+
+.deck-meter-bar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--cyan), var(--magenta));
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+.sheet:has(.deck) {
+  width: min(100% - 1.5rem, 46rem);
+}
+
+#work {
+  scroll-margin-top: 5.5rem;
+}
+
+html.deck-on {
+  overflow-x: clip;
+}
+
+html.deck-on .deck-meter {
+  display: flex;
+}
+
+html.deck-on .deck {
+  height: calc((var(--n, 6) - 1) * 62vh + min(76vh, 42rem));
+}
+
+html.deck-on .deck-pin {
+  position: sticky;
+  top: 4.85rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  height: min(76vh, 42rem);
+}
+
+html.deck-on .deck-head {
+  position: relative;
+  z-index: 3;
+  margin-top: 0.35rem;
+  margin-bottom: 1.15rem;
+}
+
+html.deck-on .deck-stage {
+  position: relative;
+  flex: 1;
+  min-height: 16rem;
+  perspective: 1100px;
+  perspective-origin: 50% 42%;
+  transform-style: preserve-3d;
+}
+
+html.deck-on .deck-stage::before {
+  content: "";
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  top: 8%;
+  height: 78%;
+  background-image:
+    linear-gradient(rgba(122, 246, 255, 0.2) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 79, 216, 0.16) 1px, transparent 1px);
+  background-size: 46px 46px;
+  transform: rotateX(72deg);
+  transform-origin: center top;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), transparent 82%);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+html.deck-on .work {
+  position: absolute;
+  inset: 0;
+  display: block;
+  height: auto;
+  transform-style: preserve-3d;
+}
+
+html.deck-on .deck-card {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 22%;
+  height: min(19.5rem, 68%);
+  transform-origin: center 62%;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+html.deck-on .deck-card .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 1.35rem 1.25rem;
+  border-radius: 18px;
+  border-left-width: 3px;
+  border-left-color: var(--cyan);
+  background-color: #100818;
+  background-image: linear-gradient(165deg, rgba(40, 16, 58, 0.92), rgba(16, 8, 24, 0.55) 62%);
+  box-shadow:
+    inset 0 1px 0 rgba(122, 246, 255, 0.38),
+    0 20px 40px rgba(0, 0, 0, 0.42),
+    0 36px 70px rgba(0, 0, 0, 0.28);
+}
+
+html.deck-on .deck-card:nth-child(even) .card {
+  border-left-color: var(--magenta);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 79, 216, 0.38),
+    0 20px 40px rgba(0, 0, 0, 0.42),
+    0 36px 70px rgba(0, 0, 0, 0.28);
+}
+
+html.deck-on .index {
+  position: absolute;
+  top: 1.2rem;
+  left: 1.35rem;
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+}
+
+html.deck-on .status {
+  position: absolute;
+  top: 1.1rem;
+  right: 1.15rem;
+}
+
+html.deck-on .card h3 {
+  margin: 3.5rem 0 0.5rem;
+  max-width: 16ch;
+  font-size: clamp(2rem, 4vw, 2.85rem);
+  line-height: 0.98;
+}
+
+html.deck-on .card p {
+  max-width: 28rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+html.deck-on .visit {
+  margin-top: auto;
+  padding-top: 1.1rem;
+}
+
+@media (max-width: 799px) {
+  html.deck-on .deck,
+  html.deck-on .deck-pin,
+  html.deck-on .deck-card,
+  html.deck-on .work {
+    position: static;
+    height: auto;
+    transform: none;
+    perspective: none;
+  }
+
+  html.deck-on .deck-card {
+    opacity: 1;
+  }
+
+  html.deck-on .deck-meter {
+    display: none;
+  }
+
+  html.deck-on .work {
+    display: flex;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.deck-on .deck,
+  html.deck-on .deck-pin,
+  html.deck-on .deck-card,
+  html.deck-on .work {
+    position: static;
+    height: auto;
+    transform: none !important;
+    opacity: 1 !important;
+    perspective: none;
+  }
+
+  html.deck-on .deck-meter {
+    display: none;
+  }
+
+  html.deck-on .work {
+    display: flex;
+  }
+
+  html.deck-on .deck-stage::before {
+    display: none;
   }
 }
 
