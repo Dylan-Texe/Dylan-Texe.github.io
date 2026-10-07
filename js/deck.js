@@ -108,8 +108,8 @@
         link.style.pointerEvents = spot.hit ? "auto" : "none";
         if (tilt.i === i && spot.hit) {
           link.style.transform =
-            "rotateX(" + (-tilt.y * 7).toFixed(2) + "deg) " +
-            "rotateY(" + (tilt.x * 9).toFixed(2) + "deg)";
+            "rotateX(" + (-tilt.y * 24).toFixed(2) + "deg) " +
+            "rotateY(" + (tilt.x * 30).toFixed(2) + "deg)";
         } else {
           link.style.transform = "";
         }
@@ -177,7 +177,7 @@
         return;
       }
       link.style.transform =
-        "rotateX(" + (-py * 8).toFixed(2) + "deg) rotateY(" + (px * 10).toFixed(2) + "deg)";
+        "rotateX(" + (-py * 22).toFixed(2) + "deg) rotateY(" + (px * 28).toFixed(2) + "deg)";
     });
     link.addEventListener("pointerleave", function () {
       link.style.removeProperty("--gx");
