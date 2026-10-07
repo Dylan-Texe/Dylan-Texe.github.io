@@ -1011,8 +1011,9 @@ html.deck-on .deck-stage {
   position: relative;
   flex: 1;
   min-height: 16rem;
-  perspective: 1400px;
-  perspective-origin: 50% 0%;
+  perspective: 1100px;
+  perspective-origin: 50% 42%;
+  transform-style: preserve-3d;
 }
 
 html.deck-on .deck-stage::before {
@@ -1038,15 +1039,15 @@ html.deck-on .work {
   inset: 0;
   display: block;
   height: auto;
-  perspective: none;
+  transform-style: preserve-3d;
 }
 
 html.deck-on .deck-card {
   position: absolute;
   left: 0;
   right: 0;
-  top: 4%;
-  height: min(23.5rem, 88%);
+  top: 11%;
+  height: min(21.5rem, 76%);
   transform-origin: center center;
   transform-style: preserve-3d;
   will-change: transform;

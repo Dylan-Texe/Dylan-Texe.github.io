@@ -36,7 +36,9 @@
     card.style.opacity = "";
     card.style.zIndex = "";
     var link = card.querySelector(".card");
-    if (link) link.style.pointerEvents = "";
+    if (!link) return;
+    link.style.pointerEvents = "";
+    link.style.opacity = "";
   }
 
   function measure() {
@@ -50,24 +52,26 @@
   }
 
   function place(rel) {
-    var past = rel < 0 ? -rel : 0;
-    var next = rel > 0 ? rel : 0;
-    var rotateX = 16 + next * 7 - past * 62;
-    var y = next * 26 - past * 120;
-    var z = -110 * next + past * 70;
-    var scale = 1 - next * 0.055 - past * 0.04;
+    var pastRaw = rel < 0 ? -rel : 0;
+    var nextRaw = rel > 0 ? rel : 0;
+    var past = Math.min(pastRaw, 1.05);
+    var next = Math.min(nextRaw, 2.6);
+    var rotateX = 24 + next * 9 - past * 72;
+    var rotateY = next * -7 + past * 12;
+    var y = next * 34 - past * 26;
+    var z = -180 * next + past * 36;
+    var scale = 1 - next * 0.07 - past * 0.05;
     var opacity = 1;
-    if (next > 2.15) opacity = clamp(1 - (next - 2.15) / 0.75, 0, 1);
-    if (past > 0.42) opacity = clamp(1 - (past - 0.42) / 0.4, 0, 1);
-    var zIndex = past > 0 && past < 0.9 ? 48 : 24 - Math.round(next * 4);
-    var hit = rel >= -0.32 && rel < 0.62 && opacity > 0.45;
+    if (nextRaw > 1.55) opacity = clamp(1 - (nextRaw - 1.55) / 0.7, 0, 1);
+    if (pastRaw > 0.48) opacity = clamp(1 - (pastRaw - 0.48) / 0.5, 0, 1);
+    var hit = rel >= -0.28 && rel < 0.55 && opacity > 0.5;
     return {
       rotateX: rotateX,
+      rotateY: rotateY,
       y: y,
       z: z,
       scale: scale,
       opacity: opacity,
-      zIndex: zIndex,
       hit: hit
     };
   }
@@ -86,13 +90,15 @@
       var spot = place(i - active);
       var card = cards[i];
       var link = card.querySelector(".card");
-      card.style.opacity = spot.opacity.toFixed(3);
-      card.style.zIndex = String(spot.zIndex);
       card.style.transform =
         "translate3d(0," + spot.y.toFixed(1) + "px," + spot.z.toFixed(1) + "px) " +
         "rotateX(" + spot.rotateX.toFixed(2) + "deg) " +
+        "rotateY(" + spot.rotateY.toFixed(2) + "deg) " +
         "scale(" + spot.scale.toFixed(3) + ")";
-      if (link) link.style.pointerEvents = spot.hit ? "auto" : "none";
+      if (link) {
+        link.style.opacity = spot.opacity.toFixed(3);
+        link.style.pointerEvents = spot.hit ? "auto" : "none";
+      }
     }
   }
 
