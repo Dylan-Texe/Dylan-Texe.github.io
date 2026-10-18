@@ -28,9 +28,17 @@
   var nudged = false;
   var announced = false;
   var swallowClick = false;
-  var drag = { on: false, id: 0, x: 0, left: 0, moved: false };
+  // A press only becomes a drag after the pointer travels this far.
+  // Below it the press is a normal click and the link opens.
+  var DRAG_PX = 6;
+  var drag = { on: false, id: 0, x: 0, left: 0, moved: false, captured: false };
   var dots = [];
   var lockTimer = 0;
+  var scrollQueued = false;
+  var tiltQueued = false;
+  var tiltX = 0;
+  var tiltY = 0;
+  var tiltCard = null;
 
   function holdLock(ms) {
     lock = true;
@@ -195,49 +203,95 @@
     if (fromCard) focusCard(index);
   });
 
+  // Mouse drag to scroll. The pointer is NOT captured on press: capturing
+  // retargets the click to the track, so the card link never opened on
+  // desktop. Capture starts only once the press has become a real drag.
   track.addEventListener("pointerdown", function (e) {
     if (e.pointerType !== "mouse" || e.button !== 0) return;
     interacted = true;
     drag.on = true;
     drag.moved = false;
+    drag.captured = false;
     drag.id = e.pointerId;
     drag.x = e.clientX;
     drag.left = track.scrollLeft;
-    lock = false;
-    track.classList.add("is-dragging");
-    try { track.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ }
+    swallowClick = false;
   });
 
-  track.addEventListener("pointermove", function (e) {
-    if (drag.on && e.pointerId === drag.id) {
-      var dx = e.clientX - drag.x;
-      if (Math.abs(dx) > 8) drag.moved = true;
-      track.scrollLeft = drag.left - dx;
-      return;
-    }
-    if (!fineQuery.matches || reduced() || !wide()) return;
-    var card = slides[index].querySelector(".card");
-    if (!card) return;
+  function tiltFrame() {
+    tiltQueued = false;
+    var card = tiltCard;
+    if (!card || drag.moved) return;
     var rect = card.getBoundingClientRect();
     if (rect.width < 1 || rect.height < 1) return;
-    var px = (e.clientX - rect.left) / rect.width;
-    var py = (e.clientY - rect.top) / rect.height;
+    var px = (tiltX - rect.left) / rect.width;
+    var py = (tiltY - rect.top) / rect.height;
     if (px < -0.2 || px > 1.2 || py < -0.2 || py > 1.2) return;
+    var cx = Math.max(0, Math.min(1, px));
+    var cy = Math.max(0, Math.min(1, py));
     var tilt = Math.max(-6, Math.min(6, (px - 0.5) * -10));
     var lift = Math.max(-4, Math.min(4, (0.5 - py) * 7));
     card.style.setProperty("--tilt", tilt.toFixed(2) + "deg");
     card.style.setProperty("--lift", lift.toFixed(2) + "deg");
-    card.style.setProperty("--gx", (Math.max(0, Math.min(1, px)) * 100).toFixed(1) + "%");
-    card.style.setProperty("--gy", (Math.max(0, Math.min(1, py)) * 100).toFixed(1) + "%");
+    // Glow follows the pointer by translate, so it never repaints the gradient.
+    card.style.setProperty("--glow-x", ((cx - 0.5) * rect.width).toFixed(1) + "px");
+    card.style.setProperty("--glow-y", (cy * rect.height).toFixed(1) + "px");
+  }
+
+  track.addEventListener("pointermove", function (e) {
+    if (drag.on && e.pointerId === drag.id) {
+      var dx = e.clientX - drag.x;
+      if (!drag.moved && Math.abs(dx) > DRAG_PX) {
+        drag.moved = true;
+        lock = false;
+        track.classList.add("is-dragging");
+        try {
+          track.setPointerCapture(e.pointerId);
+          drag.captured = true;
+        } catch (err) { /* ignore */ }
+      }
+      if (drag.moved) track.scrollLeft = drag.left - dx;
+      return;
+    }
+    if (e.pointerType !== "mouse" || !fineQuery.matches || reduced() || !wide()) return;
+    tiltCard = slides[index].querySelector(".card");
+    tiltX = e.clientX;
+    tiltY = e.clientY;
+    if (!tiltQueued) {
+      tiltQueued = true;
+      window.requestAnimationFrame(tiltFrame);
+    }
+  }, { passive: true });
+
+  function resetTilt(card) {
+    if (!card) return;
+    card.style.removeProperty("--tilt");
+    card.style.removeProperty("--lift");
+    card.style.removeProperty("--glow-x");
+    card.style.removeProperty("--glow-y");
+  }
+
+  track.addEventListener("pointerleave", function (e) {
+    if (e.pointerType !== "mouse" || drag.on) return;
+    resetTilt(slides[index].querySelector(".card"));
   });
 
   function endDrag(e) {
     if (!drag.on || (e && e.pointerId !== drag.id)) return;
     var moved = drag.moved;
     drag.on = false;
+    drag.moved = false;
+    if (drag.captured) {
+      try { track.releasePointerCapture(drag.id); } catch (err) { /* ignore */ }
+      drag.captured = false;
+    }
     track.classList.remove("is-dragging");
     if (!moved) return;
+    // Cancel only the click that ends this drag. It fires in the same task
+    // as pointerup, so clear the flag right after in case it never comes.
     swallowClick = true;
+    window.setTimeout(function () { swallowClick = false; }, 0);
+    slides.forEach(function (slide) { resetTilt(slide.querySelector(".card")); });
     index = nearestIndex();
     announced = true;
     paint();
@@ -247,6 +301,9 @@
 
   track.addEventListener("pointerup", endDrag);
   track.addEventListener("pointercancel", endDrag);
+  track.addEventListener("lostpointercapture", endDrag);
+  // A short press released outside the track never reaches it uncaptured.
+  window.addEventListener("pointerup", endDrag);
   track.addEventListener("dragstart", function (e) { e.preventDefault(); });
   track.addEventListener("click", function (e) {
     if (!swallowClick) return;
@@ -256,8 +313,12 @@
   }, true);
 
   track.addEventListener("scroll", function () {
-    if (lock || drag.on) return;
-    window.requestAnimationFrame(syncFromScroll);
+    if (lock || drag.on || scrollQueued) return;
+    scrollQueued = true;
+    window.requestAnimationFrame(function () {
+      scrollQueued = false;
+      syncFromScroll();
+    });
   }, { passive: true });
 
   track.addEventListener("scrollend", function () {
@@ -282,12 +343,7 @@
   }
 
   function onMedia() {
-    slides.forEach(function (slide) {
-      var card = slide.querySelector(".card");
-      if (!card) return;
-      card.style.removeProperty("--tilt");
-      card.style.removeProperty("--lift");
-    });
+    slides.forEach(function (slide) { resetTilt(slide.querySelector(".card")); });
     realign();
     paint();
   }
