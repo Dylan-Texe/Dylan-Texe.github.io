@@ -38,8 +38,20 @@
   var bodies = {};
   var columns = [];
   var columnKey = "";
-  var view = { w: 1, h: 1, low: false, map: null };
+  var view = { w: 1, h: 1, low: false, map: null, dpr: 1 };
   var pointer = { x: 0, y: 0, tx: 0, ty: 0 };
+  var needsLayout = false;
+  var lastDraw = 0;
+  var drawCount = 0;
+  var atlas = null;
+  // The floor redraws at up to 60fps (30fps on phones and low power devices).
+  // Rain and stars move slowly and redraw less often, see frame().
+  var FRAME_MS = 1000 / 60 - 1;
+  var LOW_FRAME_MS = 1000 / 30 - 1;
+  // The floor canvas starts here (fraction of the screen height). Above it the
+  // floor was fully masked out, so those pixels were drawn and thrown away.
+  // Keep in sync with .scene-grid in site.css.
+  var GRID_TOP = 0.36;
 
   function hash(n) {
     var x = Math.sin(n * 127.1 + 311.7) * 43758.5453;
@@ -68,7 +80,9 @@
   }
 
   function sizeCanvas(canvas) {
-    var dpr = Math.min(window.devicePixelRatio || 1, view.low ? 1.15 : 1.5);
+    // Full screen canvases are the biggest raster cost. Cap their resolution.
+    var dpr = Math.min(window.devicePixelRatio || 1, view.low ? 1 : 1.25);
+    view.dpr = dpr;
     var w = canvas.clientWidth || window.innerWidth;
     var h = canvas.clientHeight || window.innerHeight;
     var bw = Math.max(1, Math.round(w * dpr));
@@ -158,6 +172,40 @@
     pullIn(bodies.planet, view.map);
     pullIn(bodies.moon, view.map);
     buildColumns();
+    buildAtlas();
+  }
+
+  // Rain glyphs are drawn once per color into a sprite sheet, then copied
+  // with drawImage. Hundreds of fillText calls per frame were the main JS cost.
+  var RAIN_COLORS = ["rgb(255, 79, 216)", "rgb(214, 255, 252)", "rgb(122, 246, 255)"];
+
+  function buildAtlas() {
+    var font = view.low ? 12 : 15;
+    var dpr = view.dpr;
+    var key = font + ":" + dpr;
+    if (atlas && atlas.key === key && atlas.fontsReady === fontsReady()) return;
+    // Cells are whole device pixels so neighbouring glyphs never bleed in.
+    var cellW = Math.ceil(font * 1.05 * dpr);
+    var cellH = Math.ceil((font + 4) * dpr);
+    var canvas = document.createElement("canvas");
+    canvas.width = GLYPHS.length * cellW;
+    canvas.height = RAIN_COLORS.length * cellH;
+    var ctx = canvas.getContext("2d");
+    ctx.font = (font * dpr).toFixed(2) + 'px "IBM Plex Mono", "WenQuanYi Micro Hei Mono", "Noto Sans Mono CJK JP", monospace';
+    ctx.textBaseline = "top";
+    var c;
+    var g;
+    for (c = 0; c < RAIN_COLORS.length; c += 1) {
+      ctx.fillStyle = RAIN_COLORS[c];
+      for (g = 0; g < GLYPHS.length; g += 1) {
+        ctx.fillText(GLYPHS.charAt(g), g * cellW, c * cellH);
+      }
+    }
+    atlas = { key: key, canvas: canvas, cellW: cellW, cellH: cellH, dpr: dpr, fontsReady: fontsReady() };
+  }
+
+  function fontsReady() {
+    return !document.fonts || document.fonts.status === "loaded";
   }
 
   function buildColumns() {
@@ -271,9 +319,12 @@
     var step = font + 4;
     var i;
     var n;
+    var sheet = atlas.canvas;
+    var cw = atlas.cellW;
+    var ch = atlas.cellH;
+    var dw = cw / atlas.dpr;
+    var dh = ch / atlas.dpr;
     ctx.clearRect(0, 0, w, h);
-    ctx.font = font + 'px "IBM Plex Mono", "WenQuanYi Micro Hei Mono", "Noto Sans Mono CJK JP", monospace';
-    ctx.textBaseline = "top";
     for (i = 0; i < columns.length; i += 1) {
       var col = columns[i];
       var span = h + col.len * step + 80;
@@ -291,17 +342,19 @@
         var alpha = fade * env * (n === 0 ? 0.62 : 0.32) * dim;
         if (low) alpha *= 0.8;
         if (alpha < 0.012) continue;
+        var row = 2;
         if (col.magenta) {
-          ctx.fillStyle = "rgba(255, 79, 216," + alpha.toFixed(3) + ")";
+          row = 0;
         } else if (n === 0) {
-          ctx.fillStyle = "rgba(214, 255, 252," + Math.min(0.34, alpha + 0.04).toFixed(3) + ")";
-        } else {
-          ctx.fillStyle = "rgba(122, 246, 255," + alpha.toFixed(3) + ")";
+          row = 1;
+          alpha = Math.min(0.34, alpha + 0.04);
         }
         var idx = Math.abs(Math.floor(col.seed * 3 + n * 7 + (n < 2 ? tick : Math.floor(tick / 3)))) % GLYPHS.length;
-        ctx.fillText(GLYPHS.charAt(idx), col.x, y);
+        ctx.globalAlpha = alpha;
+        ctx.drawImage(sheet, idx * cw, row * ch, cw, ch, col.x, y, dw, dh);
       }
     }
+    ctx.globalAlpha = 1;
   }
 
   function project(x, y, z, vpX, vpY, focal) {
@@ -366,6 +419,8 @@
     var alpha;
 
     ctx.clearRect(0, 0, w, h);
+    ctx.save();
+    ctx.translate(0, -h * GRID_TOP);
     ctx.lineCap = "round";
     ctx.lineJoin = "round";
 
@@ -420,6 +475,7 @@
     ctx.lineTo(w, vpY + 3);
     ctx.stroke();
     ctx.globalAlpha = 1;
+    ctx.restore();
   }
 
   function updateBodies(t) {
@@ -447,21 +503,38 @@
     if (!running) return;
     raf = 0;
     if (document.hidden) return;
+    raf = window.requestAnimationFrame(frame);
     if (!last) {
       last = now;
       t0 = now;
+      lastDraw = 0;
     }
+    // High refresh monitors would otherwise redraw all canvases 120 to 240
+    // times a second. Skip frames until the budget has passed.
+    if (lastDraw && now - lastDraw < (view.low ? LOW_FRAME_MS : FRAME_MS)) return;
+    lastDraw = now;
     var dt = Math.min(0.05, (now - last) / 1000);
     last = now;
     pointer.x += (pointer.tx - pointer.x) * Math.min(1, dt * 2.2);
     pointer.y += (pointer.ty - pointer.y) * Math.min(1, dt * 2.2);
     var t = (now - t0) / 1000;
-    if (scene.clientWidth !== view.w || scene.clientHeight !== view.h) layout();
+    if (needsLayout) {
+      needsLayout = false;
+      layout();
+    }
+    drawCount += 1;
     updateBodies(t);
-    drawStars(t);
-    drawMatrix(t);
+    // Each canvas update is a full screen upload to the compositor, so spread
+    // them out: rain at half rate, slow twinkling stars at a quarter rate, on
+    // different frames from each other.
+    var step = view.low ? 1 : 2;
+    if (drawCount % step === 0) drawMatrix(t);
+    if (drawCount % (step * 2) === 1 % (step * 2)) drawStars(t);
     drawGrid(t);
-    raf = window.requestAnimationFrame(frame);
+  }
+
+  function onResize() {
+    needsLayout = true;
   }
 
   function onPointer(e) {
@@ -496,7 +569,13 @@
     drawStars(0);
     drawMatrix(0);
     drawGrid(0);
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(function () {
+        if (running) buildAtlas();
+      });
+    }
     if (!booted) {
+      window.addEventListener("resize", onResize);
       window.addEventListener("pointermove", onPointer, { passive: true });
       window.addEventListener("blur", onLeave);
       document.addEventListener("mouseleave", onLeave);
@@ -518,6 +597,7 @@
     gridCanvas = null;
     columns = [];
     columnKey = "";
+    atlas = null;
   }
 
   if (reduceQuery.addEventListener) {

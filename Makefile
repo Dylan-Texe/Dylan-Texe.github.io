@@ -14,6 +14,7 @@ build:
 	@test -f assets/vapor-sky-live.svg
 	@test -f js/scene.js
 	@test -f js/carousel.js
+	@test -f js/motion.js
 
 dev:
 	@echo "Dylan - local preview at http://localhost:$(PORT)"

@@ -197,13 +197,14 @@ a {
   padding: 0.4rem 0.55rem 0.4rem 0.4rem;
   border: 1px solid rgba(255, 79, 216, 0.38);
   border-radius: 14px;
-  background: rgba(8, 4, 16, 0.72);
+  /* No backdrop-filter: the sky behind the bar animates, so a blur here was
+     recomputed every frame. A denser fill gives the same frosted read. */
+  background: rgba(10, 5, 19, 0.9);
   box-shadow:
     inset 0 1px 0 rgba(122, 246, 255, 0.22),
     0 0 0 1px rgba(122, 246, 255, 0.06),
     0 12px 32px rgba(0, 0, 0, 0.38),
     0 0 28px rgba(255, 79, 216, 0.12);
-  backdrop-filter: blur(16px);
 }
 
 .topbar::after {
@@ -442,17 +443,22 @@ a {
   box-shadow: inset 0 1px 0 rgba(122, 246, 255, 0.16);
 }
 
+/* Pointer glow. A fixed size gradient that moves by transform, so following
+   the mouse is a compositor move instead of a repaint. Starts top center. */
 .card::before {
   content: "";
   position: absolute;
-  inset: 0;
-  border-radius: inherit;
+  left: calc(50% - 420px);
+  top: -420px;
+  width: 840px;
+  height: 840px;
   background: radial-gradient(
-    420px circle at var(--gx, 50%) var(--gy, 0%),
+    circle 420px at center,
     rgba(122, 246, 255, 0.2),
     rgba(255, 79, 216, 0.07) 34%,
     transparent 52%
   );
+  transform: translate3d(var(--glow-x, 0px), var(--glow-y, 0px), 0);
   opacity: 0;
   pointer-events: none;
 }
@@ -715,14 +721,25 @@ kbd {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .card,
   .action,
   .mark {
-    transition: background-color 120ms linear, border-color 120ms linear, color 120ms linear, box-shadow 120ms linear;
+    transition: background-color 120ms linear, border-color 120ms linear, color 120ms linear;
   }
 
+  /* The rule's color sweep moves a wider gradient by transform instead of
+     animating background-position, which repainted every frame. */
   .hero .rule {
-    background-size: 200% 100%;
+    position: relative;
+    overflow: hidden;
+    background: none;
+  }
+
+  .hero .rule::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 200%;
+    background: linear-gradient(90deg, transparent, var(--cyan), var(--magenta), transparent);
     animation: rule-shift 7.5s ease-in-out infinite;
   }
 
@@ -738,8 +755,8 @@ kbd {
 
 @keyframes rule-shift {
   0%,
-  100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
+  100% { transform: translateX(0); }
+  50% { transform: translateX(-50%); }
 }
 
 @keyframes beam-glow {
@@ -784,9 +801,14 @@ html.scene-live .site-footer {
 .scene-grid {
   z-index: 2;
   display: block;
+  /* Only the visible floor: the top 36% of the screen was always masked out.
+     Same mask as before, with the stops mapped onto this shorter box.
+     Keep top in sync with GRID_TOP in js/scene.js. */
+  top: 36%;
+  height: 64%;
   mix-blend-mode: screen;
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, transparent 36%, rgba(0, 0, 0, 0.42) 48%, rgba(0, 0, 0, 0.78) 70%, #000 100%);
-  mask-image: linear-gradient(to bottom, transparent 0%, transparent 36%, rgba(0, 0, 0, 0.42) 48%, rgba(0, 0, 0, 0.78) 70%, #000 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.42) 18.75%, rgba(0, 0, 0, 0.78) 53.125%, #000 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.42) 18.75%, rgba(0, 0, 0, 0.78) 53.125%, #000 100%);
 }
 
 .scene-stars,
@@ -860,7 +882,10 @@ html.scene-live .site-footer {
   inset: 0;
 }
 
+/* Bands and haze are one pattern period wider than the planet and slide by
+   transform, so the spin never repaints. */
 .planet-bands {
+  left: -64px;
   background: repeating-linear-gradient(
     90deg,
     #241246 0 10px,
@@ -874,6 +899,7 @@ html.scene-live .site-footer {
 }
 
 .planet-haze {
+  left: -52px;
   background: repeating-linear-gradient(
     90deg,
     transparent 0 18px,
@@ -944,13 +970,13 @@ html.scene-live .site-footer {
 }
 
 @keyframes spin-bands {
-  from { background-position: 0 0; }
-  to { background-position: 64px 0; }
+  from { transform: translateX(0); }
+  to { transform: translateX(64px); }
 }
 
 @keyframes spin-haze {
-  from { background-position: 0 0; }
-  to { background-position: 52px 0; }
+  from { transform: translateX(0); }
+  to { transform: translateX(52px); }
 }
 
 @keyframes ring-wobble {
@@ -1587,7 +1613,13 @@ html.scene-live .site-footer {
   .carousel-slide .card {
     opacity: 0.7;
     transform: scale(0.94);
-    transition: transform 520ms cubic-bezier(0.22, 0.7, 0.2, 1), opacity 420ms linear, box-shadow 420ms linear, border-color 180ms linear;
+    transition: transform 520ms cubic-bezier(0.22, 0.7, 0.2, 1), opacity 420ms linear;
+  }
+
+  /* While the pointer is on the active card, tilt follows it directly.
+     A long transform transition there made the card lag behind the mouse. */
+  .carousel-slide.is-active .card:hover {
+    transition: transform 90ms linear, opacity 420ms linear;
   }
 
   .carousel-slide.is-before .card {
@@ -1684,6 +1716,16 @@ html.scene-live .site-footer {
   .stage-living .o2 { animation: orbit-spin 40s linear infinite reverse; }
   .stage-penta .f2 { animation: frame-spin 36s linear infinite; }
   .stage-briefing .sun { animation: sun-pulse 8s ease-in-out infinite; }
+}
+
+/* Set by js/motion.js while a block is out of view. */
+.is-offscreen,
+.is-offscreen::before,
+.is-offscreen::after,
+.is-offscreen *,
+.is-offscreen *::before,
+.is-offscreen *::after {
+  animation-play-state: paused !important;
 }
 
 @keyframes eq-bounce {
